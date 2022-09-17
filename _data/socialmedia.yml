@@ -1,22 +1,22 @@
-- name: GitHub
-  url: http://github.com/phlow
-  class: icon-github
-  title: Code und mehr...
+#- name: GitHub
+#  url:
+#  class: icon-github
+#  title:
 
 - name: YouTube
-  url: http://www.youtube.com/PhlowMedia
+  url: http://www.youtube.com/playlist?list=PLLYXsmEKLS2qF_iGusPi0ohgcq7RdTkeh
   class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+  title: "Videos"
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: http://twitter.com/dustinson
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "@Dustinson on Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: LinkedIn
+  url: https://www.linkedin.com/in/dustinthostenson/
+  class: icon-linkedin
+  title: "Let's Connect"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
