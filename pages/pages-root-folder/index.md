@@ -40,9 +40,9 @@ widget2:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+  url: 
+  text: 
+  style: 
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
