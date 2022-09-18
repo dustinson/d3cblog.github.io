@@ -64,55 +64,7 @@
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">url
-
-              {% assign author = site.data.socialmedia[0] %}
-              !!!{{ author.title }}
-              
-<!--              $${{ site.data.socialmedia | where: "name", "YouTube" }}.url $$-->
-<!--              {% assign my_variable = false %}-->
-<!--              {% if my_variable != true %}-->
-<!--              Hi there!-->
-<!--              {% endif %}-->
-
-<!--              {% assign my_variable1 = 'ASDFASDF3' %}-->
-<!--              111 {{ my_variable1 }}-->
-
-
-<!--              {% assign my_variable = 'ASDFASDF' %}-->
-<!--              {% capture my_variable %}-->
-<!--              {{ site.data.socialmedia | where: "name", "YouTube" }}-->
-<!--              {% endcapture %}-->
-
-
-              {% assign my_variable = site.data.socialmedia | where: "name", "YouTube" | first %}
-         
-
-              <br>1. {{ my_variable }}
-              </br> 2 {{ my_variable['name'] }}
-              </br> 3 {{ my_variable["name"] }}
-              </br> 4 {{ my_variable[0] }}
-              </br> 41 {{ my_variable[0] }}
-              </br> 411 {{ my_variable[0].name }}
-              </br> 411 {{ my_variable[0].url }}
-              </br> 42 {{ my_variable[1] }}
-              </br> 43 {{ my_variable[1] }}
-              </br> 5 {{ my_variable.name }}
-              </br> 51 {{ my_variable.url }}
-              </br> 52 {{ my_variable.title }}
-              </br> 6 {{ my_variable.['name'] }}
-              </br> 7 {{ my_variable| map: "name" }}
-              </br> 7 {{ my_variable| map: "url" }}
-              </br> 8 {{ my_variable.content }}
-              </br> 9 {{ my_variable.content.url }}
-              </br> 88 {{ my_variable.first }}
-              </br> 77 {{ my_variable.first.url }}
-              </br> 7667 {{ my_variable.first.content }}
-              </br> 55 {{ my_variable | first }}
-              
-              
-               {% assign asdf = {{ site.data.socialmedia | where: "name", "YouTube" }} %}
-              ~~~{{ asdf.url }}
+            <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
