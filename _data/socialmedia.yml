@@ -3,16 +3,17 @@
 #  class: icon-github
 #  title:
 
-- name: YouTube
-  url: http://www.youtube.com/playlist?list=PLLYXsmEKLS2qF_iGusPi0ohgcq7RdTkeh
-  class: icon-youtube
-  title: "Videos"
 
 - name: Twitter
   url: http://twitter.com/dustinson
   class: icon-twitter
   title: "@Dustinson on Twitter"
 
+- name: YouTube
+  url: http://www.youtube.com/playlist?list=PLLYXsmEKLS2qF_iGusPi0ohgcq7RdTkeh
+  class: icon-youtube
+  title: "Videos"
+  
 - name: LinkedIn
   url: https://www.linkedin.com/in/dustinthostenson/
   class: icon-linkedin
