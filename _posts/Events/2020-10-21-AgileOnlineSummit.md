@@ -8,7 +8,7 @@ breadcrumb: true
 tags:
     - post format
 categories:
-    - community
+    - community,leadership
 image:
     thumb: AgileOnlineSummit.jpg
     title: AgileOnlineSummit.jpg
