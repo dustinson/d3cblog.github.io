@@ -2,8 +2,8 @@
 layout: page
 sidebar: left
 subheadline: Presentation
-title:  "IADNUG"
-teaser: "'Failure to Launch: Common Consulting Crashes' talk at Iowa .NET User Group in Des Moines, IA"
+title:  "Women In Agile Columbus"
+teaser: "'Modeling Better Decisions' talk at Women In Agile: Columbus, OH"
 breadcrumb: true
 tags:
     - post format
@@ -12,7 +12,7 @@ categories:
 image:
     thumb: wia.png
     title: wia.png
-    caption_url: https://www.meetup.com/iadnug/events/281742630/
+    caption_url: https://www.meetup.com/wia-columbus/events/285103101/
 ---
-Presented <a href='https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn&index=4' target='new'>'Failure to Launch: Common Consulting Crashes'</a> presentation.
+Presented <a href='https://www.meetup.com/wia-columbus/events/285103101/ target='new'>'Modeling Better Decisions'</a> presentation.
 
