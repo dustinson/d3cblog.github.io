@@ -3,7 +3,7 @@ layout: page
 sidebar: left
 subheadline: Presentation
 title:  "IADNUG"
-teaser: "'Failure to Launch: Common Consulting Crashes' talk at Iowa .NET User Group in Des Moines, IA"
+teaser: "'Monoliths to Babyliths' talk at Iowa .NET User Group in Des Moines, IA"
 breadcrumb: true
 tags:
     - post format
