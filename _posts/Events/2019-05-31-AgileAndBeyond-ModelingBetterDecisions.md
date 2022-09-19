@@ -2,17 +2,17 @@
 layout: page
 sidebar: left
 subheadline: Presentation
-title:  "Agile & Beyond"
-teaser: "'Modeling Better Decisions - making quality decisions' talk at Iowa .NET User Group in Des Moines, IA"
+title:  "KCDC"
+teaser: "'Failure Driven Development' talk at Kansas City Developers Conference"
 breadcrumb: true
 tags:
     - post format
 categories:
     - community
 image:
-    thumb: logo_ab_blk.png
-    title: logo_ab_blk.png
-    caption_url: https://agileandbeyond.com/2019/
+    thumb: kcdc.png
+    title: kcdc.png
+    caption_url: https://www.kcdc.info
 ---
-Presented Modeling Better Decisions at <a href='https://agileandbeyond.com/2019/ target='new'>Agile & Beyond</a>.
+Presented 'Failure Driven Development' at <a href='https://www.kcdc.info' target='new'>KCDC</a>.
 
