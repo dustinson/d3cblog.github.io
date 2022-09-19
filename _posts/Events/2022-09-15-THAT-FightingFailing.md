@@ -2,11 +2,11 @@
 layout: page
 sidebar: left
 subheadline: Presentation
-title:  "Women In Agile Columbus"
-teaser: "'Modeling Better Decisions' talk at Women In Agile: Columbus, OH"
+title:  "THAT Conference"
+teaser: "'If You're Fighting, You're Failing' talk at THAT Conference Online"
 breadcrumb: true
 tags:
-      - post format
+    - post format
 categories:
     - community
 image:
@@ -14,4 +14,4 @@ image:
     title: THAT-Full-Wide.svg
     caption_url: https://that.us/members/dustinson/
 ---
-Presented 'If You're Fighting, You're Failing' at <a href='https://that.us/members/dustinson/' target='new'>THAT Conference</a>.
+Presented <a href="https://that.us/activities/nIO31FvXD0ppdMQkIbny" target='new'>'If You're Fighting, You're Failing'</a> at <a href='https://that.us/members/dustinson/' target='new'>THAT Conference</a>.
