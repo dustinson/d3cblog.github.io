@@ -1,12 +1,12 @@
 ---
 layout: page
 sidebar: left
-subheadline: Presentation
-title:  ".NER Rocks"
+subheadline: Podcast
+title:  ".NET Rocks"
 teaser: "'Failure Driven Development' podcast #1124 on .NET Rocks"
 breadcrumb: true
 tags:
-    - post format
+    - post podcast
 categories:
     - community
 image:
@@ -14,5 +14,5 @@ image:
     title: dotNetRocks.jpg
     caption_url: https://www.dotnetrocks.com/details/1124dot
 ---
-Presented <a href='https://www.dotnetrocks.com/details/1124' target='new'>'Failure Driven Development'</a> podcast.
+Discussed concepts around 'Failure Driven Development' with Richard Campbell and Carl Franklin on the <a href='https://www.dotnetrocks.com/details/1124' target='new'>.NET Rocks</a> podcast.
 
