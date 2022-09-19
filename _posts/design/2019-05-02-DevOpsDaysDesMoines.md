@@ -10,7 +10,7 @@ tags:
 categories:
     - community
 image:
-    thumb: DevOpsDaysDsm.jpg
+    thumb: DevOpsDaysDsm.png
     title: DevOpsDaysDsm.png
     caption_url: https://devopsdays.org/events/2019-des-moines/program
 ---
