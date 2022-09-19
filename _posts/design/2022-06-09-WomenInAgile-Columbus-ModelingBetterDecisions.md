@@ -10,8 +10,8 @@ tags:
 categories:
     - community
 image:
-    thumb: wia.jpeg
-    title: wia.jpeg
+    thumb: WIA.jpeg
+    title: WIA.jpeg
     caption_url: https://www.meetup.com/wia-columbus/events/285103101/
 ---
 Presented <a href='https://www.meetup.com/wia-columbus/events/285103101/ target='new'>'Modeling Better Decisions'</a> presentation.
