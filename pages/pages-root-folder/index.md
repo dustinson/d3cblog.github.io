@@ -12,7 +12,7 @@
 layout: frontpage
 header:
 # image_fullwidth: header_unsplash_12.jpg
-  image_fullwidth: d3logo.gif
+  image_fullwidth: Delta3_tag_GRN.png
 widget1:
   title: "Blog"
   url: '/blog/'
