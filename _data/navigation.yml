@@ -1,10 +1,16 @@
-- title: D3
+- title: Delta3Consulting
   url: "/"
   side: left
-#  
-##- title: Getting Started
-##  url: "/getting-started/"
-##  side: left
+ 
+- title: Events
+  url: "/events/"
+  side: left
+- title: Blog
+  url: "/blog/"
+  side: left
+- title: Videos
+  url: "https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn"
+  side: left
 ##
 #  #- title: "Templates"
 #  #url: "/design/"
