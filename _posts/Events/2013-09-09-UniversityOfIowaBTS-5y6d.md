@@ -10,8 +10,8 @@ tags:
 categories:
     - community
 image:
-    thumb: university-of-iowa.png
-    title: university-of-iowa.png
+    thumb: uiowa.png
+    title: uiowa.png
     caption_url: 
 ---
 After being in the field for 15 years and being an independent consultant for 5 years, I shared my ideas on how to manage your career to hit a significant financial milestone in 5 years.
