@@ -14,11 +14,16 @@ header:
 # image_fullwidth: header_unsplash_12.jpg
   image_fullwidth: d3logo.gif
 widget1:
-  title: "Blog & Portfolio"
+  title: "Blog"
   url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'Enjoy reading some stories to understand what we understand.'
 widget2:
+  title: "Events"
+  url: '/events/'
+  image: widget-2-302x182.jpg
+  text: 'What's going on?'
+widget3:
   title: "Videos"
   url: 'https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn'
   text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often. '
