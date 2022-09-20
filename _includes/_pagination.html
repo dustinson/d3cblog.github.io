@@ -6,8 +6,9 @@
 *
 {% endcomment %}
 
+#{% assign my_posts = paginator.posts | where: "layout", "post" %}
 
-{% for post in paginator.posts %}
+{% for post in my_posts %}
 <div class="row">
     <div class="small-12 columns b60">
         <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span
