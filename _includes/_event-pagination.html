@@ -6,7 +6,7 @@
 *
 {% endcomment %}
 
-#{% assign my_posts = paginator.posts | where: "layout", "page" %}
+{% assign my_posts = site.posts | where: "layout", "page" %}
 
 {% for post in my_posts %}
 <div class="row">
@@ -45,8 +45,8 @@
     {% endif %}
     {% endif %}
 
-    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/archive/"
-       title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
+    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/events/archive/"
+       title="{{ site.data.language.event_archive }}">{{ site.data.language.event_archive }}</a>
 
     {% if paginator.next_page %}
     <a rel="next" class="radius button small"

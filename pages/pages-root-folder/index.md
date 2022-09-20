@@ -14,7 +14,7 @@ header:
 # image_fullwidth: header_unsplash_12.jpg
   image_fullwidth: d3logo.gif
 widget1:
-  title: "Blog & Events"
+  title: "Blog"
   url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'Enjoy reading some stories to understand what we understand.'

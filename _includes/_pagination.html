@@ -6,7 +6,7 @@
 *
 {% endcomment %}
 
-#{% assign my_posts = paginator.posts | where: "layout", "post" %}
+{% assign my_posts = paginator.posts | where: "layout", "post" %}
 
 {% for post in my_posts %}
 <div class="row">
