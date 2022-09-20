@@ -2,17 +2,21 @@
 layout: page
 sidebar: left
 subheadline: Presentation
-title:  "dsmAgile"
-teaser: "So, Who's Gonna Tell 'Em? talk at dsmAgile conference in Des Moines, IA"
+title:  "IADNUG"
+teaser: "So, Who's Gonna Tell 'Em? talk at IADNUG usergroup in Des Moines, IA"
 breadcrumb: true
 tags:
     - post format
 categories:
     - community
 image:
-    thumb: agileIowa.png
-    title: agileIowa.png
-    caption_url: https://www.meetup.com/iadnug/events/281742630/
+    thumb: iadnug.png
+    title: iadnug.png
+    caption_url: 
 ---
-Presented <a href='https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn&index=4' target='new'>'Failure to Launch: Common Consulting Crashes'</a> presentation.
+"So, Who's Gonna Tell 'Em" is a presentation about soft skills.  We discuss the challenges that arise when working with other people.  
+As there are deliberate steps in developing software, so are there in developing relationships.  
+Awareness of those steps can help break us free from feeling helpless.
 
+You can view the <a href='https://docs.google.com/presentation/d/1Dj2DcN1_EYGbLRdhnA5AaSochs3FBJhiaSxr_uI9B2Q/edit?usp=sharing' target='new'>slides here</a>.  
+Please reach out to discuss these concepts more!

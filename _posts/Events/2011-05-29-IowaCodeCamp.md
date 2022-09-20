@@ -3,7 +3,7 @@ layout: page
 sidebar: left
 subheadline: Presentation
 title:  "Iowa Code Camp"
-teaser: "Iowa Code Camp Presentation"
+teaser: "'LINQtroduction' Iowa Code Camp Presentation"
 breadcrumb: true
 tags:
     - post format
@@ -14,5 +14,8 @@ image:
     title: iowaCodeCamp.jpg
     caption_url: http://iowacodecamp.com
 ---
-Presented at <a href='http://iowacodecamp.com' target='new'>Iowa Code Camp</a>.
+Presented an Introduction to the C# language construct called LINQ.
+
+Toran Billups recalled the session in <a href='https://toranbillups.com/blog/archive/2010/05/05/My-thoughts-about-the-latest-Iowa-Code-Camp/' target='new'>his blog</a>.
+
 
