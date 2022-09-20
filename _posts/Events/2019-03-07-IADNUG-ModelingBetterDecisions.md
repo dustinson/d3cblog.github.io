@@ -16,3 +16,5 @@ image:
 ---
 Presented <a href='https://www.meetup.com/iadnug/events/259364978/' target='new'>'Modeling Better Decisions'</a> presentation with Skylar Watson.
 
+To learn more, please visit <a href='https://www.modelingbetterdecisions.com' target='new'>https://www.modelingbetterdecisions.com</a>.  Click <a href='https://www.modelingbetterdecisions.com/more/' target='new'>More</a> to view the models.
+
