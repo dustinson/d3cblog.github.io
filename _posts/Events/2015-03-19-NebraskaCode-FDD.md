@@ -6,13 +6,13 @@ title:  "Nebraska Code Camp"
 teaser: "Career talk at Nebraska Code Camp"
 breadcrumb: true
 tags:
-- post format
+    - post format
 categories:
-- community
+    - community
 image:
-thumb: nebraskaCode.png
-title: nebraskaCode.png
-caption_url:
+    thumb: nebraskaCode.png
+    title: nebraskaCode.png
+    caption_url:
 ---
 Presented 'Failure Driven Development' at Nebraska Code Camp.
 

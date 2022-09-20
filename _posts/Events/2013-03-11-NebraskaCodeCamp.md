@@ -3,7 +3,7 @@ layout: page
 sidebar: left
 subheadline: Presentation
 title:  "Nebraska Code Camp"
-teaser: "Career talk at Nebraska Code Camp"
+teaser: "'5Years6Digits' talk at Nebraska Code Camp"
 breadcrumb: true
 tags:
     - post format
@@ -12,8 +12,14 @@ categories:
 image:
     thumb: nebraskaCodeCamp.png
     title: nebraskaCodeCamp.png
-    caption_url:
+    caption_url: https://www.bitnative.com/2013/03/17/nebraska-code-camp-2013-lessons-learned
 ---
-Presented at Nebraska Code Camp.
+After being in the field for 15 years and being an independent consultant for 5 years, I shared my ideas on how to manage your career to hit a significant financial milestone in 5 years.
+Choosing to be deliberate instead of accidental, there are decisions which can be made to accelerate a career.
 
+I met and became friends with Cory House at this event, which he journaled here on <a href='https://www.bitnative.com/2013/03/17/nebraska-code-camp-2013-lessons-learned' target='new'>Cory House's BitNative Blog</a>.
+In this blog, Cory mentioned his upcoming "Outliers" talk that he worked on.  This was a revolutionary moment for Cory.  
+
+Cory's <a href='https://vimeo.com/97415346' target='new'>Outlier Talk</a>, based on Malcolm Gladwell's book of the same name, has resonated with tens of thousands of people around the world.  
+I highly recommend taking the time to explore.
 
