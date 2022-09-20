@@ -14,7 +14,7 @@ header:
 # image_fullwidth: header_unsplash_12.jpg
   image_fullwidth: d3logo.gif
 widget1:
-  title: "Blog"
+  title: "Blog & Events"
   url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'Enjoy reading some stories to understand what we understand.'
@@ -22,14 +22,14 @@ widget2:
   title: "Events"
   url: '/events/'
   image: widget-2-302x182.jpg
-  text: 'What's going on?'
+  text: 'What is going on?'
 widget3:
   title: "Videos"
   url: 'https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn'
   text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often. '
   target: new
 #  video: '<a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_new" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-  video: '<a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_new" ><img src="images/DustinAgile2022NashvilleMBD-YT.png" width="302" height="182" alt=""/></a>'
+video: '<a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_new" ><img src="images/DustinAgile2022NashvilleMBD-YT.png" width="302" height="182" alt=""/></a>'
 #widget3:
 #  title: "Download Theme"  Consider putting Models here. 20220919
 #  url: 'https://github.com/Phlow/feeling-responsive'
