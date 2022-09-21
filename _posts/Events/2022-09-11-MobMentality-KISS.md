@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 sidebar: left
 subheadline: Podcast
 title:  "MobMentality"
@@ -9,6 +9,7 @@ tags:
     - post format
 categories:
     - community
+    - Interview
 image:
     thumb: mobMentality.jpg
     title: mobMentality.jpg

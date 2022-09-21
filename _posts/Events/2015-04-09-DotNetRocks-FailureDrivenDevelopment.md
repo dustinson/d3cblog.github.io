@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 sidebar: left
 subheadline: Podcast
 title:  ".NET Rocks"

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 sidebar: left
 subheadline: Presentation
 title:  "Women In Agile Columbus"

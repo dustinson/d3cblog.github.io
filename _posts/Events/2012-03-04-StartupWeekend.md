@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 sidebar: left
 subheadline: Participation
 title:  "Startup Weekend"
