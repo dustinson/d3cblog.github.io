@@ -8,7 +8,8 @@ breadcrumb: true
 tags:
     - post format
 categories:
-    - community,leadership
+    - community
+    - leadership
 image:
     thumb: 2022AgileOnlineSummitTrackLeads.png
     title: 2022AgileOnlineSummitTrackLeads.png
