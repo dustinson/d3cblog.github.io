@@ -10,7 +10,7 @@ tags:
 categories:
     - community
 image:
-    thumb: nebraskaCode.png
+    thumb: redPin.jpg
     title: nebraskaCode.png
     caption_url:
 ---

@@ -10,7 +10,7 @@ tags:
 categories:
     - community
 image:
-    thumb: nebraskaCodeCamp.pnguniversity-of-iowa.png
+    thumb: nebraskaCodeCamp.png
     title: nebraskaCodeCamp.png
     caption_url: https://www.bitnative.com/2013/03/17/nebraska-code-camp-2013-lessons-learned
 ---

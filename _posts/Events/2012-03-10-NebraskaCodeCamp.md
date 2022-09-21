@@ -6,11 +6,11 @@ title:  "Nebraska Code Camp"
 teaser: "Career talk at Nebraska Code Camp"
 breadcrumb: false
 tags:
-    - post format
+    - "Here"
 categories:
     - community
 image:
-    thumb: redPin.jpg
+    thumb: nebraskaCodeCamp.jpg
     title: nebraskaCodeCamp.png
     caption_url:
 ---
