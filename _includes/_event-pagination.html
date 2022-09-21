@@ -5,10 +5,8 @@
 *  Total paginate-pages: {{ paginator.total_pages }}
 *
 {% endcomment %}
-
-{% assign my_posts = site.categories.community }}
-<!--{% assign my_posts = site.categories.event | where: "layout", "page" %}-->
-
+event pagination
+{% assign my_posts = site.categories.community %}}
 {% for post in my_posts %}
 <div class="row">
     <div class="small-12 columns b60">
