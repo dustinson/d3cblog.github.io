@@ -11,8 +11,9 @@ categories:
     - community
     - Interview
 image:
-    thumb: mobMentality.jpg
-    title: mobMentality.jpg
+    thumb: mobMentalityClearAndSimple.jpeg
+    title: mobMentalityClearAndSimple.jpeg
+    caption: MobMentality
     caption_url: https://mobmentalityshow.podbean.com/e/clear-simple-with-dustin-thostenson/
 ---
 Discussed various aspects on keeping things clear and simple on <a href="https://that.us/activities/nIO31FvXD0ppdMQkIbny" target='new'>MobMentality</a> podcast.

@@ -10,7 +10,7 @@ tags:
 categories:
     - community
 image:
-    thumb: nebraskaCodeCamp.png
+    thumb: redPin.jpg
     title: nebraskaCodeCamp.png
     caption_url:
 ---

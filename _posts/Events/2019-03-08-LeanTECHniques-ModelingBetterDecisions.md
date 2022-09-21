@@ -12,6 +12,7 @@ categories:
 image:
     thumb: leantechniques.png
     title: leantechniques.png
+    caption: LT
     caption_url: https://leantechniques.com/
 ---
 Presented 'Modeling Better Decisions' at <a href='https://leantechniques.com/' target='new'>Lean TECHniques</a> with Skylar Watson.

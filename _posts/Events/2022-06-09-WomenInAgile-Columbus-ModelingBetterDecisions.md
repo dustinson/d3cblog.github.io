@@ -12,6 +12,7 @@ categories:
 image:
     thumb: WIA.jpeg
     title: WIA.jpeg
+    caption: WIA
     caption_url: https://www.meetup.com/wia-columbus/events/285103101/
 ---
 Presented <a href='https://www.meetup.com/wia-columbus/events/285103101/' target='new'>'Modeling Better Decisions'</a> presentation.

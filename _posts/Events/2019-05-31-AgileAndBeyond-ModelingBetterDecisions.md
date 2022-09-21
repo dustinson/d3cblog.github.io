@@ -12,6 +12,7 @@ categories:
 image:
     thumb: logo_ab_blk.png
     title: logo_ab_blk.png
+    caption: A&B
     caption_url: https://agileandbeyond.com/2019/
 ---
 Presented Modeling Better Decisions at <a href='https://agileandbeyond.com/2019/' target='new'>Agile & Beyond</a>.

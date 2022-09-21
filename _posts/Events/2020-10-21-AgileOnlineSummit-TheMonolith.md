@@ -12,6 +12,7 @@ categories:
 image:
     thumb: AgileOnlineSummit.jpg
     title: AgileOnlineSummit.jpg
+    caption: AOS
     caption_url: https://agileonlinesummit.com/
 ---
 Hosted 'Technical Practices Panel' with all the speakers in the Technical Track.  

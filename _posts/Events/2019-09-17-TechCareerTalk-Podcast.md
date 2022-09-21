@@ -13,6 +13,7 @@ categories:
 image:
     thumb: TechCareerTalk.jpg
     title: TechCareerTalk.jpg
+    caption: TechCareerTalk
     caption_url: https://anchor.fm/tom-henricksen/episodes/Tech-Career-Talk---Dustin-Thostenson-e49ors
 ---
 Podcast Recording with Tom Henricksen for his <a href="https://anchor.fm/tom-henricksen/episodes/Tech-Career-Talk---Dustin-Thostenson-e49ors" target='new'>Tech Career Talk</a> podcast.
