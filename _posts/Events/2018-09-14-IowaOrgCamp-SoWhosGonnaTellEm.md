@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Iowa Org Camp"
 teaser: "So, Who's Gonna Tell 'Em? talk at Iowa Org Camp in Des Moines, IA"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

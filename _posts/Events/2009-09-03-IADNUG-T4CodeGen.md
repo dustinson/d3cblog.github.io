@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Iowa .NET User Group"
 teaser: "'Introduction to Code Generation using T4' at IADNUG"
-breadcrumb: true
+breadcrumb: false
 tags:
     - blog format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "IADNUG"
 teaser: "So, Who's Gonna Tell 'Em? talk at IADNUG usergroup in Des Moines, IA"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "THAT Conference"
 teaser: "'If You're Fighting, You're Failing' talk at THAT Conference Online"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

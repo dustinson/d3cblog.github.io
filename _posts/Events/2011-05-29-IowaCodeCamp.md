@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Iowa Code Camp"
 teaser: "'LINQtroduction' Iowa Code Camp Presentation"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Volunteer
 title:  "Agile Online Summit"
 teaser: "Agile Online Summit hosting and presenting"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

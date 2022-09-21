@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Podcast
 title:  ".NET Rocks"
 teaser: "'Failure Driven Development' podcast #1124 on .NET Rocks"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post podcast
 categories:

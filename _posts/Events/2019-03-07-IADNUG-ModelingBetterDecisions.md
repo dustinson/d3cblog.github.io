@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "IADNUG"
 teaser: "'Modeling Better Decisions - making quality decisions' talk at Iowa .NET User Group in Des Moines, IA"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

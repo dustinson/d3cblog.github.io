@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Podcast
 title:  "Tech Career Talk"
 teaser: "'Career Talk' podcast with Tom Henricsen"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Women In Agile Columbus"
 teaser: "'Modeling Better Decisions' talk at Women In Agile: Columbus, OH"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

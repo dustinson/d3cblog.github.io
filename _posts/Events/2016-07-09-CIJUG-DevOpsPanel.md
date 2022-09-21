@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "CIJUG"
 teaser: "'DevOps Panel' at Central Iowa User Group and Iowa .NET User Group"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Participation
 title:  "Startup Weekend"
 teaser: "Startup Weekend"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Iowa .NET User Group"
 teaser: "'LINQtroduction' at IADNUG"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

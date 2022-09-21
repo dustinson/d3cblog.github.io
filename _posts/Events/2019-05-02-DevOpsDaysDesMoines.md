@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "DevOpsDays Dsm"
 teaser: "'Modeling Better Decisions' talk at DevOpsDays Des Moines, IA"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

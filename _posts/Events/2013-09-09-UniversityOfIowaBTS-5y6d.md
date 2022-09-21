@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "University Of Iowa"
 teaser: "'5Years6Digits' talk at University Of Iowa College Of Business BTA group"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

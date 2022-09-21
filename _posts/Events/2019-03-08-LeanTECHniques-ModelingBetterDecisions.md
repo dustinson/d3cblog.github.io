@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Lean TECHniques"
 teaser: "'Modeling Better Decisions - making quality decisions' talk at Lean TECHniques in Des Moines, IA"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

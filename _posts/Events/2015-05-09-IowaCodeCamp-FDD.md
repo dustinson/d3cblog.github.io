@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Iowa Code Camp"
 teaser: "Failure Driven Development at Iowa Code Camp"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Podcast
 title:  "MobMentality"
 teaser: "'Clear & Simple' podcast with MobMentality"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

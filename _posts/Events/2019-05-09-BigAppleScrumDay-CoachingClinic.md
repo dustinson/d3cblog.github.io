@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Big Apple Scrum Day "
 teaser: "'Big Apple Scrum Day Coaching Clinic' coach in NYC, NY"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

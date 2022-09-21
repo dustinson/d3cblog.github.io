@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Nebraska Code Camp"
 teaser: "Career talk at Nebraska Code Camp"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

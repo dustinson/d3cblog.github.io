@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "Nebraska Code Camp"
 teaser: "'5Years6Digits' talk at Nebraska Code Camp"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:

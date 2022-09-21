@@ -4,7 +4,7 @@ sidebar: left
 subheadline: Presentation
 title:  "CRIneta"
 teaser: "Cedar Rapids .NET User Group"
-breadcrumb: true
+breadcrumb: false
 tags:
     - post format
 categories:
