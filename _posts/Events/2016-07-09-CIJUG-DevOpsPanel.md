@@ -10,7 +10,7 @@ tags:
 categories:
     - community
 image:
-    thumb: cijuj.png
+    thumb: cijug.png
     title: cijug.png
     caption_url: http://cijug.net/
 ---
