@@ -9,6 +9,7 @@ tags:
     - post podcast
 categories:
     - community
+    - interview
 image:
     thumb: dotNetRocks.jpg
     title: dotNetRocks.jpg

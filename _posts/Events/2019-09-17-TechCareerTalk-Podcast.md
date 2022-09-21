@@ -9,6 +9,7 @@ tags:
     - post format
 categories:
     - community
+    - Interview
 image:
     thumb: TechCareerTalk.jpg
     title: TechCareerTalk.jpg
