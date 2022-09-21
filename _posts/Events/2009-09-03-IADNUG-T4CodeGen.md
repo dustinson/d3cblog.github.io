@@ -13,6 +13,7 @@ categories:
 image:
     thumb: iadnug.png
     title: iadnug.png
+    caption: IADNUG
     caption_url: http://iadnug.org
 ---
 Code Generation presentation at <a href='http://iadnug.org' target='new'>IADNUG</a>.

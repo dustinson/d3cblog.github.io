@@ -12,6 +12,7 @@ categories:
 image:
     thumb: iowaCodeCamp.jpg
     title: iowaCodeCamp.jpg
+    caption: ICC
     caption_url: http://iowacodecamp.com
 ---
 Presented an Introduction to the C# language construct called LINQ.

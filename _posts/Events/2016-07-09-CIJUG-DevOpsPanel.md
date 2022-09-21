@@ -12,6 +12,7 @@ categories:
 image:
     thumb: cijug.png
     title: cijug.png
+    caption: CIJUG
     caption_url: http://cijug.net/
 ---
 Panel discussion on current and emerging opportunities in the DevOps space for 2 local user groups.

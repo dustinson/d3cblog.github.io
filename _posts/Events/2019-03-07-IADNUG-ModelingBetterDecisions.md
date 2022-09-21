@@ -12,6 +12,7 @@ categories:
 image:
     thumb: iadnug.png
     title: iadnug.png
+    caption: IADNUG    
     caption_url: https://www.meetup.com/iadnug/events/259364978/
 ---
 Presented <a href='https://www.meetup.com/iadnug/events/259364978/' target='new'>'Modeling Better Decisions'</a> presentation with Skylar Watson.

@@ -12,6 +12,7 @@ categories:
 image:
     thumb: agileIowa.png
     title: agileIowa.png
+    caption: dsmAgile
     caption_url: http://dsmagile.agileiowa.org/2017/10/
 ---
 "So, Who's Gonna Tell 'Em" is a presentation about soft skills.  We discuss the challenges that arise when working with other people.  
