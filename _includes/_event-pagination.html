@@ -6,7 +6,8 @@
 *
 {% endcomment %}
 
-{% assign my_posts = site.posts | where: "layout", "page" %}
+{% assign my_posts = site.categories.community }}
+<!--{% assign my_posts = site.categories.event | where: "layout", "page" %}-->
 
 {% for post in my_posts %}
 <div class="row">
@@ -36,11 +37,11 @@
 <nav id="pagination">
     {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/"
+    <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/events/"
        title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
     {% else %}
     <a rel="prev" class="radius button small"
-       href="{{ site.url }}{{ site.baseurl }}/blog/page{{ paginator.previous_page }}/"
+       href="{{ site.url }}{{ site.baseurl }}/events/page{{ paginator.previous_page }}/"
        title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
     {% endif %}
     {% endif %}
@@ -50,7 +51,7 @@
 
     {% if paginator.next_page %}
     <a rel="next" class="radius button small"
-       href="{{ site.url }}{{ site.baseurl }}/blog/page{{ paginator.next_page }}/"
+       href="{{ site.url }}{{ site.baseurl }}/events/page{{ paginator.next_page }}/"
        title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 </nav>

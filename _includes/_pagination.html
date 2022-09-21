@@ -5,8 +5,9 @@
 *  Total paginate-pages: {{ paginator.total_pages }}
 *
 {% endcomment %}
-
-{% assign my_posts = paginator.posts | where: "layout", "post" %}
+pagination for blog page
+<!--{% assign my_posts = paginator.posts | where: "layout", "blog" %}-->
+{% assign my_posts = site.categories.blog }}
 
 {% for post in my_posts %}
 <div class="row">
