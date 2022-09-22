@@ -6,7 +6,7 @@ title:  "CRIneta"
 teaser: "Cedar Rapids .NET User Group"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

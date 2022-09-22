@@ -6,7 +6,7 @@ title:  "IADNUG"
 teaser: "'Monoliths to Babyliths' talk at Iowa .NET User Group in Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

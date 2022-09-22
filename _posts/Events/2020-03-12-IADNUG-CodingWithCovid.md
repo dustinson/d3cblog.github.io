@@ -6,7 +6,7 @@ title:  "IADNUG"
 teaser: "'Coding with COVID: Change from a Co-Located to remote team overnight' discussion at Iowa .NET User Group in Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

@@ -6,7 +6,7 @@ title:  "Women In Agile Columbus"
 teaser: "'Modeling Better Decisions' talk at Women In Agile: Columbus, OH"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

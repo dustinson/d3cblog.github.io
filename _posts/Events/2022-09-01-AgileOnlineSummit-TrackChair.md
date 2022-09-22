@@ -6,7 +6,7 @@ title:  "Agile Online Summit"
 teaser: "Agile Online Summit Track Lead for Sustainability Track"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
     - leadership

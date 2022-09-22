@@ -6,7 +6,7 @@ title:  "Agile Online Summit"
 teaser: "Agile Online Summit hosting and presenting"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community,leadership
 image:

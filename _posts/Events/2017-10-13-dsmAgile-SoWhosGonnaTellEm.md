@@ -6,7 +6,7 @@ title:  "dsmAgile"
 teaser: "So, Who's Gonna Tell 'Em? talk at dsmAgile conference in Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

@@ -6,7 +6,7 @@ title:  "IADNUG"
 teaser: "So, Who's Gonna Tell 'Em? talk at IADNUG usergroup in Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

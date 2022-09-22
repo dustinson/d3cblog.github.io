@@ -6,7 +6,7 @@ title:  "Iowa Code Camp"
 teaser: "'LINQtroduction' Iowa Code Camp Presentation"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

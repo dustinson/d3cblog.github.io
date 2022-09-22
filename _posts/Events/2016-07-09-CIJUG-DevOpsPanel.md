@@ -6,7 +6,7 @@ title:  "CIJUG"
 teaser: "'DevOps Panel' at Central Iowa User Group and Iowa .NET User Group"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

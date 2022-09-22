@@ -6,7 +6,7 @@ title:  "Agile & Beyond"
 teaser: "'Modeling Better Decisions - making quality decisions' talk at Iowa .NET User Group in Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

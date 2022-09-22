@@ -6,7 +6,7 @@ title:  "Tech Career Talk"
 teaser: "'Career Talk' podcast with Tom Henricsen"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
     - Interview

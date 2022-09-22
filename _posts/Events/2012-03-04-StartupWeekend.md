@@ -6,7 +6,7 @@ title:  "Startup Weekend"
 teaser: "Startup Weekend"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

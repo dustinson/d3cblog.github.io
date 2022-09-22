@@ -6,7 +6,7 @@ title:  "RealEstateWorld"
 teaser: "Talk with Scot
 breadcrumb: true
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

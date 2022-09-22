@@ -18,3 +18,5 @@ image:
 ---
 Code Generation presentation at <a href='http://iadnug.org' target='new'>IADNUG</a>.
 
+This may be the first formal presentation to an external audience. 
+

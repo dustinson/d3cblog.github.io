@@ -6,7 +6,7 @@ title:  "Iowa .NET User Group"
 teaser: "'LINQtroduction' at IADNUG"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

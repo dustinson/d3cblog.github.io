@@ -6,7 +6,7 @@ title:  "Iowa Code Camp"
 teaser: "'Rage Against The Management' presentation at Iowa Code Camp"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

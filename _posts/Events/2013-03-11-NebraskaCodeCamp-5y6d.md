@@ -6,7 +6,7 @@ title:  "Nebraska Code Camp"
 teaser: "'5Years6Digits' talk at Nebraska Code Camp"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

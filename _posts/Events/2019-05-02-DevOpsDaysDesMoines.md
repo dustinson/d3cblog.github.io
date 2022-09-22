@@ -6,7 +6,7 @@ title:  "DevOpsDays Dsm"
 teaser: "'Modeling Better Decisions' talk at DevOpsDays Des Moines, IA"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
 image:

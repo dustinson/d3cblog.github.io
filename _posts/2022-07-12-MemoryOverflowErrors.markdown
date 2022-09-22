@@ -4,6 +4,8 @@ title:  "Memory Overflow Errors"
 subheadline: Blog
 date:   2022-07-12 09:29:33 -0500
 categories: blog
+header:
+    image_fullwidth: "mediaplayer_js-home.jpg"
 ---
 My old friend Tom Henricksen and I were having a conversation. 
 I shared my ideas on the Memory Overflow Error that people can have.  

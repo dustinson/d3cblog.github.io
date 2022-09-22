@@ -6,10 +6,12 @@ title:  "MobMentality"
 teaser: "'Clear & Simple' podcast with MobMentality"
 breadcrumb: false
 tags:
-    - post format
+    - 
 categories:
     - community
     - Interview
+header:
+    image_fullwidth: mobMentalityClearAndSimple.jpeg
 image:
     thumb: mobMentalityClearAndSimple.jpeg
     title: mobMentalityClearAndSimple.jpeg
