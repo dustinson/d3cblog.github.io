@@ -29,14 +29,14 @@
                 {% for link in site.data.navigation %}
 
                 {% if link.url contains 'http' %}
-                {% assign domain = '' %}
-                {% assign _baseurl = '' %}
+                    {% assign domain = '' %}
+                    {% assign _baseurl = '' %}
                 {% elsif link.url == '#' %}
-                {% assign domain = '' %}
-                {% assign _baseurl = site.baseurl %}
+                    {% assign domain = '' %}
+                    {% assign _baseurl = site.baseurl %}
                 {% else %}
-                {% assign domain = site.url %}
-                {% assign _baseurl = site.baseurl %}
+                    {% assign domain = site.url %}
+                    {% assign _baseurl = site.baseurl %}
                 {% endif %}
 
                 {% comment %} If there are links for left side begin {% endcomment %}
@@ -48,7 +48,9 @@
                 {% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %}
                 class="active"{% endif %}><a {% if link.class %}class="{{link.class}}" {% endif %}
                                              href="{{ domain }}{{ _baseurl }}{{ link.url }}" {% if link.url contains
-                'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+                'http' %} target="_blank"{% endif %}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.img }}" alt="" width="20%"/>
+                {{ link.title | escape }}</a></li>
                 <li class="divider"></li>
 
                 {% comment %} If left side WITH dropdown menu do {% endcomment %}
