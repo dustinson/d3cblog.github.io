@@ -9,6 +9,10 @@ image:
     title: hermitCrab.jpg
 
 ---
+--WIP--
+(this blog is currently under development)
+
+
 There are experiences in your life that leave you confident in the obvious conclusion.
 I've had those with electric fences, cinnemon flavored adult drinks and Indian Food.   
 

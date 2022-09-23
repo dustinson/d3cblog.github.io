@@ -9,6 +9,12 @@ image:
     title: hermitCrab.jpg
 
 ---
+
+--WIP--
+(this blog is currently under development)
+
+
+
 Some people have a Spirit Animal.  That creature who's personality matches their soul.  
 Maybe it's a sloth, or lion or ostrich. 
 Many sports teams have a mascot.  The visual embodiment of the teams strength, tenacity or history.   
