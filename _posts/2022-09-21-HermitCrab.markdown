@@ -2,7 +2,6 @@
 layout: post
 title:  "Hermit Crab"
 subheadline: Blog
-date:   2022-09-21 09:29:33 -0500
 categories: blog
 image:
     thumb: hermitCrab.jpg

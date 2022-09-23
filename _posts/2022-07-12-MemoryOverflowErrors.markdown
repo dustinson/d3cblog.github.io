@@ -2,8 +2,10 @@
 layout: post
 title:  "Memory Overflow Errors"
 subheadline: Blog
-date:   2022-07-12 09:29:33 -0500
 categories: blog
+image:
+    thumb: ram.jpg
+    title: ram.jpg
 header:
     image_fullwidth: "ram.jpg"
 ---
