@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Hermit Crab"
+title:  "Indian Food"
 subheadline: Blog
 date:   2022-09-21 09:29:33 -0500
 categories: blog
 image:
-    thumb: hermitCrab.jpg
-    title: hermitCrab.jpg
+    thumb: indianFood.jpg
+    title: indianFood.jpg
 
 ---
 --WIP--
@@ -26,7 +26,7 @@ This is what I knew for a while.  If asked, I'd share the truth.
 
 And then I found myself in a situation.  
 A good friend of mine, Gopi, invited me over for lunch.  
-It was Diwali and his wife was cooking a feast.  
+It was Diwali and his wife, Shital, was cooking a feast.  
 He was walking distance from the office and it was a beautiful day.  There was no escaping the invitation.
 
 We trekked towards his home. He spoke about the great care that goes into making these meals.  Each ingredient and preparation method had a purpose. 
@@ -56,3 +56,9 @@ Prodding more, he asked where this experience occured.
 He promptly gave me a list of 3 local restaurants which did amazing work.  
 
 That day changed my life.  I've had some of the best meals of my life at Indian Restaurants.  
+
+P.S. My favorite part of this story was when I was telling it during a Lean Coffee.    
+As it had been close to a decade, I didn't immediately recognize Shital sitting at the table with me.  
+She recognized before I did.  
+She deservedly bore a broad smile as I spoke of her magnificent meal to others.
+The photo above was my plate at the restaurant she and Gopi selected when we met in 2022.
