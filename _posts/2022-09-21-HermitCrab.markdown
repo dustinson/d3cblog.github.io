@@ -7,6 +7,8 @@ categories: blog
 image:
     thumb: hermitCrab.jpg
     title: hermitCrab.jpg
+header:
+    image_fullwidth: "veniceBeach.jpg"
 
 ---
 
