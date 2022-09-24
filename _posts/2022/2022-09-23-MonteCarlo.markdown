@@ -17,6 +17,8 @@ Please follow Troy Magennis on Twitter <a href='https://twitter.com/t_magennis'>
 
 <h3>Simple example</h3>
 ![monteCarloSimple.png](monteCarloSimple.png)
+![./images/b/monteCarloSimple.png](./images/b/monteCarloSimple.png)
+![~/images/b/monteCarloSimple.png](~/images/b/monteCarloSimple.png)
 It's the start of a new year.  
 We have 20 stories to get done and always get 3 stories done per 1 week sprint.  
 When will we get done?
