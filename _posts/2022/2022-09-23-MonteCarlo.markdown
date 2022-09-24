@@ -16,9 +16,8 @@ I'd recommend you download the example from <a href='https://www.focusedobjectiv
 Please follow Troy Magennis on Twitter <a href='https://twitter.com/t_magennis'>https://twitter.com/t_magennis </a> for more info.  
 
 <h3>Simple example</h3>
-![monteCarloSimple.png](monteCarloSimple.png)
-![./images/b/monteCarloSimple.png](./images/b/monteCarloSimple.png)
-![~/images/b/monteCarloSimple.png](~/images/b/monteCarloSimple.png)
+<img src="{{ site.urlimg }}b/monteCarloSimple.png" >
+
 It's the start of a new year.  
 We have 20 stories to get done and always get 3 stories done per 1 week sprint.  
 When will we get done?
@@ -27,34 +26,38 @@ Feb 19th. I can say that with 100% confidence.
 This is usually where linear Velocity Planning looks good.  
 Easy Peasy.
 
-<h3>Except it may be a few more stories...</h3>
-![monteCarloMoreStories.png](monteCarloMoreStories.png)
+<h3>"Except it may be a few more stories...</h3>
+<img src="{{ site.urlimg }}b/monteCarloMoreStories.png" >
 No problem.  It could be as many as 25 stories you say?  Very well.
 That's probably going to take a bit longer.  
 Maybe 1 week more, maybe 2.  
 If you need to be absolutely certain, expect 9 weeks.  
 We have 80% confidence that it will be done in 8 weeks, by 2/26.
 
-<h3>And we're still trying to figure out a few things on scope...</h3>
-![monteCarloScope.png](monteCarloScope.png)
+<h3>"And we're still trying to determine scope...</h3>
+<img src="{{ site.urlimg }}b/monteCarloScope.png" >
+
 That makes sense.  This is new work and we learn as we go.
 Based on that, we expect some learning to allow for a bit of scope creep.  
 Looks like we're targeting early April now.  There's just a 25% chance it'll still be done in Febuary, so we may want to adjust scope or adjust expectations.
 
-<h3>Sometimes we find the stories are too big, so we spit them.</h3>
-![monteCarloSplit.png](monteCarloSplit.png)
+<h3>"Sometimes we find the stories are too big, so we spit them...</h3>
+<img src="{{ site.urlimg }}b/monteCarloSplit.png" >
+
 That's pretty common.  Good choice.  
 How often?  Just 10% of the time?  One out of ever 5 stories is split?
 Based on that I'd have to say there's only a 50% chance we are going to get this done by the middle of March.
 
-<h3>And our Velocity hasn't been perfectly stable...</h3>
-![monteCarloVelocity.png](monteCarloVelocity.png)
+<h3>"And our Velocity hasn't been stable...</h3>
+<img src="{{ site.urlimg }}b/monteCarloVelocity.png" >
+
 Based on the Jira reports, it looks like the worst is 1 story in a sprint, but sometimes it was 6!
 We'll want to keep an eye on that.  If we are expecting 100% confidence, I'd prepare for end of April. 
 End of March seems pretty reasonable though.  90%.
 
-<h3>We're taking on upgrade support as well, that might take 1/4 of our time...</h3>
-![monteCarloAllocation.png](monteCarloAllocation.png)
+<h3>"We're taking on another project as well with 1/4 of our time...</h3>
+<img src="{{ site.urlimg }}b/monteCarloAllocation.png" >
+
 Yeaaaaaah.  This could be quite challenging.  It'll be a coin flip if we can get this done by March.
 We might be looking at May if we're only 75% allocated.  
 Let's start exploring some contingency plans.  
