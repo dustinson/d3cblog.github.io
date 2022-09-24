@@ -8,7 +8,7 @@
     <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
         <ul class="title-area">
             <li class="name">
-                <h1 class="hide-for-large-up"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{
+                <h1 class="hide-for-large-up"><a href="{{ site.url }}{{ site.baseurl }}" > {{
                     site.title }}</a></h1>
             </li>
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -50,7 +50,7 @@
                                              href="{{ domain }}{{ _baseurl }}{{ link.url }}" {% if link.url contains
                 'http' %} target="_blank"{% endif %}>
                 {% if link.img  %}
-                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.img }}" alt="" width="15%"/>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.img }}" alt="d3" width="7%" height="50%"/>
                 {% endif %}
                 {{ link.title | escape }}</a></li>
                 <li class="divider"></li>
