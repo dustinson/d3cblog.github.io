@@ -25,7 +25,7 @@ author: Dustinson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://dustinson.github.io'
+url: 'http://dustinson.github.io'
 baseurl: '/d3cblog.github.io'
 
 # This is for the editing function in _/includes/improve_content
@@ -38,7 +38,7 @@ improve_content: https://dustinson.github.io/d3cblog.github.io/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://dustinson.github.io/d3cblog.github.io/images/'
+urlimg: 'http://dustinson.github.io/d3cblog.github.io/images/'
 
 
 # Logo size is 600x80 pixels
