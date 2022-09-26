@@ -14,8 +14,7 @@ permalink: "blog/archive/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% assign my_posts = site.categories.blog }}
-<!--			#{% assign my_posts = site.posts | where: "layout", "blog" %}-->
+			{% assign my_posts = site.categories.blog %}
 
 			{% for post in my_posts limit:1000 %}
 			<dd class="accordion-navigation">
