@@ -7,7 +7,7 @@ image:
     thumb: monteCarlo.jpg
     title: monteCarlo.jpg
 header:
-    image_fullwidth: "monteCarloTable.jpg"
+    image_fullwidth: "monteCarloTable.png"
 ---
 --WIP--
 (this blog is currently under development)
