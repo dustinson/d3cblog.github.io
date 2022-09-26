@@ -6,7 +6,8 @@ categories: blog
 image:
     thumb: indianFood.jpg
     title: indianFood.jpg
-
+header:
+    image_fullwidth: "indianFood.jpg"
 ---
 --WIP--
 (this blog is currently under development)

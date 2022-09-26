@@ -6,7 +6,8 @@ categories: blog
 image:
     thumb: monteCarlo.jpg
     title: monteCarlo.jpg
-
+header:
+    image_fullwidth: "monteCarlo.jpg"
 ---
 --WIP--
 (this blog is currently under development)

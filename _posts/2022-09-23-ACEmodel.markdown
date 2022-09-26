@@ -6,7 +6,8 @@ categories: blog
 image:
     thumb: ace.jpg
     title: ace.jpg
-
+header:
+    image_fullwidth: "ace.jpg"
 ---
 --WIP--
 (this blog is currently under development)
