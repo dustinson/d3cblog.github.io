@@ -35,21 +35,21 @@
 <nav id="pagination">
     {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-    <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}/events/"
+    <a rel="prev" class="radius button small" href="{{ site.url }}{{ site.baseurl }}events/"
        title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
     {% else %}
     <a rel="prev" class="radius button small"
-       href="{{ site.url }}{{ site.baseurl }}/events/page{{ paginator.previous_page }}/"
+       href="{{ site.url }}{{ site.baseurl }}events/page{{ paginator.previous_page }}/"
        title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
     {% endif %}
     {% endif %}
 
-    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/events/archive/"
+    <a class="radius button small" href="{{ site.url }}{{ site.baseurl }}events/archive/"
        title="{{ site.data.language.event_archive }}">{{ site.data.language.event_archive }}</a>
 
     {% if paginator.next_page %}
     <a rel="next" class="radius button small"
-       href="{{ site.url }}{{ site.baseurl }}/events/page{{ paginator.next_page }}/"
+       href="{{ site.url }}{{ site.baseurl }}events/page{{ paginator.next_page }}/"
        title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 </nav>
