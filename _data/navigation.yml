@@ -1,13 +1,13 @@
 - title: Delta3Consulting
-  url: ""
+  url: "/"
   img: /d3.png
   side: left
  
 - title: Events
-  url: "events/"
+  url: "/events/"
   side: left
 - title: Blog
-  url: "blog/"
+  url: "/blog/"
   side: left
 - title: Videos
   url: "https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn"
@@ -77,6 +77,6 @@
 #  url: "/search/"
 #  side: right
 #
-- title: "Contact"
-  url: "contact/"
-  side: right
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right
