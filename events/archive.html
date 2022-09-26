@@ -14,7 +14,8 @@ permalink: "events/archive/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% assign my_posts = site.categories.community %}
+			{% assign my_posts = site.categories.community }}
+<!--			#{% assign my_events = site.posts | where: "layout", "page" %}-->
 
 			{% for post in my_events limit:1000 %}
 			<dd class="accordion-navigation">
