@@ -60,8 +60,8 @@ plugins:
 #               /____/
 #
 paginate: 20                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
-events_paginate_path: "events/page:num"   # Pagination path › Important for events page in /events/ to work
+paginate_path: "/blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+events_paginate_path: "/events/page:num"   # Pagination path › Important for events page in /events/ to work
 
 
 # Theme works best with Kramdown (using the table of contents function)
