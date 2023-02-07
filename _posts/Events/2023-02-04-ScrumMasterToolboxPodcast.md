@@ -11,8 +11,8 @@ categories:
     - community
     - Interview
 image:
-    thumb: Scrummaster_toolbox_podcast_logo_v1.png.png
-    title: Scrummaster_toolbox_podcast_logo_v1.png.png
+    thumb: Scrummaster_toolbox_podcast_logo_v1.png
+    title: Scrummaster_toolbox_podcast_logo_v1.png
     caption: ScrumMaster's ToolBox
     caption_url: https://scrum-master-toolbox.org/2023/02/podcast/bonus-embracing-self-awareness-and-empathy-in-the-agile-change-process-insights-from-dustin-thostenson/
 ---
