@@ -11,8 +11,8 @@ categories:
     - community
     - Interview
 image:
-    thumb: IBADD-Elevate-Logo.png
-    title: IBADD2023.jpeg
+    thumb: Ibadd2023.jpeg
+    title: Ibadd2023.jpeg
     caption: IBADD
     #caption_url: https://www.youtube.com/watch?v=agBIHJBcdUU&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn&index=1
 ---
