@@ -3,7 +3,7 @@ layout: post
 sidebar: left
 subheadline: Podcast
 title:  "ScrumMaster's Toolbox"
-teaser: "Embracing Self-Awareness and Empathy in the Agile Change Process, Insights from Dustin Thostenson"
+teaser: "Embracing Self-Awareness and Empathy in the Agile Change Process, Insights from Dustin Thostenson."
 breadcrumb: false
 tags:
     - 
