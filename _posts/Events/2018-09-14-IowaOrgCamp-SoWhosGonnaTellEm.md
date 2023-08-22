@@ -10,8 +10,8 @@ tags:
 categories:
     - community
 image:
-    thumb: iowaorgcamp.png
-    title: iowaorgcamp.png
+    thumb: iowaOrgCamp.png
+    title: iowaOrgCamp.png
     caption_url: 
 ---
 "So, Who's Gonna Tell 'Em" is a presentation about soft skills.  We discuss the challenges that arise when working with other people.  
