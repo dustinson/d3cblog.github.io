@@ -11,12 +11,12 @@
 
 layout: frontpage
 header:
- image_fullwidth: header_unsplash_9.jpg
+ image_fullwidth: /header_unsplash_9.jpg
 # image_fullwidth: Delta3_tag_GRN.png 
 widget1:
   title: "Events"
   url: '/events/'
-  image: header-bus.jpg
+  image: /header-bus.jpg
   text: 'What is going on?'
 
 widget2:
