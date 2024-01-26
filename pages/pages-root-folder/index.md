@@ -21,8 +21,8 @@ widget1:
 
 widget2:
   title: "Blog"
-  url: '/blog/
-  image: header_typewriter.jpg
+  url: '/blog'
+  image: /header_typewriter.jpg
   text: 'Enjoy reading some stories to understand what we understand.'
 
 widget3:
