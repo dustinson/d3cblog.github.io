@@ -11,8 +11,8 @@ categories:
     - community
     - Presentation
 image:
-    thumb: DevOpsDaysDsm.png
-    title: DevOpsDaysDsm.png
+    thumb: DevOpsDaysDsm2023Profile.jpeg
+    title: DevOpsDaysDsm2023Profile.jpeg
     caption: DOD-Dsm
     caption_url: https://devopsdays.org/events/2023-des-moines/program/dustin-thostenson/
 ---
