@@ -15,13 +15,13 @@ header:
 # image_fullwidth: Delta3_tag_GRN.png 
 widget1:
   title: "Events"
-  url: '/events/'
+  url: '/events'
   image: /header-bus.jpg
   text: 'What is going on?'
 
 widget2:
   title: "Blog"
-  url: '/blog/'
+  url: '/blog/
   image: header_typewriter.jpg
   text: 'Enjoy reading some stories to understand what we understand.'
 
