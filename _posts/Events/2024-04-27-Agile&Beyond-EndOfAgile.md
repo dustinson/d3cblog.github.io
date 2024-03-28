@@ -2,8 +2,8 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "Agile2024 - Sphere Of Control: Techniques To Tackle TechDebt Today"
-teaser: "Sphere Of Control: Techniques To Tackle TechDebt Today"
+title:  "Agile&Beyond - It's the end of Agile as we know it, and I feel fine"
+teaser: "It's the end of Agile as we know it, and I feel fine"
 breadcrumb: false
 tags:
     - 
@@ -11,25 +11,24 @@ categories:
     - community
     - Presentation
 image:
-    thumb: Agile2024.png
-    title: Agile2024.png
-    caption: Agile2024
-    caption_url: https://www.agilealliance.org/agile2024/
+    thumb: A&B2024.png
+    title: A&B2024.png
+    caption: Agile&Beyond2024
+    caption_url: https://agileandbeyond.com/2024/
 ---
-Elevator Pitch
-“Things are the way they are because they got that way”, Gerry Weinberg tells us.
-But what if they weren’t that way? What would need to happen for that to be true?
-TechDebt is one of the most prevelant, and problematic, issues most dev teams face.  There are solutions.
+"The times, they are a-changing" - Bob Dylan
 
-This talk is for leaders, product owners, scrum masters and developers who know things can be better, but are not sure how to get there.
+If you've been a coach or practitioner leading transformations, you know what Bob's talking about.
+"Agile" has become a punchline in some circles. Using the "Agile" label like "Smurf" may no longer be helpful.
+The market is changing, and we need to change with it.
+How do we maintain enthusiasm and foster continuous improvement in this new landscape?
 
-We explored why things got this way and explore real practices which can show improvements immediately.
+This isn't an "Agile is Dead" rant.
+It's a pragmatic discussion , diverging from theoretical and dogmatic practices of recent years.
 
-Description
-Improvements can be hard to implement. In many environments, it’s easy to see all of the reasons why that can’t happen. Leaders are frustrated with their teams and the teams in their leaders.
-
-Environments, Expectations and Engagement all contribute to this.
-
-Break free. We’ll review why things are this way and exemplify improvements with ““5 Techniques to Tackle your Tech Debt Today””.
-
-Increase your Sphere of Control. Increase it for those who need it most.
+Let's embark on a journey to understand how we arrived here and explore the opportunities that lie ahead.
+Our discussion will cover:
+- The evolving timeline and critical inflection points in Agile's journey.
+- Foundational concepts that have proven effective.
+- Growing resentment stemming from failed practices.
+- Tactics to fuel your improvement journey and career.
