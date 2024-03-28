@@ -3,7 +3,7 @@ layout: post
 sidebar: left
 subheadline: Presentation
 title:  "DevOpsDaysDsm - Sphere Of Control"
-teaser: "Sphere Of Control: From Helpless to Hero"
+teaser: "Sphere Of Control: Techniques To Tackle TechDebt Today"
 breadcrumb: false
 tags:
     - 
