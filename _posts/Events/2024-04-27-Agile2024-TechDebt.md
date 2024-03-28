@@ -2,7 +2,7 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "PhillyXP - Sphere Of Control: Techniques To Tackle TechDebt Today"
+title:  "Agile2024 - Sphere Of Control: Techniques To Tackle TechDebt Today"
 teaser: "Sphere Of Control: Techniques To Tackle TechDebt Today"
 breadcrumb: false
 tags:
@@ -11,10 +11,10 @@ categories:
     - community
     - Presentation
 image:
-    thumb: PhillyXP.jpeg
-    title: PhillyXP.jpeg
-    caption: PhillyXP
-    caption_url: https://devopsdays.org/events/2023-des-moines/program/dustin-thostenson/https://www.meetup.com/phillyxp/events/299736453/
+    thumb: Agile2024.png
+    title: Agile2024.png
+    caption: Agile2024
+    caption_url: https://www.agilealliance.org/agile2024/
 ---
 Elevator Pitch
 “Things are the way they are because they got that way”, Gerry Weinberg tells us.
