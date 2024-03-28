@@ -11,8 +11,8 @@ categories:
     - community
     - Presentation
 image:
-    thumb: A&B2024.png
-    title: A&B2024.png
+    thumb: AB_2024.png
+    title: AB_2024.png
     caption: Agile&Beyond2024
     caption_url: https://agileandbeyond.com/2024/
 ---
