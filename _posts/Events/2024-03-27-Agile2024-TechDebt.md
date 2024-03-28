@@ -33,3 +33,5 @@ Environments, Expectations and Engagement all contribute to this.
 Break free. We’ll review why things are this way and exemplify improvements with ““5 Techniques to Tackle your Tech Debt Today””.
 
 Increase your Sphere of Control. Increase it for those who need it most.
+
+<a href="https://www.agilealliance.org/agile2024/" target='new'>Agile2024</a>

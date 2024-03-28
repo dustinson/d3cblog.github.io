@@ -14,7 +14,7 @@ image:
     thumb: PhillyXP.jpeg
     title: PhillyXP.jpeg
     caption: PhillyXP
-    caption_url: https://devopsdays.org/events/2023-des-moines/program/dustin-thostenson/https://www.meetup.com/phillyxp/events/299736453/
+    caption_url: https://www.meetup.com/phillyxp/events/299736453/
 ---
 Elevator Pitch
 “Things are the way they are because they got that way”, Gerry Weinberg tells us.
@@ -33,3 +33,4 @@ Environments, Expectations and Engagement all contribute to this.
 Break free. We’ll review why things are this way and exemplify improvements with ““5 Techniques to Tackle your Tech Debt Today””.
 
 Increase your Sphere of Control. Increase it for those who need it most.
+<a href="https://www.meetup.com/phillyxp/events/299736453/" target='new'>PhillyXP</a>

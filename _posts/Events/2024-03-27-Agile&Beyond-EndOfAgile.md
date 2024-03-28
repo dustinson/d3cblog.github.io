@@ -32,3 +32,6 @@ Our discussion will cover:
 - Foundational concepts that have proven effective.
 - Growing resentment stemming from failed practices.
 - Tactics to fuel your improvement journey and career.
+
+
+<a href="https://agileandbeyond.com/2024/" target='new'>Agile&Beyond2024</a>
