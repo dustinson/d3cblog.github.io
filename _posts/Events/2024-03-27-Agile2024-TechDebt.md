@@ -11,8 +11,8 @@ categories:
     - community
     - Presentation
 image:
-    thumb: Agile2024.png
-    title: Agile2024.png
+    thumb: agile2024.png
+    title: agile2024.png
     caption: Agile2024
     caption_url: https://www.agilealliance.org/agile2024/
 ---
