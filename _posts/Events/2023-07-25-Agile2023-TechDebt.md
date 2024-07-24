@@ -2,7 +2,7 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "Agile2023 - 5 Techniques To Tackle TechDebt Today"
+title:  "Agile2023 - 5 Techniques To Tackle Tech-debt Today"
 teaser: ""
 breadcrumb: false
 tags:

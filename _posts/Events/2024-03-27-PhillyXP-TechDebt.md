@@ -2,8 +2,8 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "PhillyXP - Sphere Of Control: Techniques To Tackle TechDebt Today"
-teaser: "Sphere Of Control: Techniques To Tackle TechDebt Today"
+title:  "PhillyXP - Sphere Of Control: Techniques To Tackle Tech-debt Today"
+teaser: "Sphere Of Control: Techniques To Tackle Tech-debt Today"
 breadcrumb: false
 tags:
     - 
@@ -19,7 +19,7 @@ image:
 Elevator Pitch
 “Things are the way they are because they got that way”, Gerry Weinberg tells us.
 But what if they weren’t that way? What would need to happen for that to be true?
-TechDebt is one of the most prevelant, and problematic, issues most dev teams face.  There are solutions.
+Tech-debt is one of the most prevalent, and problematic, issues most dev teams face.  There are solutions.
 
 This talk is for leaders, product owners, scrum masters and developers who know things can be better, but are not sure how to get there.
 
