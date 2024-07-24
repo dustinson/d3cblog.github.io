@@ -9,7 +9,7 @@ tags:
     - 
 categories:
     - community
-    - Presentatino
+    - Presentation
 image:
     thumb: trility.png
     title: trility.png

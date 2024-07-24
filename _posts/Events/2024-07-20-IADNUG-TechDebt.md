@@ -16,7 +16,7 @@ image:
     caption: Iowa .NET User Group
     caption_url: https://www.agilealliance.org/agile2024/
 ---
-Description
+
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.
 
 Sometimes leaders can't help them.
@@ -26,4 +26,4 @@ Thankfully there are tried and true tactics to tackle the tech debt troubles, To
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
-<a href="https://www.agilealliance.org/agile2024/" target='new'>Agile2024</a>
+<a href="https://www.meetup.com/iadnug/events/302199433/" target='new'>IADNUG</a>

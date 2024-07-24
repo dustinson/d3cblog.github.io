@@ -9,11 +9,11 @@ tags:
     - 
 categories:
     - community
-    - Presentatino
+    - Presentation
 image:
     thumb: trility.png
     title: trility.png
-    caption: A&trility
+    caption: Trility
 ---
 Learning new things is awesome. 
 When you return to your team, you'll find many opportunities to share your knowledge.

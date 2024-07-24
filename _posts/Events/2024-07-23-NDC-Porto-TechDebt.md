@@ -2,7 +2,7 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "NDC - Porto - Techniques To Tackle Tech-debt Today"
+title:  "NDC { Porto } - Techniques To Tackle Tech-debt Today"
 teaser: "Techniques To Tackle Tech-debt Today"
 breadcrumb: false
 tags:
@@ -16,7 +16,7 @@ image:
     caption: NDC - Porto
     caption_url: https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a
 ---
-Description
+
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.
 
 Sometimes leaders can't help them.
@@ -26,4 +26,4 @@ Thankfully there are tried and true tactics to tackle the tech debt troubles, To
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
-<a href="https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a" target='new'>NDC-Portp</a>
+<a href="https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a" target='new'>NDC-Porto</a>

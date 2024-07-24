@@ -20,4 +20,4 @@ The Women in Agile community drives toward equality and inclusion of diverse rep
 
 The "Launching New Voices" program pairs up emerging speakers with mentors with a low barrier to entry.  Its goal is to grow the next generation of contributors and showcase new ideas.
 
-<a href="https://womeninagile.org/" target='new'>WomenInAgile</a>
+<a href="https://womeninagile.org/" target='new'>Women In Agile</a>
