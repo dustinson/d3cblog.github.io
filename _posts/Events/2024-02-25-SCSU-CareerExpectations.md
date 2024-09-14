@@ -11,7 +11,7 @@ categories:
     - community
     - training
 header:
-    image_fullwidth: Delta3_tag_GRN.png
+    image_fullwidth: Delta3Logo.png
 image:
     thumb: SCSU.png
     title: SCSU.png

@@ -12,7 +12,7 @@
 layout: frontpage
 header:
  image_fullwidth: /header_unsplash_9.jpg
-# image_fullwidth: Delta3_tag_GRN.png 
+# image_fullwidth: Delta3Logo.png 
 widget1:
   title: "Events"
   url: '/events'
