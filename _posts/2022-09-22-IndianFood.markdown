@@ -48,13 +48,13 @@ Prodding more, he asked where this experience occured.
 
 "At the mall food court" I confessed.  It was the most accessible option for me.  
 
-<h3>"You Dummy!</h3>
+<h3>"You Dummy!"</h3>
 "You dummy!" he rightfully retorted "No wonder you had a bad experience!  You need to go where they know what they are doing!"/
 He promptly gave me a list of 3 local restaurants which did amazing work.  
 
 That day changed my life.  I've had some of the best meals of my life at Indian Restaurants.  
 
-<h3>"Don't knock it til you've tried it (from someone who knows it)"</h3>
+<h3>Don't knock it til you've tried it <i>(from someone who knows it)</i></h3>
 This story resonates with me because so often we have poor experiences and tell ourselves "That's not for me.".  
 Ron Jefferies reflects a comparable experience with <a href='https://ronjeffries.com/xprog/articles/jatbaseball/'>"We Tried Baseball and It Didn't Work"</a>
 
