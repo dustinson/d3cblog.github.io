@@ -9,9 +9,6 @@ image:
 header:
     image_fullwidth: "monteCarloTable.png"
 ---
---WIP--
-(this blog is currently under development)
-
 Monte Carlo forecasts are a probabilistic approach to determining when something will be done. 
 I'd recommend you download the example from <a href='https://www.focusedobjective.com/pages/free-spreadsheets-and-tools' target='new'>https://www.focusedobjective.com/pages/free-spreadsheets-and-tools </a> and work along with this example.
 Please follow Troy Magennis on Twitter <a href='https://twitter.com/t_magennis'>https://twitter.com/t_magennis </a> for more info.  
@@ -42,7 +39,7 @@ That makes sense.  This is new work and we learn as we go.
 Based on that, we expect some learning to allow for a bit of scope creep.  
 Looks like we're targeting early April now.  There's just a 25% chance it'll still be done in Febuary, so we may want to adjust scope or adjust expectations.
 
-<h3>"Sometimes we find the stories are too big, so we spit them...</h3>
+<h3>"Sometimes we find the stories are too big, so we split them...</h3>
 <img src="{{ site.urlimg }}b/monteCarloSplit.png" >
 
 That's pretty common.  Good choice.  
