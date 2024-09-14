@@ -9,14 +9,10 @@ image:
 header:
     image_fullwidth: "indianFood.jpg"
 ---
---WIP--
-(this blog is currently under development)
-
-
 There are experiences in your life that leave you confident in the obvious conclusion.
-I've had those with electric fences, cinnemon flavored adult drinks and Indian Food.   
+I've had those with electric fences, cinnamon flavored adult drinks and Indian Food.   
 
-Indian Food is the worst. 
+<h3>Indian Food is the worst.</h3>
 I knew it. It was the worst stuff I ever put in my mouth. 
 I couldn't understand how anyone would eat that stuff!  
 I gave it a try and stuck with it, but make no mistake. 
@@ -24,7 +20,7 @@ Indian Food is not good.
 
 This is what I knew for a while.  If asked, I'd share the truth.
 
-And then I found myself in a situation.  
+<h3>And then I found myself in a situation. </h3> 
 A good friend of mine, Gopi, invited me over for lunch.  
 It was Diwali and his wife, Shital, was cooking a feast.  
 He was walking distance from the office and it was a beautiful day.  There was no escaping the invitation.
@@ -39,8 +35,8 @@ There was a small group of us so I was able to hide out a little when it was tim
 
 I wasn't ready for what happened next.  It was my Green Eggs & Ham moment!
 
-Indian Food is Amazing!
 
+<h3>Indian Food is Amazing!</h3>
 The bread was warm and soft and elastic.  The lentils were cooked but not soggy.  All of the flavors gave me a near religious experience!
 
 There were some which I didn't care for, but that's just because I've never liked black liquorish.
@@ -52,10 +48,26 @@ Prodding more, he asked where this experience occured.
 
 "At the mall food court" I confessed.  It was the most accessible option for me.  
 
+<h3>"You Dummy!</h3>
 "You dummy!" he rightfully retorted "No wonder you had a bad experience!  You need to go where they know what they are doing!"/
 He promptly gave me a list of 3 local restaurants which did amazing work.  
 
 That day changed my life.  I've had some of the best meals of my life at Indian Restaurants.  
+
+<h3>"Don't knock it til you've tried it (from someone who knows it)"</h3>
+This story resonates with me because so often we have poor experiences and tell ourselves "That's not for me.".  
+Ron Jefferies reflects a comparable experience with <a href='https://ronjeffries.com/xprog/articles/jatbaseball/'>"We Tried Baseball and It Didn't Work"</a>
+
+I've since learned that sometimes we may learn things from someone who doesn't really understand it well themselves.  TDD is a very common example.  
+It makes it hard to use common terms when people have very different understandings of what they mean.  We may assume we understand each other because we understand the words, but in fact our understanding may have little overlap. 
+
+<h3>"I don't care if you want to kick hockey pucks into a basketball hoop, just don't call it Cricket"</h3>
+Listen more.  Ask questions.  Get descriptions of phrases before assuming understanding.  
+Use the terms after you've agreed to their meaning.  
+
+Suspend disbelief on occasion, and experience something in a variety of ways before you are positive it's not for you.  
+I don't like pickles, but I've given myself many attempts to confirm that preference.
+
 
 P.S. My favorite part of this story was when I was telling it during a Lean Coffee.    
 As it had been close to a decade, I didn't immediately recognize Shital sitting at the table with me.  

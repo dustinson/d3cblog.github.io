@@ -9,17 +9,13 @@ image:
 header:
     image_fullwidth: "ace.jpg"
 ---
---WIP--
-(this blog is currently under development)
-
-
 The ACE model for change
 
 The ACE model for change is simple and effective.  
 
 <h1 style="">A</h1><h3>Acknowledge</h3>
 Acknowledge there is a problem.  
-No changes can occur unless there is an acknoledgement that there is a problem. 
+No changes can occur unless there is an acknowledgement that there is a problem. 
 Simple, yet widely ignored. 
 If you are trying to change a person or team and they haven't acknowledge that there is a problem, you're going to have a bad time.  
 
@@ -36,15 +32,16 @@ Commit to doing something about what was just Acknowledged.
 Most people take pride in their word.  They want to do what they say they are going to do.  
 If a commitment is being made, make it clear.  
 Don't make a commitment on behalf of someone else.  They must make that commitment.  
-You can just ask clarifying questions and acknowledge what they commited to by repeating it.  
+You can just ask clarifying questions and acknowledge what they committed to by repeating it.  
 Write it down.
 Help them using their innate Consistency Principle. 
 
 <h1 style="">E</h1><h3>Everything Else</h3>
-Explore, Experiment, Execute, Evaluate, Eviscorate, Emancipate, etc, etc, etc.
+Explore, Experiment, Execute, Evaluate, Eviscerate, Emancipate, etc, etc, etc.
 These are the Easy things.  
 These are the things most Everyone is telling you to do.  
-The tools, practices, processes the patterns.  
+The tools, practices, processes the patterns.  It's what most advice encapsulates, assuming the first 2 steps are a given.  
+They are not.
 
 These are likely the things which made you successful.  The things you know best how to do. 
 If other people could be just like you then we'd all be awesome!  

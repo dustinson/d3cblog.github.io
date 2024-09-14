@@ -9,10 +9,6 @@ image:
 header:
     image_fullwidth: "ace.jpg"
 ---
---WIP--
-(this blog is currently under development)
-
-
 The ACE model for change
 
 The ACE model for change is simple and effective.  
