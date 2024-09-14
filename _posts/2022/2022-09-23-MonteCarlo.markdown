@@ -10,6 +10,9 @@ header:
     image_fullwidth: "monteCarloTable.png"
 ---
 Monte Carlo forecasts are a probabilistic approach to determining when something will be done. 
+It's a helpful tool to change the conversation from "What is the Deadline?" to "How confident are we to complete by a date?".   Changing this view can trigger more helpful conversations about what changes in focus can help us increase our confidence.
+Yes, the "MVP" is "Everything", but what features should we really focus on first?
+
 I'd recommend you download the example from <a href='https://www.focusedobjective.com/pages/free-spreadsheets-and-tools' target='new'>https://www.focusedobjective.com/pages/free-spreadsheets-and-tools </a> and work along with this example.
 Please follow Troy Magennis on Twitter <a href='https://twitter.com/t_magennis'>https://twitter.com/t_magennis </a> for more info.  
 
@@ -21,8 +24,8 @@ We have 20 stories to get done and always get 3 stories done per 1 week sprint.
 When will we get done?
 Feb 19th. I can say that with 100% confidence.  
 
-This is usually where linear Velocity Planning looks good.  
-Easy Peasy.
+This is usually where linear Velocity Planning looks good.  We can divide the number of stories in our backlog by our average velocity and determine how long it will take.
+Easy Peasy.  
 
 <h3>"Except it may be a few more stories...</h3>
 <img src="{{ site.urlimg }}b/monteCarloMoreStories.png" >
@@ -50,6 +53,7 @@ Based on that I'd have to say there's only a 50% chance we are going to get this
 <img src="{{ site.urlimg }}b/monteCarloVelocity.png" >
 
 Based on the Jira reports, it looks like the worst is 1 story in a sprint, but sometimes it was 6!
+Let's not discuss carry-over stories.
 We'll want to keep an eye on that.  If we are expecting 100% confidence, I'd prepare for end of April. 
 End of March seems pretty reasonable though.  90%.
 
@@ -72,7 +76,7 @@ What if we reduced scope?
 What if we made investments to reduce manual steps or reduce production interruptions?
 
 This spreadsheet includes additional options to use actual data from Jira, Rally or whatever tool you are using to capture throughput metrics.
-You can also add in Risks with a % likely hood. 
+You can also add in Risks with a % likely-hood. 
 What % is the risk that a developer leaves us?
 What if the designers don't get us the images?
 What if the production server crashes and we lose data?
