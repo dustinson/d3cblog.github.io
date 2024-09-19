@@ -13,7 +13,7 @@ categories:
 image:
     thumb: Circuit-Breakers.png
     title: Circuit-Breakers.png
-    caption: ICC
+    caption: Circuit Breakers
     caption_url: https://circuitbreakersrobotics.com/
 ---
 Sponsor
