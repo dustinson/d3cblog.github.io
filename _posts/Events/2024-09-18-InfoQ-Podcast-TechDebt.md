@@ -26,4 +26,4 @@ Key Takeaways:
 - Communicating effectively with stakeholders to understand their goals and concerns, and translating technical issues into business impacts, is key to getting buy-in
 - Developing empathy, understanding people's motivations, and acknowledging one's own role in problems are important skills for addressing technical debt
 
-<a href="https://www.infoq.com/podcasts/techniques-technical-debt-dustin-thostenson/" target='new'>InfoQ Podcast</a>
+Listen to the <a href="https://www.infoq.com/podcasts/techniques-technical-debt-dustin-thostenson/" target='new'>InfoQ Podcast</a>.
