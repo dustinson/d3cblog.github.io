@@ -26,4 +26,5 @@ Thankfully there are tried and true tactics to tackle the tech debt troubles, To
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
+You can watch the full presentation <a href="https://www.youtube.com/watch?v=idJwqQZd9SM" target='new'>here</a>!
 <a href="https://www.meetup.com/iadnug/events/302199433/" target='new'>IADNUG</a>
