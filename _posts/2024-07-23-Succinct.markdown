@@ -19,16 +19,18 @@ This is a model which might help with the efficacy and efficiency of influencing
 We'll walk through what the model represents and how it can be used
 
 <h2>Overview</h2>
-Categorizing content and recognizing how it is used is visualized wonderfully in this model.  
-<h3>Data</h3>
+Categorizing content and recognizing how it is used is visualized wonderfully in this model. 
+Here is a basic breakdown of how the model visualizes the progression of Data into Wisdom.
+
+<h3>- Data</h3>
 Cold, hard facts.  Information often without meaning or relevancy.
-<h3>Information</h3>
+<h3>- Information</h3>
 Organizing or categorizing the Data.  Adding "color" to it.  What does this data mean?
-<h3>Knowledge</h3>
+<h3>- Knowledge</h3>
 Organizing Information so we understand how all it all fits together.  What are the relationships? How is it sequenced or prioritized?
-<h3>Insight</h3>
+<h3>- Insight</h3>
 What is the core problem or opportunity, and what is the desired solution or outcome? 
-<h3>Wisdom</h3>
+<h3>- Wisdom</h3>
 How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
 
 <h2>Why does this matter?</h2>
@@ -104,13 +106,17 @@ Ultimately, each person may be motivated to avoid blame.  Make the time to get t
 
 Avoid deep conversations around data.  Many peoples jobs have them laboring at the Data and Information layer.  It's what they understand best.
 Make the data available and support them in understanding it so there is an agreement.  
+
 Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
 The higher the position in the organization, the less reliance on those details they'll need.  
+
 For people who's jobs do require them to master the data, forge early alignment by focusing just on the details needed at first.  
-Ensure they'll have adequate time to acquire Just-In-Time Knowledge to prevent delays in Big-Upfront-Planning and blame for not being prepared.  
+Ensure they'll have adequate time to acquire Just-In-Time Knowledge to prevent delays from Big-Upfront-Planning.  
+They may also be motivated to avoid Blame for not being prepared.  Make it safe to proceed and acknowledge learning and mistakes will happen.
 
 <h2>Conclusion</h2>
 Keep It Simple, Stupid (KISS)!
+
 It's an easy thing to say, but incredibly difficult to accomplish.  
 This model can be extremely helpful making the signal stand out from the noise.  
 It may be helpful to organize thoughts and messages into Level 1 (Insight & Wisdom), Level 2 (Knowledge) and Level 3 (Information and Data) categories. 
