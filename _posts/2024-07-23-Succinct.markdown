@@ -9,7 +9,7 @@ image:
 header:
     image_fullwidth: "BeWise-Full.jpeg"
 ---
--- work in progress ==
+-- work in progress --
 
 Communication is hard.
 
@@ -53,10 +53,15 @@ Even though the model shows the progression of the value of data, it's more usef
 All progressions should still be considered, but only used at the right time.  
 
 
-<h1 style="">1</h1><h3>Insight</h3>
+<h3>1. Insight (Problem)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Problem.jpeg" >
+
 Start with a crisp explanation of the problem or opportunity.  Describe why it matters.  What is the impact?
 Consider this the elevator pitch.  Simplify the message to contain the Why, What, Who, When and Where.  
 Describe the How as briefly as possible.  
+
+<h3>2. Insight (Solution)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Solution.jpeg" >
 
 Once the opportunity is understood, describe the outcome.  
 What does success look like?  This may be understood by some as money gained, financial losses avoided or compliance requirements met.
@@ -66,14 +71,18 @@ Repeat the Opportunity/Outcome story to all people who care about this, and make
 They will have questions and contributions, but this first step should be solid.  
 If there isn't alignment after this, consider yourself lucky you didn't waste time with the next steps.
 
-<h1 style="">2</h1><h3>Wisdom</h3>
+<h3>3. Wisdom (Path)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Path.jpeg" >
+
 Describe the path from Opportunity to Outcome.  
 Include the How in simple statements which deserve to be expanded upon later.  
 If a decision is needed, multiple options (no more than 3 or 5) can be included.
 As the Why and What questions have already been answered, the Who and When can be better introduced.  
 Prioritization and sequencing plans can be roughly introduced.
 
-<h1 style="">3</h1><h3>Knowledge</h3>
+<h3>4. Knowledge (Support)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Support.jpeg" >
+
 This is where your preparation will pay off.  
 If there are questions, listen to them closely.  Consider why a person may care about it.
 Select the appropriate knowledge from your inventory to meet their needs.  
@@ -81,7 +90,9 @@ Legal, Managerial, Technical, Financial, Operational and Procedural people will 
 Some additional questions may need further research, but it should fundamentally change your first or second steps.  
 
 
-<h1 style="">4</h1><h3>Information</h3>
+<h3>5. Information (Breakout)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Breakout.jpeg" >
+
 Recognize when the level of detail in a conversation has entered the Information Realm.  
 Depending on your audience, it might be helpful to identify the opportunity for a breakout session.  
 If there is still discussion in the Knowledge area, don't get distracted with an Information discussion.  
@@ -89,7 +100,8 @@ Stay focused.  Make a list of future conversations and only include the people n
 Decisions may be delayed as others seeks to understand a plan well enough so they can support it.  
 Ultimately, each person may be motivated to avoid blame.  Make the time to get them what they need to get support the idea.
 
-<h1 style="">5</h1><h3>Data</h3>
+<h3>6. Data (Self Study)</h3>
+
 Avoid deep conversations around data.  Many peoples jobs have them laboring at the Data and Information layer.  It's what they understand best.
 Make the data available and support them in understanding it so there is an agreement.  
 Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
