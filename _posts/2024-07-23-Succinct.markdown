@@ -1,0 +1,112 @@
+---
+layout: post
+title:  "Be Wise, Succinctly"
+subheadline: Blog
+categories: blog
+image:
+    thumb: BeWise-Full.jpeg
+    title: BeWise-Full.jpeg
+header:
+    image_fullwidth: "BeWise-Full.jpeg"
+---
+-- work in progress ==
+
+Communication is hard.
+
+If you want to be heard, you need to be Succinct.  
+If you want to be understood, you need to Be Wise.
+This is a model which might help with the efficacy and efficiency of influencing others. 
+We'll walk through what the model represents and how it can be used
+
+<h2>Overview</h2>
+Categorizing content and recognizing how it is used is visualized wonderfully in this model.  
+<h3>Data</h3>
+Cold, hard facts.  Information often without meaning or relevancy.
+<h3>Information</h3>
+Organizing or categorizing the Data.  Adding "color" to it.  What does this data mean?
+<h3>Knowledge</h3>
+Organizing Information so we understand how all it all fits together.  What are the relationships? How is it sequenced or prioritized?
+<h3>Insight</h3>
+What is the core problem or opportunity, and what is the desired solution or outcome? 
+<h3>Wisdom</h3>
+How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
+
+<h2>Why does this matter?</h2>
+Often times, people will share their ideas in a left to right manor.  
+
+An engineering-minded person may share their ideas with all of the Data, Information and Knowledge they have.
+That is the setup to assume others will come to the same logical conclusion they have.  Correctness is valued over quickness.
+
+There are a couple of problems with this approach. 
+Some people might not stay with them during the entire time.  
+The details may be overwhelming, or not appropriate for their concern.
+The listener may not apply the same cognitive effort to analyze the data and come to the same conclusion.  The entire process can be wearing and avoided in the future.  
+
+Even though someone may have great ideas, others may loose the willingness to listen to them.  
+This can be frustrating because without that support, goals can't be met and new problems may arise.  
+
+Applying this model before important conversations could be critical. 
+
+<h2>Application</h2>
+
+Even though the model shows the progression of the value of data, it's more useful when applied in a different order.  
+All progressions should still be considered, but only used at the right time.  
+
+
+<h1 style="">1</h1><h3>Insight</h3>
+Start with a crisp explanation of the problem or opportunity.  Describe why it matters.  What is the impact?
+Consider this the elevator pitch.  Simplify the message to contain the Why, What, Who, When and Where.  
+Describe the How as briefly as possible.  
+
+Once the opportunity is understood, describe the outcome.  
+What does success look like?  This may be understood by some as money gained, financial losses avoided or compliance requirements met.
+
+Repeat the Opportunity/Outcome story to all people who care about this, and make sure they are all understand and are aligned.  
+
+They will have questions and contributions, but this first step should be solid.  
+If there isn't alignment after this, consider yourself lucky you didn't waste time with the next steps.
+
+<h1 style="">2</h1><h3>Wisdom</h3>
+Describe the path from Opportunity to Outcome.  
+Include the How in simple statements which deserve to be expanded upon later.  
+If a decision is needed, multiple options (no more than 3 or 5) can be included.
+As the Why and What questions have already been answered, the Who and When can be better introduced.  
+Prioritization and sequencing plans can be roughly introduced.
+
+<h1 style="">3</h1><h3>Knowledge</h3>
+This is where your preparation will pay off.  
+If there are questions, listen to them closely.  Consider why a person may care about it.
+Select the appropriate knowledge from your inventory to meet their needs.  
+Legal, Managerial, Technical, Financial, Operational and Procedural people will all care about different things.  
+Some additional questions may need further research, but it should fundamentally change your first or second steps.  
+
+
+<h1 style="">4</h1><h3>Information</h3>
+Recognize when the level of detail in a conversation has entered the Information Realm.  
+Depending on your audience, it might be helpful to identify the opportunity for a breakout session.  
+If there is still discussion in the Knowledge area, don't get distracted with an Information discussion.  
+Stay focused.  Make a list of future conversations and only include the people necessary for that.  
+Decisions may be delayed as others seeks to understand a plan well enough so they can support it.  
+Ultimately, each person may be motivated to avoid blame.  Make the time to get them what they need to get support the idea.
+
+<h1 style="">5</h1><h3>Data</h3>
+Avoid deep conversations around data.  Many peoples jobs have them laboring at the Data and Information layer.  It's what they understand best.
+Make the data available and support them in understanding it so there is an agreement.  
+Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
+The higher the position in the organization, the less reliance on those details they'll need.  
+For people who's jobs do require them to master the data, forge early alignment by focusing just on the details needed at first.  
+Ensure they'll have adequate time to acquire Just-In-Time Knowledge to prevent delays in Big-Upfront-Planning and blame for not being prepared.  
+
+<h2>Conclusion</h2>
+Keep It Simple, Stupid (KISS)!
+It's an easy thing to say, but incredibly difficult to accomplish.  
+This model can be extremely helpful making the signal stand out from the noise.  
+It may be helpful to organize thoughts and messages into Level 1 (Insight & Wisdom), Level 2 (Knowledge) and Level 3 (Information and Data) categories. 
+People appreciate focused meetings where the right level of details are covered for the right audience.  
+
+Being aware of these categories and purpose is the first, easy, step.  Communicating with them can take a lifetime of mastery. 
+It's worth it. 
+
+Be Wise, succinctly.  
+
+
