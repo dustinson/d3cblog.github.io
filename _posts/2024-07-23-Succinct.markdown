@@ -15,21 +15,28 @@ Communication is hard.
 
 If you want to be heard, you need to be Succinct.  
 If you want to be understood, you need to Be Wise.
+
 This is a model which might help with the efficacy and efficiency of influencing others. 
-We'll walk through what the model represents and how it can be used
+We'll walk through what the model represents and how it can be used so you can have the right conversations at the right time.
 
 <h2>Overview</h2>
-Categorizing content and recognizing how it is used is visualized wonderfully in this model. 
-Here is a basic breakdown of how the model visualizes the progression of Data into Wisdom.
+This model (which I originally found at
+<a href="https://forum.obsidian.md/t/knowledge-innovation-value-and-wisdom/5166" target="new">https://forum.obsidian.md/t/knowledge-innovation-value-and-wisdom/5166</a>), does a wonderful job visually representing
+ the progression of Data into Wisdom.
+
+I find myself thinking about it multiple times per week.  It's been a great guide to recognize why type of conversation is occuring and how to organize thoughts and messaging.
+This blog is an extension from the original material, highlighting an additional use if it.
+
+Below is a basic overview of it's flow.
 
 <h3>- Data</h3>
-Cold, hard facts.  Information often without meaning or relevancy.
+Cold, hard facts.  Information often without meaning or relevancy.  Content ready for interpretation. 
 <h3>- Information</h3>
-Organizing or categorizing the Data.  Adding "color" to it.  What does this data mean?
+Organizing or categorizing the Data.  Adding "color" to it.  What does this Data mean?
 <h3>- Knowledge</h3>
 Organizing Information so we understand how all it all fits together.  What are the relationships? How is it sequenced or prioritized?
 <h3>- Insight</h3>
-What is the core problem or opportunity, and what is the desired solution or outcome? 
+What is the core problem or opportunity, and what is the desired solution or outcome?   This may often be represented by a gut instinct supported by years of experience.  It may be as simple as a Trigger/Response relationship.
 <h3>- Wisdom</h3>
 How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
 
