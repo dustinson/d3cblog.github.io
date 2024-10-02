@@ -12,10 +12,7 @@ header:
 -- work in progress --
 
 Communication is hard.
-
-If you want to be heard, you need to be Succinct.  
-If you want to be understood, you need to Be Wise.
-
+git 
 This is a model which might help with the efficacy and efficiency of influencing others. 
 We'll walk through what the model represents and how it can be used so you can have the right conversations at the right time.
 
@@ -30,15 +27,26 @@ This blog is an extension from the original material, highlighting an additional
 Below is a basic overview of it's flow.
 
 <h3>- Data</h3>
+What is the Data?
+
 Cold, hard facts.  Information often without meaning or relevancy.  Content ready for interpretation. 
 <h3>- Information</h3>
-Organizing or categorizing the Data.  Adding "color" to it.  What does this Data mean?
+What does the Data mean?
+
+Organize and categorize the Data.  Adding "color" to it.  
 <h3>- Knowledge</h3>
-Organizing Information so we understand how all it all fits together.  What are the relationships? How is it sequenced or prioritized?
+What is the Context?
+
+Organize Information so we understand how to use it.  What are the relationships? How is it sequenced or prioritized?
 <h3>- Insight</h3>
+How can this be used?
+
 What is the core problem or opportunity, and what is the desired solution or outcome?   This may often be represented by a gut instinct supported by years of experience.  It may be as simple as a Trigger/Response relationship.
 <h3>- Wisdom</h3>
+How will we use it?
+
 How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
+How does improved Context and Understanding help us achieve the Outcomes we desire?
 
 <h2>Why does this matter?</h2>
 Often times, people will share their ideas in a left to right manor.  
@@ -133,5 +141,12 @@ Being aware of these categories and purpose is the first, easy, step.  Communica
 It's worth it. 
 
 Be Wise, succinctly.  
+
+<h2>Bonus: Beware</h2>
+<img src="{{ site.urlimg }}b/BeWise-Conspiracy.jpeg" >
+
+Sometimes peoples experiences and motivations bring them to wildly different conclusions.  This is out of your control.  
+All you can do is be prepared and hope for the best.  
+Sometimes you are just in the wrong environment.  You can only control how you act and the environment you chose to be in.  
 
 
