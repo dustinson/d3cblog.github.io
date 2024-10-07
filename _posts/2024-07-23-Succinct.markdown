@@ -12,7 +12,7 @@ header:
 -- work in progress --
 
 Communication is hard.
-git 
+ 
 This is a model which might help with the efficacy and efficiency of influencing others. 
 We'll walk through what the model represents and how it can be used so you can have the right conversations at the right time.
 
