@@ -14,7 +14,7 @@ image:
     thumb: IowaCodeCamp.png
     title: IowaCodeCamp.png
     caption: ICC
-    caption_url: https://iowacodecamp.com/sponsors
+    caption_url: https://iowacodecamp.com/schedule
 ---
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.
 
