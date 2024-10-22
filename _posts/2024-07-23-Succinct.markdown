@@ -24,7 +24,7 @@ This model (which I originally found at
 I find myself thinking about it multiple times per week.  It's been a great guide to recognize why type of conversation is occuring and how to organize thoughts and messaging.
 This blog is an extension from the original material, highlighting an additional use if it.
 
-Below is a basic overview of it's flow.
+Below is a basic overview of its flow.
 
 <h3>- Data</h3>
 What is the Data?
