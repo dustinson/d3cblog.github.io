@@ -1,0 +1,150 @@
+---
+layout: post
+title:  "Be Wise, Succinctly"
+subheadline: Blog
+categories: blog
+image:
+    thumb: BeWise-Full.jpeg
+    title: BeWise-Full.jpeg
+header:
+    image_fullwidth: "BeWise-Full.jpeg"
+---
+Techniques To Tackle Tech-debt Today.
+
+<h1>Overview</h1>
+Every team is different, but most share one common challenge: Tech Debt.
+This blog is a summary of a presentation which has been well received by attendees and teams.  It will cover the high-level concepts, with possible blog entries of more specific recommendations in the future.
+
+
+If you would like to watch the full presentation, you can 
+<a href="https://youtu.be/5A_leEwOBW0 target="new">watch it here</a>).
+
+I find myself thinking about it multiple times per week.  It's been a great guide to recognize why type of conversation is occuring and how to organize thoughts and messaging.
+This blog is an extension from the original material, highlighting an additional use if it.
+
+Below is a basic overview of it's flow.
+
+<h2>- Self</h2>
+What is the Data?
+
+Cold, hard facts.  Information often without meaning or relevancy.  Content ready for interpretation. 
+<h3>- Information</h3>
+What does the Data mean?
+
+Organize and categorize the Data.  Adding "color" to it.  
+<h3>- Knowledge</h3>
+What is the Context?
+
+Organize Information so we understand how to use it.  What are the relationships? How is it sequenced or prioritized?
+<h3>- Insight</h3>
+How can this be used?
+
+What is the core problem or opportunity, and what is the desired solution or outcome?   This may often be represented by a gut instinct supported by years of experience.  It may be as simple as a Trigger/Response relationship.
+<h3>- Wisdom</h3>
+How will we use it?
+
+How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
+How does improved Context and Understanding help us achieve the Outcomes we desire?
+
+<h2>Why does this matter?</h2>
+Often times, people will share their ideas in a left to right manor.  
+
+An engineering-minded person may share their ideas with all of the Data, Information and Knowledge they have.
+That is the setup to assume others will come to the same logical conclusion they have.  Correctness is valued over quickness.
+
+There are a couple of problems with this approach. 
+Some people might not stay with them during the entire time.  
+The details may be overwhelming, or not appropriate for their concern.
+The listener may not apply the same cognitive effort to analyze the data and come to the same conclusion.  The entire process can be wearing and avoided in the future.  
+
+Even though someone may have great ideas, others may loose the willingness to listen to them.  
+This can be frustrating because without that support, goals can't be met and new problems may arise.  
+
+Applying this model before important conversations could be critical. 
+
+<h2>Application</h2>
+
+Even though the model shows the progression of the value of data, it's more useful when applied in a different order.  
+All progressions should still be considered, but only used at the right time.  
+
+
+<h3>1. Insight (Problem)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Problem.jpeg" >
+
+Start with a crisp explanation of the problem or opportunity.  Describe why it matters.  What is the impact?
+Consider this the elevator pitch.  Simplify the message to contain the Why, What, Who, When and Where.  
+Describe the How as briefly as possible.  
+
+<h3>2. Insight (Solution)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Solution.jpeg" >
+
+Once the opportunity is understood, describe the outcome.  
+What does success look like?  This may be understood by some as money gained, financial losses avoided or compliance requirements met.
+
+Repeat the Opportunity/Outcome story to all people who care about this, and make sure they are all understand and are aligned.  
+
+They will have questions and contributions, but this first step should be solid.  
+If there isn't alignment after this, consider yourself lucky you didn't waste time with the next steps.
+
+<h3>3. Wisdom (Path)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Path.jpeg" >
+
+Describe the path from Opportunity to Outcome.  
+Include the How in simple statements which deserve to be expanded upon later.  
+If a decision is needed, multiple options (no more than 3 or 5) can be included.
+As the Why and What questions have already been answered, the Who and When can be better introduced.  
+Prioritization and sequencing plans can be roughly introduced.
+
+<h3>4. Knowledge (Support)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Support.jpeg" >
+
+This is where your preparation will pay off.  
+If there are questions, listen to them closely.  Consider why a person may care about it.
+Select the appropriate knowledge from your inventory to meet their needs.  
+Legal, Managerial, Technical, Financial, Operational and Procedural people will all care about different things.  
+Some additional questions may need further research, but it should fundamentally change your first or second steps.  
+
+
+<h3>5. Information (Breakout)</h3>
+<img src="{{ site.urlimg }}b/BeWise-Breakout.jpeg" >
+
+Recognize when the level of detail in a conversation has entered the Information Realm.  
+Depending on your audience, it might be helpful to identify the opportunity for a breakout session.  
+If there is still discussion in the Knowledge area, don't get distracted with an Information discussion.  
+Stay focused.  Make a list of future conversations and only include the people necessary for that.  
+Decisions may be delayed as others seeks to understand a plan well enough so they can support it.  
+Ultimately, each person may be motivated to avoid blame.  Make the time to get them what they need to get support the idea.
+
+<h3>6. Data (Self Study)</h3>
+
+Avoid deep conversations around data.  Many peoples jobs have them laboring at the Data and Information layer.  It's what they understand best.
+Make the data available and support them in understanding it so there is an agreement.  
+
+Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
+The higher the position in the organization, the less reliance on those details they'll need.  
+
+For people who's jobs do require them to master the data, forge early alignment by focusing just on the details needed at first.  
+Ensure they'll have adequate time to acquire Just-In-Time Knowledge to prevent delays from Big-Upfront-Planning.  
+They may also be motivated to avoid Blame for not being prepared.  Make it safe to proceed and acknowledge learning and mistakes will happen.
+
+<h2>Conclusion</h2>
+Keep It Simple, Stupid (KISS)!
+
+It's an easy thing to say, but incredibly difficult to accomplish.  
+This model can be extremely helpful making the signal stand out from the noise.  
+It may be helpful to organize thoughts and messages into Level 1 (Insight & Wisdom), Level 2 (Knowledge) and Level 3 (Information and Data) categories. 
+People appreciate focused meetings where the right level of details are covered for the right audience.  
+
+Being aware of these categories and purpose is the first, easy, step.  Communicating with them can take a lifetime of mastery. 
+It's worth it. 
+
+Be Wise, succinctly.  
+
+<h2>Bonus: Beware</h2>
+<img src="{{ site.urlimg }}b/BeWise-Conspiracy.jpeg" >
+
+Sometimes peoples experiences and motivations bring them to wildly different conclusions.  This is out of your control.  
+All you can do is be prepared and hope for the best.  
+Sometimes you are just in the wrong environment.  You can only control how you act and the environment you chose to be in.  
+
+
