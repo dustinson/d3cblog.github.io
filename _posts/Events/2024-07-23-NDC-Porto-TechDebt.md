@@ -27,4 +27,6 @@ Thankfully there are tried and true tactics to tackle the tech debt troubles, To
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
 <a href="https://www.youtube.com/watch?v=5A_leEwOBW0" target='new'>Watch now!</a>
+
+
 <a href="https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a" target='new'>NDC-Porto</a>
