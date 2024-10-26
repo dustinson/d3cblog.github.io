@@ -15,7 +15,7 @@ The ACE model for change is simple and effective.
 
 <h1 style="">A</h1><h3>Acknowledge</h3>
 Acknowledge there is a problem.  
-No changes can occur unless there is an acknoledgement that there is a problem. 
+No changes can occur unless there is an acknowledgement that there is a problem. 
 Simple, yet widely ignored. 
 If you are trying to change a person or team and they haven't acknowledge that there is a problem, you're going to have a bad time.  
 

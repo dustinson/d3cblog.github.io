@@ -27,7 +27,7 @@ He was walking distance from the office and it was a beautiful day.  There was n
 
 We trekked towards his home. He spoke about the great care that goes into making these meals.  Each ingredient and preparation method had a purpose. 
 There were benefits to the taste, sure, but benefits for the body as well.  Some ingredients help with your digestion while others were good for your heart.  
-I don't recall all of the details, but remember being impressed that so much more intentionality went into it than any meal I had had experienced.  
+I don't recall all the details, but remember being impressed that so much more intentionality went into it than any meal I had had experienced.  
 As wonderful as the meals I grew up eating, the best intentionality I ever heard of was to reduce the gamey taste of a wild animal.  
 
 The smell was quite familiar to me as I entered the home.  I remember previous residences introducing that to me.

@@ -36,7 +36,7 @@ A hermit crab grows into their shell until they feel it.  Then they go out and f
 I don't doubt that I'm able to solve problems and add value to any position I'm in.  I recognize that I may need to learn more to do it.  
 There is knowledge others have acquired.  Tools and models to refine focus.  Experiments and hypothesis to challenge.  
 
-It's not comfortable and doesn't always feel good.  Seldom have I regretted it.
+It's not comfortable and does not always feel good.  Seldom have I regretted it.
 
 So now, when a new opportunity presents itself to me, I know it's the one I want to take because it gives me an opportunity to learn.  
 
