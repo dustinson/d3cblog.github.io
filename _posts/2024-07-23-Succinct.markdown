@@ -13,7 +13,7 @@ header:
 
 Communication is hard.
  
-This is a model which might help with the efficacy and efficiency of influencing others. 
+This is a model that might help with the efficacy and efficiency of influencing others. 
 We'll walk through what the model represents and how it can be used so you can have the right conversations at the right time.
 
 <h2>Overview</h2>
@@ -21,8 +21,8 @@ This model (which I originally found at
 <a href="https://forum.obsidian.md/t/knowledge-innovation-value-and-wisdom/5166" target="new">https://forum.obsidian.md/t/knowledge-innovation-value-and-wisdom/5166</a>), does a wonderful job visually representing
  the progression of Data into Wisdom.
 
-I find myself thinking about it multiple times per week.  It's been a great guide to recognize why type of conversation is occuring and how to organize thoughts and messaging.
-This blog is an extension from the original material, highlighting an additional use if it.
+I find myself thinking about it multiple times per week.  It's been a great guide to recognize why type of conversation is occurring and how to organize thoughts and messaging.
+This blog is an extension from the original material, highlighting an additional use of it.
 
 Below is a basic overview of its flow.
 
@@ -46,12 +46,12 @@ What is the core problem or opportunity, and what is the desired solution or out
 How will we use it?
 
 How, exactly, do we navigate from the start to the end?  Focusing on just the necessary steps, what is the easiest way to draw a line between the opportunity and the outcome?
-How does improved Context and Understanding help us achieve the Outcomes we desire?
+How does an improved Context and Understanding help us achieve the Outcomes we desire?
 
 <h2>Why does this matter?</h2>
-Often times, people will share their ideas in a left to right manor.  
+Often times, people will share their ideas in a left-to-right manor.  
 
-An engineering-minded person may share their ideas with all of the Data, Information and Knowledge they have.
+An engineering-minded person may share their ideas with all the Data, Information and Knowledge they have.
 That is the setup to assume others will come to the same logical conclusion they have.  Correctness is valued over quickness.
 
 There are a couple of problems with this approach. 
@@ -59,7 +59,7 @@ Some people might not stay with them during the entire time.
 The details may be overwhelming, or not appropriate for their concern.
 The listener may not apply the same cognitive effort to analyze the data and come to the same conclusion.  The entire process can be wearing and avoided in the future.  
 
-Even though someone may have great ideas, others may loose the willingness to listen to them.  
+Even though someone may have great ideas, others may lose the willingness to listen to them.  
 This can be frustrating because without that support, goals can't be met and new problems may arise.  
 
 Applying this model before important conversations could be critical. 
@@ -67,7 +67,7 @@ Applying this model before important conversations could be critical.
 <h2>Application</h2>
 
 Even though the model shows the progression of the value of data, it's more useful when applied in a different order.  
-All progressions should still be considered, but only used at the right time.  
+All progressions should still be considered but only used at the right time.  
 
 
 <h3>1. Insight (Problem)</h3>
@@ -83,7 +83,7 @@ Describe the How as briefly as possible.
 Once the opportunity is understood, describe the outcome.  
 What does success look like?  This may be understood by some as money gained, financial losses avoided or compliance requirements met.
 
-Repeat the Opportunity/Outcome story to all people who care about this, and make sure they are all understand and are aligned.  
+Repeat the Opportunity/Outcome story to all people who care about this and make sure they all understand and are aligned.  
 
 They will have questions and contributions, but this first step should be solid.  
 If there isn't alignment after this, consider yourself lucky you didn't waste time with the next steps.
@@ -114,13 +114,13 @@ Recognize when the level of detail in a conversation has entered the Information
 Depending on your audience, it might be helpful to identify the opportunity for a breakout session.  
 If there is still discussion in the Knowledge area, don't get distracted with an Information discussion.  
 Stay focused.  Make a list of future conversations and only include the people necessary for that.  
-Decisions may be delayed as others seeks to understand a plan well enough so they can support it.  
-Ultimately, each person may be motivated to avoid blame.  Make the time to get them what they need to get support the idea.
+Decisions may be delayed as others seek to understand a plan well enough so they can support it.  
+Ultimately, each person may be motivated to avoid blame.  Make the time to get them what they need to get to support the idea.
 
 <h3>6. Data (Self Study)</h3>
 
-Avoid deep conversations around data.  Many peoples jobs have them laboring at the Data and Information layer.  It's what they understand best.
-Make the data available and support them in understanding it so there is an agreement.  
+Avoid deep conversations around data.  Many people jobs have them laboring at the Data and Information layer.  It's what they understand best.
+Make the data available and support them in understanding it, so there is an agreement.  
 
 Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
 The higher the position in the organization, the less reliance on those details they'll need.  
@@ -132,10 +132,10 @@ They may also be motivated to avoid Blame for not being prepared.  Make it safe 
 <h2>Conclusion</h2>
 Keep It Simple, Stupid (KISS)!
 
-It's an easy thing to say, but incredibly difficult to accomplish.  
+It's an easy thing to say, but incredibly challenging to achieve.  
 This model can be extremely helpful making the signal stand out from the noise.  
 It may be helpful to organize thoughts and messages into Level 1 (Insight & Wisdom), Level 2 (Knowledge) and Level 3 (Information and Data) categories. 
-People appreciate focused meetings where the right level of details are covered for the right audience.  
+People appreciate focused meetings where the right level of details is covered for the right audience.  
 
 Being aware of these categories and purpose is the first, easy, step.  Communicating with them can take a lifetime of mastery. 
 It's worth it. 
