@@ -1,0 +1,59 @@
+- menu_name: "Organizations we've worked with"
+
+- name: "Principal Financial Group"
+  img: "pgf.png"
+  
+- name: "Ford Motor Company"
+  img: "ford.png"
+  
+- name: "TDAmeritrade"
+  img: "tda.png"
+  
+- name: "Industrial Logic"
+  img: "IL.png"
+  
+- name: "Lean TECHniques"
+  img: "LT.png"
+
+- name: "JohnDeere"
+  img: "deere.png"
+
+- name: "Berkley Technology Services"
+  img: "btw.png"
+
+- name: "Pioneer HyBrid"
+  img: "pioneer.png"
+
+- name: "Summit Healthcare"
+  img: "summit.png"
+
+- name: "Iowa League Of Cities"
+  img: "iloc.png"
+
+- name: "Agile Alliance"
+  img: "agileAlliance.png"
+
+- name: "VisionT"
+  img: "visiont.png"
+
+- name: "Rockline Enterprises"
+  img: "deere.png"
+
+- name: "BirdDogJobs"
+  img: "birdDot.png"
+  
+#
+#- name: "Built on Foundation"
+#  url: "http://foundation.zurb.com/"
+#  class: "services-newsletter"
+#  title: "Built on Foundation"
+#
+#- name: "Images by Unsplash"
+#  url: "http://unsplash.com/"
+#  class: "rss-link"
+#  title: "Images by Unsplash"
+#
+#- name: "Using Backstretch by Scott Robbin"
+#  url: "http://srobbin.com/jquery-plugins/backstretch/"
+#  class: "sitemap-link"
+#  title: "Using Backstretch by Scott Robbin"

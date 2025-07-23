@@ -1,0 +1,21 @@
+#- name: GitHub
+#  url:
+#  class: icon-github
+#  title:
+
+
+- name: Twitter
+  url: http://twitter.com/dustinson
+  class: icon-twitter
+  title: "@Dustinson on Twitter"
+
+- name: YouTube
+  url: https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn
+  class: icon-youtube
+  title: "Videos"
+  
+- name: LinkedIn
+  url: https://www.linkedin.com/in/dustinthostenson/
+  class: icon-linkedin
+  title: "Let's Connect"
+
