@@ -1,4 +1,5 @@
 # Custom workflow for building and deploying a Jekyll site
+# Updated on July 23, 2025 to fix trigger issues
 name: Build and Deploy Jekyll Site
 
 on:
