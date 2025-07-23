@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://delta3consulting.com/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://delta3consulting.com/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Delta3Consulting</title>
 		<description>Design. Develop. Deliver</description>
-		<link>http://localhost:4000/</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://delta3consulting.com/</link>
+		<atom:link href="https://delta3consulting.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Mile High Agile - Tech Debt is Slowing Delivery</title>
-				<link>http://localhost:4000/community/presentation/MHA-TechDebt/</link>
-				<pubDate>Mon, 21 Jul 2025 00:00:00 -0500</pubDate>
-				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high-quality solutions they are proud of which also delight their users.&lt;/p&gt;
+				<link>https://delta3consulting.com/community/presentation/MHA-TechDebt/</link>
+				<pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.&lt;/p&gt;
 
 &lt;p&gt;Sometimes leaders can’t help them.
 Teams recognize the origins of the mess but often grapple to break free.&lt;/p&gt;
 
-&lt;p&gt;Thankfully, there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
+&lt;p&gt;Thankfully there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
 
 &lt;p&gt;Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.&lt;/p&gt;
-
-&lt;p&gt;20250723.2&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/MHA-TechDebt/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/MHA-TechDebt/</guid>
 			</item>
 		
 			<item>
 				<title>Techniques To Tackle Tech-debt Today</title>
-				<link>http://localhost:4000/blog/TechniquesToTackleTech-debtToday/</link>
-				<pubDate>Wed, 23 Oct 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/blog/TechniquesToTackleTech-debtToday/</link>
+				<pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;*This blog currently under construction*&lt;/li&gt;
 &lt;/ul&gt;
@@ -215,45 +213,29 @@ It’s easy to swipe the credit card to make a purchase today, but eventually th
 &lt;p&gt;Influence your leaders.  Support them to solve their problems by solving your problems.  Keep It Simple, Keep it Safe, and Keep it Obvious.&lt;/p&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/blog/TechniquesToTackleTech-debtToday/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/blog/TechniquesToTackleTech-debtToday/</guid>
 			</item>
 		
 			<item>
 				<title>Iowa Code Camp - Techniques To Tackle Tech-debt Today</title>
-				<link>http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</link>
-				<pubDate>Tue, 01 Oct 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/presentation/IowaCodeCamp-TechDebt/</link>
+				<pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.&lt;/p&gt;
 
 &lt;p&gt;Sometimes leaders can’t help them.
 Teams recognize the origins of the mess but often grapple to break free.&lt;/p&gt;
 
-&lt;p&gt;Thankfully, there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
+&lt;p&gt;Thankfully there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
 
 &lt;p&gt;Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</guid>
-			</item>
-		
-			<item>
-				<title>Iowa Code Camp - Techniques To Tackle Tech-debt Today</title>
-				<link>http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</link>
-				<pubDate>Tue, 01 Oct 2024 00:00:00 -0500</pubDate>
-				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.&lt;/p&gt;
-
-&lt;p&gt;Sometimes leaders can’t help them.
-Teams recognize the origins of the mess but often grapple to break free.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
-
-&lt;p&gt;Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.&lt;/p&gt;
-</description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/IowaCodeCamp-TechDebt/</guid>
 			</item>
 		
 			<item>
 				<title>Iowa .NET User Group - Techniques To Tackle Tech-debt Today</title>
-				<link>http://localhost:4000/community/presentation/IADNUG-TechDebt/</link>
-				<pubDate>Thu, 19 Sep 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/presentation/IADNUG-TechDebt/</link>
+				<pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.&lt;/p&gt;
 
 &lt;p&gt;Sometimes leaders can’t help them.
@@ -266,13 +248,13 @@ Teams recognize the origins of the mess but often grapple to break free.&lt;/p&g
 &lt;p&gt;You can watch the full presentation &lt;a href=&quot;https://www.youtube.com/watch?v=idJwqQZd9SM&quot; target=&quot;new&quot;&gt;here&lt;/a&gt;!
 &lt;a href=&quot;https://www.meetup.com/iadnug/events/302199433/&quot; target=&quot;new&quot;&gt;IADNUG&lt;/a&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/IADNUG-TechDebt/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/IADNUG-TechDebt/</guid>
 			</item>
 		
 			<item>
 				<title>InfoQ Podcast - Tech-debt</title>
-				<link>http://localhost:4000/community/presentation/InfoQ-Podcast-TechDebt/</link>
-				<pubDate>Wed, 18 Sep 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/presentation/InfoQ-Podcast-TechDebt/</link>
+				<pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Dustin and host Shane Hastie have a empathetic discussion around the technical and inter-personal aspects surrounding the challenges teams face when dealing with their Tech-debt.&lt;/p&gt;
 
 &lt;p&gt;Key Takeaways:&lt;/p&gt;
@@ -286,53 +268,73 @@ Teams recognize the origins of the mess but often grapple to break free.&lt;/p&g
 
 &lt;p&gt;Listen to the &lt;a href=&quot;https://www.infoq.com/podcasts/techniques-technical-debt-dustin-thostenson/&quot; target=&quot;new&quot;&gt;InfoQ Podcast&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/InfoQ-Podcast-TechDebt/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/InfoQ-Podcast-TechDebt/</guid>
 			</item>
 		
 			<item>
 				<title>Agile + DevOpsDaysDsm - Sustainable Software Development</title>
-				<link>http://localhost:4000/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</link>
-				<pubDate>Sat, 14 Sep 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</link>
+				<pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Lean is Green.&lt;/p&gt;
 
 &lt;p&gt;Sustainability is a massive subject, moving far beyond Reduce, Reuse, Recycle.
 It may feel overwhelming, but there are things software devs can do which are better for your flow, your company’s costs, and the environment.
 You may be surprised how simple practices can save time, money, sanity and more.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</guid>
 			</item>
 		
 			<item>
 				<title>Circuit Breakers High School Robotics Team - Sponsor</title>
-				<link>http://localhost:4000/community/sponsor/CircuitBreakers-Sponsor/</link>
-				<pubDate>Tue, 10 Sep 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/sponsor/CircuitBreakers-Sponsor/</link>
+				<pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Sponsor&lt;/p&gt;
 
 &lt;p&gt;Supporting the next great generation of engineers!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/sponsor/CircuitBreakers-Sponsor/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/sponsor/CircuitBreakers-Sponsor/</guid>
 			</item>
 		
 			<item>
 				<title>Iowa Code Camp - Sponsor</title>
-				<link>http://localhost:4000/community/sponsor/IowaCodeCamp-Sponsor/</link>
-				<pubDate>Wed, 14 Aug 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/sponsor/IowaCodeCamp-Sponsor/</link>
+				<pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Silver Sponsor&lt;/p&gt;
 
 &lt;p&gt;Appreciative of the longest running developer-centric conference in Iowa which has helped so many people.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/sponsor/IowaCodeCamp-Sponsor/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/sponsor/IowaCodeCamp-Sponsor/</guid>
 			</item>
 		
 			<item>
 				<title>Agile + DevOpsDaysDsm - Sponsor</title>
-				<link>http://localhost:4000/community/sponsor/DevOpsDaysDsm-Sponsor/</link>
-				<pubDate>Thu, 25 Jul 2024 00:00:00 -0500</pubDate>
+				<link>https://delta3consulting.com/community/sponsor/DevOpsDaysDsm-Sponsor/</link>
+				<pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;Silver Sponsor&lt;/p&gt;
 
 &lt;p&gt;Proud to support a great gathering of people and ideas which can improve the flow of greatness.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/community/sponsor/DevOpsDaysDsm-Sponsor/</guid>
+				<guid isPermaLink="true">https://delta3consulting.com/community/sponsor/DevOpsDaysDsm-Sponsor/</guid>
+			</item>
+		
+			<item>
+				<title>NDC { Porto } - Techniques To Tackle Tech-debt Today</title>
+				<link>https://delta3consulting.com/community/presentation/NDC-Porto-TechDebt/</link>
+				<pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.&lt;/p&gt;
+
+&lt;p&gt;Sometimes leaders can’t help them.
+Teams recognize the origins of the mess but often grapple to break free.&lt;/p&gt;
+
+&lt;p&gt;Thankfully there are tried and true tactics to tackle the tech debt troubles, Today! You don’t need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!&lt;/p&gt;
+
+&lt;p&gt;Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5A_leEwOBW0&quot; target=&quot;new&quot;&gt;Watch now!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a&quot; target=&quot;new&quot;&gt;NDC-Porto&lt;/a&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://delta3consulting.com/community/presentation/NDC-Porto-TechDebt/</guid>
 			</item>
 		
 	</channel>
