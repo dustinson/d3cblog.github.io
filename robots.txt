@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://delta3consulting.com/sitemap.xml
