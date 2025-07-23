@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - '**'
+      - main  # Only run on the main branch
 
 jobs:
   build-deploy:
@@ -16,17 +16,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+          bundler-cache: true  # This will cache your bundle install
 
       - name: Build site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3  # Downgrade to v3 which is stable
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
