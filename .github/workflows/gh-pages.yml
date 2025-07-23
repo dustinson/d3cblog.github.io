@@ -16,7 +16,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true  # This will cache your bundle install
+
+      - name: Update bundle platforms
+        run: |
+          gem install bundler
+          bundle lock --add-platform x86_64-linux
+          bundle install
 
       - name: Build site
         run: bundle exec jekyll build
