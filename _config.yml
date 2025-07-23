@@ -95,7 +95,13 @@ compress_html:
 #    / /_/ /  __/ __/ /_/ / /_/ / / /_
 #   /_____/\___/_/  \__,_/\__,_/_/\__/
 #
-# Default Settings
+# Collections for different content types
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+
+# Default settings
 defaults:
   -
     scope:
@@ -115,6 +121,15 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: Dustin Thostenson     # Default author for posts
+  -
+    scope:
+      path: ''
+      type: 'events'
+    values:
+      show_meta: true
+      comments: false
+      author: Dustin Thostenson
+      layout: post
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
