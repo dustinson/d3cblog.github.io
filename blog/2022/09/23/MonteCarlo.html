@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Monte Carlo | d3cblog.github.io</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Monte Carlo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Monte Carlo forecasts are a probabilistic approach to determining when something will be done. It’s a helpful tool to change the conversation from “What is the Deadline?” to “How confident are we to complete by a date?”. Changing this view can trigger more helpful conversations about what changes in focus can help us increase our confidence. Yes, the “MVP” is “Everything”, but what features should we really focus on first?" />
+<meta property="og:description" content="Monte Carlo forecasts are a probabilistic approach to determining when something will be done. It’s a helpful tool to change the conversation from “What is the Deadline?” to “How confident are we to complete by a date?”. Changing this view can trigger more helpful conversations about what changes in focus can help us increase our confidence. Yes, the “MVP” is “Everything”, but what features should we really focus on first?" />
+<meta property="og:site_name" content="d3cblog.github.io" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-23T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Monte Carlo" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-23T00:00:00+00:00","datePublished":"2022-09-23T00:00:00+00:00","description":"Monte Carlo forecasts are a probabilistic approach to determining when something will be done. It’s a helpful tool to change the conversation from “What is the Deadline?” to “How confident are we to complete by a date?”. Changing this view can trigger more helpful conversations about what changes in focus can help us increase our confidence. Yes, the “MVP” is “Everything”, but what features should we really focus on first?","headline":"Monte Carlo","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/2022/09/23/MonteCarlo.html"},"url":"/blog/2022/09/23/MonteCarlo.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=571270482e37c1549d498450fc46da8297962aa1">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="/">d3cblog.github.io</a></h1>
+      
+
+      <p>Monte Carlo forecasts are a probabilistic approach to determining when something will be done. 
+It’s a helpful tool to change the conversation from “What is the Deadline?” to “How confident are we to complete by a date?”.   Changing this view can trigger more helpful conversations about what changes in focus can help us increase our confidence.
+Yes, the “MVP” is “Everything”, but what features should we really focus on first?</p>
+
+<p>I’d recommend you download the example from <a href="https://www.focusedobjective.com/pages/free-spreadsheets-and-tools" target="new">https://www.focusedobjective.com/pages/free-spreadsheets-and-tools </a> and work along with this example.
+Please follow Troy Magennis on Twitter <a href="https://twitter.com/t_magennis">https://twitter.com/t_magennis </a> for more info.</p>
+
+<h3>Simple example</h3>
+<p><img src="b/monteCarloSimple.png" /></p>
+
+<p>It’s the start of a new year.<br />
+We have 20 stories to get done and always get 3 stories done per 1 week sprint.<br />
+When will we get done?
+Feb 19th. I can say that with 100% confidence.</p>
+
+<p>This is usually where linear Velocity Planning looks good.  We can divide the number of stories in our backlog by our average velocity and determine how long it will take.
+Easy Peasy.</p>
+
+<h3>"Except it may be a few more stories...</h3>
+<p><img src="b/monteCarloMoreStories.png" />
+No problem.  It could be as many as 25 stories you say?  Very well.
+That’s probably going to take a bit longer.<br />
+Maybe 1 week more, maybe 2.<br />
+If you need to be absolutely certain, expect 9 weeks.<br />
+We have 80% confidence that it will be done in 8 weeks, by 2/26.</p>
+
+<h3>"And we're still trying to determine scope...</h3>
+<p><img src="b/monteCarloScope.png" /></p>
+
+<p>That makes sense.  This is new work and we learn as we go.
+Based on that, we expect some learning to allow for a bit of scope creep.<br />
+Looks like we’re targeting early April now.  There’s just a 25% chance it’ll still be done in Febuary, so we may want to adjust scope or adjust expectations.</p>
+
+<h3>"Sometimes we find the stories are too big, so we split them...</h3>
+<p><img src="b/monteCarloSplit.png" /></p>
+
+<p>That’s pretty common.  Good choice.<br />
+How often?  Just 10% of the time?  One out of ever 5 stories is split?
+Based on that I’d have to say there’s only a 50% chance we are going to get this done by the middle of March.</p>
+
+<h3>"And our Velocity hasn't been stable...</h3>
+<p><img src="b/monteCarloVelocity.png" /></p>
+
+<p>Based on the Jira reports, it looks like the worst is 1 story in a sprint, but sometimes it was 6!
+Let’s not discuss carry-over stories.
+We’ll want to keep an eye on that.  If we are expecting 100% confidence, I’d prepare for end of April. 
+End of March seems pretty reasonable though.  90%.</p>
+
+<h3>"We're taking on another project as well with 1/4 of our time...</h3>
+<p><img src="b/monteCarloAllocation.png" /></p>
+
+<p>Yeaaaaaah.  This could be quite challenging.  It’ll be a coin flip if we can get this done by March.
+We might be looking at May if we’re only 75% allocated.<br />
+Let’s start exploring some contingency plans.</p>
+
+<p>I mean, it’s March 2020.  What else could go wrong?</p>
+
+<p>Notes:
+This is a basic walk through of how I’ve used Monte Carlo forecasts.  Even when there was a LOT of uncertainty, the accuracy was pretty impressive.<br />
+The goal is NOT to commit to a date.  We are not trying to look at this binary: Will we make it or not?
+It’s meant to address the grey.  How confident do we feel?  What discussions can this trigger?
+What options to we have?
+What if we reduced load on the team?<br />
+What if we reduced scope? 
+What if we made investments to reduce manual steps or reduce production interruptions?</p>
+
+<p>This spreadsheet includes additional options to use actual data from Jira, Rally or whatever tool you are using to capture throughput metrics.
+You can also add in Risks with a % likely-hood. 
+What % is the risk that a developer leaves us?
+What if the designers don’t get us the images?
+What if the production server crashes and we lose data?
+What are the chances that another more pressing project demands our attention?
+What are the chances that the world goes down in a lockdown and we never get to eat cake for birthdays again?</p>
+
+<p>These are all real life scenarios which are never adequately addressed with a simple time estimate for work.<br />
+It’s never worked well and trying harder won’t make a difference. 
+Try better.  Work in ranges and leverage math.</p>
+
+<p>Reduce your focus on what needs to be built and what you are working on. 
+Reducing wip to decrease cycle time and increase throughput is the goal (Little’s Law).
+The less variables you introduce, the higher your chances are at successfully achieving your goal.<br />
+It seems complex, but it really isn’t.</p>
+
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/dustinson/d3cblog.github.io/edit/gh-pages/_posts/2022/2022-09-23-MonteCarlo.markdown">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
