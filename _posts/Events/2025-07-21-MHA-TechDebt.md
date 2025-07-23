@@ -2,8 +2,8 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "Iowa Code Camp - Techniques To Tackle Tech-debt Today"
-teaser: "Techniques To Tackle Tech-debt Today"
+title:  "Mile High Agile - Tech Debt is Slowing Delivery"
+teaser: "Tech Debt is Slowing Delivery"
 breadcrumb: false
 tags:
     - 
@@ -11,10 +11,10 @@ categories:
     - community
     - Presentation
 image:
-    thumb: IowaCodeCamp.png
-    title: IowaCodeCamp.png
-    caption: ICC
-    caption_url: https://iowacodecamp.com/schedule
+    thumb: MHA_Thostenson.png
+    title: MHA_Thostenson.png
+    caption: MHA
+    caption_url: https://www.agiledenver.org/mile-high-agile-2025/
 ---
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high quality solutions they are proud of which also delight their users.
 
