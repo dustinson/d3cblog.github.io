@@ -1,9 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3.2'
-gem 'jekyll-feed', '~> 0.17'
-gem 'jekyll-seo-tag', '~> 2.8'
-gem 'jekyll-sitemap', '~> 1.4'
-gem 'jekyll-paginate', '~> 1.1'
-gem 'jekyll-archives', '~> 2.2'
-# Add more plugins as needed
+gem 'github-pages', group: :jekyll_plugins
+gem 'webrick'
+
+group :jekyll_plugins do
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
+  gem "jekyll-asciidoc"
+end
+
+gem 'asciidoctor', '~> 1.5.4'
+gem 'coderay', '1.1.1'
+gem 'faraday-retry'
+
+# Remove explicit dependency on commonmarker, kramdown-parser-gfm, and rdiscount
+# to let github-pages gem dictate the appropriate versions
