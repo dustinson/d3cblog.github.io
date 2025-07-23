@@ -12,8 +12,8 @@ header:
 -- work in progress --
 
 Communication is hard.
-
-This model improves the effectiveness of influencing others.
+ 
+This is a model that might help with the efficacy and efficiency of influencing others. 
 We'll walk through what the model represents and how it can be used so you can have the right conversations at the right time.
 
 <h2>Overview</h2>
@@ -70,14 +70,14 @@ Even though the model shows the progression of the value of data, it's more usef
 All progressions should still be considered but only used at the right time.  
 
 
-<h3>1. Insight -> Define the Problem</h3>
+<h3>1. Insight (Problem)</h3>
 <img src="{{ site.urlimg }}b/BeWise-Problem.jpeg" >
 
 Start with a crisp explanation of the problem or opportunity.  Describe why it matters.  What is the impact?
 Consider this the elevator pitch.  Simplify the message to contain the Why, What, Who, When and Where.  
 Describe the How as briefly as possible.  
 
-<h3>2. Insight -> Define the Outcome</h3>
+<h3>2. Insight (Solution)</h3>
 <img src="{{ site.urlimg }}b/BeWise-Solution.jpeg" >
 
 Once the opportunity is understood, describe the outcome.  
@@ -88,7 +88,7 @@ Repeat the Opportunity/Outcome story to all people who care about this.  Ensure 
 They will have questions and contributions, but this first step should be solid.  
 If there isn't alignment after this, consider yourself lucky you didn't waste time with the next steps.
 
-<h3>3. Wisdom -> Map the Path</h3>
+<h3>3. Wisdom (Path)</h3>
 <img src="{{ site.urlimg }}b/BeWise-Path.jpeg" >
 
 Describe the path from Opportunity to Outcome.  
@@ -97,7 +97,7 @@ If a decision is needed, multiple options (no more than 3 or 5) can be included.
 As the Why and What questions have already been answered, the Who and When can be better introduced.  
 Prioritization and sequencing plans can be roughly introduced.
 
-<h3>4. Knowledge -> Anticipate Needs</h3>
+<h3>4. Knowledge (Support)</h3>
 <img src="{{ site.urlimg }}b/BeWise-Support.jpeg" >
 
 This is where your preparation will pay off.  
@@ -107,7 +107,7 @@ Legal, Managerial, Technical, Financial, Operational and Procedural people will 
 Some additional questions may need further research, but it should fundamentally change your first or second steps.  
 
 
-<h3>5. Information -> Manage Breakouts</h3>
+<h3>5. Information (Breakout)</h3>
 <img src="{{ site.urlimg }}b/BeWise-Breakout.jpeg" >
 
 Recognize when the level of detail in a conversation has entered the Information Realm.  
@@ -117,7 +117,7 @@ Stay focused.  Make a list of future conversations and only include the people n
 Decisions may be delayed as others seek to understand a plan well enough so they can support it.  
 Ultimately, each person may be motivated to avoid blame.  Give them what they need to support the idea — clearly and quickly.
 
-<h3>6. Data -> Provide Self-Study</h3>
+<h3>6. Data (Self Study)</h3>
 
 Avoid deep conversations around data.  Many people jobs have them laboring at the Data and Information layer.  It's what they understand best.
 Make the data available and support them in understanding it, so there is an agreement.  
@@ -125,7 +125,7 @@ Make the data available and support them in understanding it, so there is an agr
 Give people time and training (if requested) to understand how the Data translates into Information and Knowledge.
 The higher the position in the organization, the less reliance on those details they'll need.  
 
-For people whose jobs require them to master the data, forge early alignment by focusing just on the details needed at first.  
+For people who's jobs do require them to master the data, forge early alignment by focusing just on the details needed at first.  
 Ensure they'll have adequate time to acquire Just-In-Time Knowledge to prevent delays from Big-Upfront-Planning.  
 They may also be motivated to avoid Blame for not being prepared.  Make it safe to proceed and acknowledge learning and mistakes will happen.
 
