@@ -11,7 +11,7 @@ categories:
     - community
     - Presentation
 image:
-    thumb: MHA_Thostenson.png
+    thumb: MHA_Logo.png
     title: MHA_Thostenson.png
     caption: MHA
     caption_url: https://www.agiledenver.org/mile-high-agile-2025/
