@@ -1,29 +1,27 @@
-# Custom workflow for building and deploying a Jekyll site
-# Updated on July 23, 2025 with alternative deployment method
-name: Build and Deploy Jekyll Site
+# Simple direct-deployment workflow for Jekyll
+name: Jekyll Build and Deploy
 
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN
+# Grant workflow full repo access for direct pushes
 permissions:
   contents: write
   pages: write
   id-token: write
 
 jobs:
-  # Build job
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          fetch-depth: 0 # We need all history for proper date handling
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
@@ -36,10 +34,24 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      # Direct deployment using a well-tested action
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
-          branch: gh-pages
-          clean: true
+      - name: Setup Git Identity
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      # Deploy to branch instead of using the API
+      - name: Deploy directly to branch
+        run: |
+          # Save CNAME if it exists
+          [ -f CNAME ] && cp CNAME _site/
+          
+          # Navigate to the build folder
+          cd _site
+          
+          # Initialize git and push to main branch
+          git init
+          git add -A
+          git commit -m "Deploy site built from commit ${{ github.sha }}"
+          
+          # Force push to the main branch (warning: this will overwrite the branch)
+          git push -f https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git HEAD:main
