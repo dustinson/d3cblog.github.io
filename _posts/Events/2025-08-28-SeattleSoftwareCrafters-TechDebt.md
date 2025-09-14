@@ -25,4 +25,3 @@ Thankfully, there are tried and true tactics to tackle the tech debt troubles, T
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
-20250723.2

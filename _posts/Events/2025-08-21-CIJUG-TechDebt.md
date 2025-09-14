@@ -11,10 +11,10 @@ categories:
     - community
     - Presentation
 image:
-    thumb: MHA_Logo.png
-    title: MHA_Thostenson.png
-    caption: MHA
-    caption_url: https://www.agiledenver.org/mile-high-agile-2025/
+    thumb: cijug.png
+    title: cijug.png
+    caption: CIJUG
+    caption_url: https://www.meetup.com/central-iowa-java-users-group/events/309871115
 ---
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high-quality solutions they are proud of which also delight their users.
 
@@ -25,4 +25,3 @@ Thankfully, there are tried and true tactics to tackle the tech debt troubles, T
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
-20250723.2
