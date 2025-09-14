@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 31 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 33 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
-	<loc>https://delta3consulting.com/404.html</loc>
+	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,9 +20,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/archive/</loc>
+	<loc>http://localhost:4000/blog/archive/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -35,26 +35,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/events/archive/</loc>
+	<loc>http://localhost:4000/events/archive/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/atom.xml</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -69,9 +52,26 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/changelog/</loc>
+	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/changelog/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -84,24 +84,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/contact/</loc>
+	<loc>http://localhost:4000/contact/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/design/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -114,24 +99,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/documentation/</loc>
+	<loc>http://localhost:4000/design/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/feed.xml</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -144,24 +114,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/getting-started/</loc>
+	<loc>http://localhost:4000/documentation/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/headers/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -174,24 +129,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/humans.txt</loc>
+	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/blog/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -204,24 +144,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/events/</loc>
+	<loc>http://localhost:4000/getting-started/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -234,24 +159,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/info/</loc>
+	<loc>http://localhost:4000/headers/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/redirect-page/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -264,43 +174,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/roadmap/</loc>
+	<loc>http://localhost:4000/humans.txt</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/robots.txt</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>https://delta3consulting.com/search/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -313,9 +189,99 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/sitemap.xml</loc>
+	<loc>http://localhost:4000/events/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/pages/pages-root-folder/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/info/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/redirect-page/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/roadmap/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/robots.txt</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -329,25 +295,12 @@
 	
 
 	
-	<url>
-	<loc>https://delta3consulting.com/xindex/</loc>
-	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
 
 	
 	<url>
-	<loc>https://delta3consulting.com/assets/css/style.css</loc>
+	<loc>http://localhost:4000/search/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -360,9 +313,26 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/page2/</loc>
+	<loc>http://localhost:4000/sitemap.xml</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/test/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -375,9 +345,24 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/page3/</loc>
+	<loc>http://localhost:4000/xindex/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/assets/css/style.css</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -390,9 +375,54 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/page4/</loc>
+	<loc>http://localhost:4000/blog/page2/</loc>
 	
-		<lastmod>2025-07-23T17:23:13+00:00</lastmod>
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page3/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page4/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page5/</loc>
+	
+		<lastmod>2025-09-14T16:50:30-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -404,13 +434,13 @@
 	
 
 
-<!-- Posts: 78 links with priority=0.5, changefreq=monthly -->
+<!-- Posts: 81 links with priority=0.5, changefreq=monthly -->
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/MHA-TechDebt/</loc>
+	<loc>http://localhost:4000/community/presentation/SeattleSoftwareCrafters-TechDebt/</loc>
 	
-		<lastmod>2025-07-21T00:00:00+00:00</lastmod>
+		<lastmod>2025-08-28T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -423,9 +453,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/TechniquesToTackleTech-debtToday/</loc>
+	<loc>http://localhost:4000/community/presentation/CIJUG-TechDebt/</loc>
 	
-		<lastmod>2024-10-23T00:00:00+00:00</lastmod>
+		<lastmod>2025-08-21T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -438,9 +468,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/IowaCodeCamp-TechDebt/</loc>
+	<loc>http://localhost:4000/community/presentation/MHA-TechDebt/</loc>
 	
-		<lastmod>2024-10-01T00:00:00+00:00</lastmod>
+		<lastmod>2025-07-21T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -453,9 +483,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/IADNUG-TechDebt/</loc>
+	<loc>http://localhost:4000/blog/TechniquesToTackleTech-debtToday/</loc>
 	
-		<lastmod>2024-09-19T00:00:00+00:00</lastmod>
+		<lastmod>2024-10-23T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -468,9 +498,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/InfoQ-Podcast-TechDebt/</loc>
+	<loc>http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</loc>
 	
-		<lastmod>2024-09-18T00:00:00+00:00</lastmod>
+		<lastmod>2024-10-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -483,9 +513,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</loc>
+	<loc>http://localhost:4000/community/presentation/IowaCodeCamp-TechDebt/</loc>
 	
-		<lastmod>2024-09-14T00:00:00+00:00</lastmod>
+		<lastmod>2024-10-01T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -498,9 +528,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/sponsor/CircuitBreakers-Sponsor/</loc>
+	<loc>http://localhost:4000/community/presentation/IADNUG-TechDebt/</loc>
 	
-		<lastmod>2024-09-10T00:00:00+00:00</lastmod>
+		<lastmod>2024-09-19T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -513,9 +543,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/sponsor/IowaCodeCamp-Sponsor/</loc>
+	<loc>http://localhost:4000/community/presentation/InfoQ-Podcast-TechDebt/</loc>
 	
-		<lastmod>2024-08-14T00:00:00+00:00</lastmod>
+		<lastmod>2024-09-18T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -528,9 +558,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/sponsor/DevOpsDaysDsm-Sponsor/</loc>
+	<loc>http://localhost:4000/community/presentation/DevOpsDaysDsm-SustainableSoftwareDevelopment/</loc>
 	
-		<lastmod>2024-07-25T00:00:00+00:00</lastmod>
+		<lastmod>2024-09-14T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -543,9 +573,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/NDC-Porto-TechDebt/</loc>
+	<loc>http://localhost:4000/community/sponsor/CircuitBreakers-Sponsor/</loc>
 	
-		<lastmod>2024-07-23T00:00:00+00:00</lastmod>
+		<lastmod>2024-09-10T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -558,9 +588,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/Succinct/</loc>
+	<loc>http://localhost:4000/community/sponsor/IowaCodeCamp-Sponsor/</loc>
 	
-		<lastmod>2024-07-23T00:00:00+00:00</lastmod>
+		<lastmod>2024-08-14T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -573,9 +603,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Agile2024-TechDebt/</loc>
+	<loc>http://localhost:4000/community/sponsor/DevOpsDaysDsm-Sponsor/</loc>
 	
-		<lastmod>2024-07-22T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-25T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -588,9 +618,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/Agile2024-WomenInAgile/</loc>
+	<loc>http://localhost:4000/community/presentation/NDC-Porto-TechDebt/</loc>
 	
-		<lastmod>2024-07-21T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-23T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -603,9 +633,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Trility-TechDebt/</loc>
+	<loc>http://localhost:4000/blog/Succinct/</loc>
 	
-		<lastmod>2024-07-18T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-23T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -618,9 +648,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/PhillyXP-TechDebt/</loc>
+	<loc>http://localhost:4000/community/presentation/Agile2024-TechDebt/</loc>
 	
-		<lastmod>2024-03-27T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-22T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -633,9 +663,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Agile&Beyond-EndOfAgile/</loc>
+	<loc>http://localhost:4000/community/leadership/Agile2024-WomenInAgile/</loc>
 	
-		<lastmod>2024-03-27T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-21T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -648,9 +678,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Trility-PositivelyInfluence/</loc>
+	<loc>http://localhost:4000/community/presentation/Trility-TechDebt/</loc>
 	
-		<lastmod>2024-03-06T00:00:00+00:00</lastmod>
+		<lastmod>2024-07-18T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -663,9 +693,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/training/SCSU-CareerExpectations/</loc>
+	<loc>http://localhost:4000/community/presentation/PhillyXP-TechDebt/</loc>
 	
-		<lastmod>2024-02-25T00:00:00+00:00</lastmod>
+		<lastmod>2024-03-27T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -678,9 +708,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/Agile2024-ProgramTeam/</loc>
+	<loc>http://localhost:4000/community/presentation/Agile&Beyond-EndOfAgile/</loc>
 	
-		<lastmod>2024-01-25T00:00:00+00:00</lastmod>
+		<lastmod>2024-03-27T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -693,9 +723,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Trility-StoryMapping/</loc>
+	<loc>http://localhost:4000/community/presentation/Trility-PositivelyInfluence/</loc>
 	
-		<lastmod>2024-01-11T00:00:00+00:00</lastmod>
+		<lastmod>2024-03-06T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -708,9 +738,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/DevOpsDaysDsm-Speher-Of-Control/</loc>
+	<loc>http://localhost:4000/community/training/SCSU-CareerExpectations/</loc>
 	
-		<lastmod>2023-08-08T00:00:00+00:00</lastmod>
+		<lastmod>2024-02-25T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -723,9 +753,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/MobMentality-TurnTheTables/</loc>
+	<loc>http://localhost:4000/community/Agile2024-ProgramTeam/</loc>
 	
-		<lastmod>2023-07-28T00:00:00+00:00</lastmod>
+		<lastmod>2024-01-25T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -738,9 +768,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/Agile2023-TechDebt/</loc>
+	<loc>http://localhost:4000/community/presentation/Trility-StoryMapping/</loc>
 	
-		<lastmod>2023-07-25T00:00:00+00:00</lastmod>
+		<lastmod>2024-01-11T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -753,9 +783,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/Agile2023-ProgramTeam/</loc>
+	<loc>http://localhost:4000/community/presentation/DevOpsDaysDsm-Speher-Of-Control/</loc>
 	
-		<lastmod>2023-07-25T00:00:00+00:00</lastmod>
+		<lastmod>2023-08-08T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -768,9 +798,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/coaching/Agile2023-AgileAdvice/</loc>
+	<loc>http://localhost:4000/community/interview/MobMentality-TurnTheTables/</loc>
 	
-		<lastmod>2023-07-25T00:00:00+00:00</lastmod>
+		<lastmod>2023-07-28T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -783,9 +813,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/AgileAndBeyond-PositivelyConsult/</loc>
+	<loc>http://localhost:4000/community/presentation/Agile2023-TechDebt/</loc>
 	
-		<lastmod>2023-07-14T00:00:00+00:00</lastmod>
+		<lastmod>2023-07-25T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -798,9 +828,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/IBADD-PositivelyConsult/</loc>
+	<loc>http://localhost:4000/community/Agile2023-ProgramTeam/</loc>
 	
-		<lastmod>2023-05-19T00:00:00+00:00</lastmod>
+		<lastmod>2023-07-25T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -813,9 +843,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/VirtualAgileMeetup-PositivelyConsult/</loc>
+	<loc>http://localhost:4000/community/coaching/Agile2023-AgileAdvice/</loc>
 	
-		<lastmod>2023-02-23T00:00:00+00:00</lastmod>
+		<lastmod>2023-07-25T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -828,9 +858,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/ScrumMasterToolboxPodcast/</loc>
+	<loc>http://localhost:4000/community/interview/AgileAndBeyond-PositivelyConsult/</loc>
 	
-		<lastmod>2023-02-04T00:00:00+00:00</lastmod>
+		<lastmod>2023-07-14T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -843,9 +873,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/presentation/DevOpsDaysDsm-Fighting/</loc>
+	<loc>http://localhost:4000/community/interview/IBADD-PositivelyConsult/</loc>
 	
-		<lastmod>2022-10-27T00:00:00+00:00</lastmod>
+		<lastmod>2023-05-19T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -858,9 +888,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/MonteCarlo/</loc>
+	<loc>http://localhost:4000/community/interview/VirtualAgileMeetup-PositivelyConsult/</loc>
 	
-		<lastmod>2022-09-23T00:00:00+00:00</lastmod>
+		<lastmod>2023-02-23T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -873,9 +903,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/ACEmodel/</loc>
+	<loc>http://localhost:4000/community/interview/ScrumMasterToolboxPodcast/</loc>
 	
-		<lastmod>2022-09-23T00:00:00+00:00</lastmod>
+		<lastmod>2023-02-04T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -888,9 +918,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/IndianFood/</loc>
+	<loc>http://localhost:4000/community/presentation/DevOpsDaysDsm-Fighting/</loc>
 	
-		<lastmod>2022-09-22T00:00:00+00:00</lastmod>
+		<lastmod>2022-10-27T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -903,9 +933,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/HermitCrab/</loc>
+	<loc>http://localhost:4000/blog/MonteCarlo/</loc>
 	
-		<lastmod>2022-09-21T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-23T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -918,9 +948,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/AgileOnlineSummit-TrackChair/</loc>
+	<loc>http://localhost:4000/blog/ACEmodel/</loc>
 	
-		<lastmod>2022-09-19T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-23T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -933,9 +963,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/THAT-FightingFailing/</loc>
+	<loc>http://localhost:4000/blog/IndianFood/</loc>
 	
-		<lastmod>2022-09-15T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-22T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -948,9 +978,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/MobMentality-KISS/</loc>
+	<loc>http://localhost:4000/blog/HermitCrab/</loc>
 	
-		<lastmod>2022-09-11T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-21T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -963,9 +993,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/Agile2022-MBD/</loc>
+	<loc>http://localhost:4000/community/leadership/AgileOnlineSummit-TrackChair/</loc>
 	
-		<lastmod>2022-07-25T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-19T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -978,9 +1008,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/blog/MemoryOverflowErrors/</loc>
+	<loc>http://localhost:4000/community/THAT-FightingFailing/</loc>
 	
-		<lastmod>2022-07-12T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-15T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -993,9 +1023,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/WomenInAgile-Columbus-ModelingBetterDecisions/</loc>
+	<loc>http://localhost:4000/community/interview/MobMentality-KISS/</loc>
 	
-		<lastmod>2022-06-09T00:00:00+00:00</lastmod>
+		<lastmod>2022-09-11T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1008,9 +1038,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/training/SCSU-Kata/</loc>
+	<loc>http://localhost:4000/community/leadership/Agile2022-MBD/</loc>
 	
-		<lastmod>2022-04-29T00:00:00+00:00</lastmod>
+		<lastmod>2022-07-25T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1023,9 +1053,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-FailureToLaunch/</loc>
+	<loc>http://localhost:4000/blog/MemoryOverflowErrors/</loc>
 	
-		<lastmod>2021-11-04T00:00:00+00:00</lastmod>
+		<lastmod>2022-07-12T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1038,9 +1068,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-MonolithsToBabyliths/</loc>
+	<loc>http://localhost:4000/community/WomenInAgile-Columbus-ModelingBetterDecisions/</loc>
 	
-		<lastmod>2020-11-19T00:00:00+00:00</lastmod>
+		<lastmod>2022-06-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1053,9 +1083,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community,leadership/AgileOnlineSummit-TheMonolith/</loc>
+	<loc>http://localhost:4000/community/training/SCSU-Kata/</loc>
 	
-		<lastmod>2020-10-21T00:00:00+00:00</lastmod>
+		<lastmod>2022-04-29T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1068,9 +1098,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-CodingWithCovid/</loc>
+	<loc>http://localhost:4000/community/IADNUG-FailureToLaunch/</loc>
 	
-		<lastmod>2020-03-12T00:00:00+00:00</lastmod>
+		<lastmod>2021-11-04T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1083,9 +1113,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/TechCareerTalk-Podcast/</loc>
+	<loc>http://localhost:4000/community/IADNUG-MonolithsToBabyliths/</loc>
 	
-		<lastmod>2019-09-17T00:00:00+00:00</lastmod>
+		<lastmod>2020-11-19T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1098,9 +1128,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/AgileAndBeyond-ModelingBetterDecisions/</loc>
+	<loc>http://localhost:4000/community,leadership/AgileOnlineSummit-TheMonolith/</loc>
 	
-		<lastmod>2019-05-31T00:00:00+00:00</lastmod>
+		<lastmod>2020-10-21T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1113,9 +1143,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/BigAppleScrumDay-CoachingClinic/</loc>
+	<loc>http://localhost:4000/community/IADNUG-CodingWithCovid/</loc>
 	
-		<lastmod>2019-05-09T00:00:00+00:00</lastmod>
+		<lastmod>2020-03-12T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1128,9 +1158,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/DevOpsDaysDesMoines/</loc>
+	<loc>http://localhost:4000/community/interview/TechCareerTalk-Podcast/</loc>
 	
-		<lastmod>2019-05-02T00:00:00+00:00</lastmod>
+		<lastmod>2019-09-17T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1143,9 +1173,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/LeanTECHniques-ModelingBetterDecisions/</loc>
+	<loc>http://localhost:4000/community/AgileAndBeyond-ModelingBetterDecisions/</loc>
 	
-		<lastmod>2019-03-08T00:00:00+00:00</lastmod>
+		<lastmod>2019-05-31T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1158,9 +1188,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-ModelingBetterDecisions/</loc>
+	<loc>http://localhost:4000/community/BigAppleScrumDay-CoachingClinic/</loc>
 	
-		<lastmod>2019-03-07T00:00:00+00:00</lastmod>
+		<lastmod>2019-05-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1173,9 +1203,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaOrgCamp-SoWhosGonnaTellEm/</loc>
+	<loc>http://localhost:4000/community/DevOpsDaysDesMoines/</loc>
 	
-		<lastmod>2018-09-14T00:00:00+00:00</lastmod>
+		<lastmod>2019-05-02T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1188,9 +1218,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-SoWhosGonnaTellEm/</loc>
+	<loc>http://localhost:4000/community/LeanTECHniques-ModelingBetterDecisions/</loc>
 	
-		<lastmod>2017-11-02T00:00:00+00:00</lastmod>
+		<lastmod>2019-03-08T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1203,9 +1233,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/dsmAgile-SoWhosGonnaTellEm/</loc>
+	<loc>http://localhost:4000/community/IADNUG-ModelingBetterDecisions/</loc>
 	
-		<lastmod>2017-10-13T00:00:00+00:00</lastmod>
+		<lastmod>2019-03-07T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1218,9 +1248,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/dsmHack-2017/</loc>
+	<loc>http://localhost:4000/community/IowaOrgCamp-SoWhosGonnaTellEm/</loc>
 	
-		<lastmod>2017-03-03T00:00:00+00:00</lastmod>
+		<lastmod>2018-09-14T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1233,9 +1263,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/CIJUG-DevOpsPanel/</loc>
+	<loc>http://localhost:4000/community/IADNUG-SoWhosGonnaTellEm/</loc>
 	
-		<lastmod>2016-07-09T00:00:00+00:00</lastmod>
+		<lastmod>2017-11-02T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1248,9 +1278,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/dsmHack-2016/</loc>
+	<loc>http://localhost:4000/community/dsmAgile-SoWhosGonnaTellEm/</loc>
 	
-		<lastmod>2016-03-04T00:00:00+00:00</lastmod>
+		<lastmod>2017-10-13T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1263,9 +1293,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/KCDC-5Y6D/</loc>
+	<loc>http://localhost:4000/community/leadership/dsmHack-2017/</loc>
 	
-		<lastmod>2015-05-15T00:00:00+00:00</lastmod>
+		<lastmod>2017-03-03T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1278,9 +1308,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-FDD/</loc>
+	<loc>http://localhost:4000/community/CIJUG-DevOpsPanel/</loc>
 	
-		<lastmod>2015-05-09T00:00:00+00:00</lastmod>
+		<lastmod>2016-07-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1293,9 +1323,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/interview/DotNetRocks-FailureDrivenDevelopment/</loc>
+	<loc>http://localhost:4000/community/leadership/dsmHack-2016/</loc>
 	
-		<lastmod>2015-04-09T00:00:00+00:00</lastmod>
+		<lastmod>2016-03-04T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1308,9 +1338,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/NebraskaCode-FDD/</loc>
+	<loc>http://localhost:4000/community/KCDC-5Y6D/</loc>
 	
-		<lastmod>2015-03-19T00:00:00+00:00</lastmod>
+		<lastmod>2015-05-15T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1323,9 +1353,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/dsmHack-2015/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-FDD/</loc>
 	
-		<lastmod>2015-02-26T00:00:00+00:00</lastmod>
+		<lastmod>2015-05-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1338,9 +1368,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-2014/</loc>
+	<loc>http://localhost:4000/community/interview/DotNetRocks-FailureDrivenDevelopment/</loc>
 	
-		<lastmod>2014-10-31T00:00:00+00:00</lastmod>
+		<lastmod>2015-04-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1353,9 +1383,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/leadership/dsmHack-Creation/</loc>
+	<loc>http://localhost:4000/community/NebraskaCode-FDD/</loc>
 	
-		<lastmod>2014-04-12T00:00:00+00:00</lastmod>
+		<lastmod>2015-03-19T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1368,9 +1398,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/NebraskaCode/</loc>
+	<loc>http://localhost:4000/community/leadership/dsmHack-2015/</loc>
 	
-		<lastmod>2014-03-29T00:00:00+00:00</lastmod>
+		<lastmod>2015-02-26T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1383,9 +1413,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-2013/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-2014/</loc>
 	
-		<lastmod>2013-10-31T00:00:00+00:00</lastmod>
+		<lastmod>2014-10-31T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1398,9 +1428,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/UniversityOfIowaBTS-5y6d/</loc>
+	<loc>http://localhost:4000/community/leadership/dsmHack-Creation/</loc>
 	
-		<lastmod>2013-09-09T00:00:00+00:00</lastmod>
+		<lastmod>2014-04-12T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1413,9 +1443,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp.-VisualStudio/</loc>
+	<loc>http://localhost:4000/community/NebraskaCode/</loc>
 	
-		<lastmod>2013-05-08T00:00:00+00:00</lastmod>
+		<lastmod>2014-03-29T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1428,9 +1458,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/NebraskaCodeCamp-5y6d/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-2013/</loc>
 	
-		<lastmod>2013-03-11T00:00:00+00:00</lastmod>
+		<lastmod>2013-10-31T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1443,9 +1473,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-RATM/</loc>
+	<loc>http://localhost:4000/community/UniversityOfIowaBTS-5y6d/</loc>
 	
-		<lastmod>2012-05-05T00:00:00+00:00</lastmod>
+		<lastmod>2013-09-09T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1458,9 +1488,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/NebraskaCodeCamp/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp.-VisualStudio/</loc>
 	
-		<lastmod>2012-03-10T00:00:00+00:00</lastmod>
+		<lastmod>2013-05-08T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1473,9 +1503,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/StartupWeekend/</loc>
+	<loc>http://localhost:4000/community/NebraskaCodeCamp-5y6d/</loc>
 	
-		<lastmod>2012-03-04T00:00:00+00:00</lastmod>
+		<lastmod>2013-03-11T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1488,9 +1518,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-web-development/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-RATM/</loc>
 	
-		<lastmod>2011-10-29T00:00:00+00:00</lastmod>
+		<lastmod>2012-05-05T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1503,9 +1533,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/CRINETA-FDD/</loc>
+	<loc>http://localhost:4000/community/NebraskaCodeCamp/</loc>
 	
-		<lastmod>2011-06-06T00:00:00+00:00</lastmod>
+		<lastmod>2012-03-10T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1518,9 +1548,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IowaCodeCamp-LINQtroduction/</loc>
+	<loc>http://localhost:4000/community/StartupWeekend/</loc>
 	
-		<lastmod>2011-05-29T00:00:00+00:00</lastmod>
+		<lastmod>2012-03-04T00:00:00-06:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1533,9 +1563,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-LINQtroduction/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-web-development/</loc>
 	
-		<lastmod>2010-10-07T00:00:00+00:00</lastmod>
+		<lastmod>2011-10-29T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1548,9 +1578,9 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/IADNUG-VS2010/</loc>
+	<loc>http://localhost:4000/community/CRINETA-FDD/</loc>
 	
-		<lastmod>2010-07-08T00:00:00+00:00</lastmod>
+		<lastmod>2011-06-06T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -1563,9 +1593,54 @@
 
 	
 	<url>
-	<loc>https://delta3consulting.com/community/events/IADNUG-T4CodeGen/</loc>
+	<loc>http://localhost:4000/community/IowaCodeCamp-LINQtroduction/</loc>
 	
-		<lastmod>2009-09-03T00:00:00+00:00</lastmod>
+		<lastmod>2011-05-29T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/community/IADNUG-LINQtroduction/</loc>
+	
+		<lastmod>2010-10-07T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/community/IADNUG-VS2010/</loc>
+	
+		<lastmod>2010-07-08T00:00:00-05:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/community/events/IADNUG-T4CodeGen/</loc>
+	
+		<lastmod>2009-09-03T00:00:00-05:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
