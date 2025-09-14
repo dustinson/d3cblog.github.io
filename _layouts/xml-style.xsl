@@ -10,10 +10,13 @@ breadcrumbs: true
 	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
 	<html>
 	<head>
+        20250914 xml-styles.xsl
 		<xsl:text disable-output-escaping="yes"><![CDATA[
 		{% include _head.html %}
 		]]></xsl:text>
-	</head>
+        ASDFASDFASDFASDF!
+        {% include analytics.html %}
+    </head>
 	<body id="top-of-page">
 		<xsl:text disable-output-escaping="yes"><![CDATA[
 		{% include _navigation.html %}
