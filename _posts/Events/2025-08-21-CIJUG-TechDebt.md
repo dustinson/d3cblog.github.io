@@ -2,8 +2,8 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "CIJUG - Technniques To Tackle Tech-debt Today"
-teaser: "Technniques To Tackle Tech-debt Today"
+title:  "CIJUG - Techniques To Tackle Tech-debt Today"
+teaser: "Techniques To Tackle Tech-debt Today"
 breadcrumb: false
 tags:
     - 

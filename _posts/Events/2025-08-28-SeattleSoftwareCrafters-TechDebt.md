@@ -2,8 +2,8 @@
 layout: post
 sidebar: left
 subheadline: Presentation
-title:  "CIJUG - Technniques To Tackle Tech-debt Today"
-teaser: "Technniques To Tackle Tech-debt Today"
+title:  "Seattle Software Crafters - Techniques To Tackle Tech-debt Today"
+teaser: "Techniques To Tackle Tech-debt Today"
 breadcrumb: false
 tags:
     - 
@@ -11,10 +11,10 @@ categories:
     - community
     - Presentation
 image:
-    thumb: MHA_Logo.png
-    title: MHA_Thostenson.png
-    caption: MHA
-    caption_url: https://www.agiledenver.org/mile-high-agile-2025/
+    thumb: SeattleSoftwareCrafters.png
+    title: SeattleSoftwareCrafters.png
+    caption: SeattleSoftwareCrafters
+    caption_url: https://www.meetup.com/seattle-software-craftsmanship/events/307081535/
 ---
 Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. They struggle to deliver high-quality solutions they are proud of which also delight their users.
 
