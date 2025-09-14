@@ -17,7 +17,7 @@ widget1:
   title: "Events"
   url: '/events'
   image: /header-bus.jpg
-  text: 'What is going on?'
+  text: 'What's going on?'
 
 widget2:
   title: "Blog"
