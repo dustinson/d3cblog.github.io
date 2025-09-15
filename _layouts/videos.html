@@ -6,26 +6,169 @@ header:
    image_fullwidth: "PortoOcean1.png"
 ---
 <div class="row">
-	<div class="medium-8 columns t30">
-		{% for video in site.videos %}
-		<div class="row">
-			<div class="small-12 columns b60">
-				<p class="subheadline">{{ video.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if video.categories != empty and video.subheadline != NULL %} – {% endif %}{{ video.subheadline }}</p>
-				<h2><a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a></h2>
-				<p>
-					{% if video.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" title="{{ video.title | escape_once }}"><img src="{{ site.urlimg }}{{ video.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ video.title | escape_once }}"></a>{% endif %}
-
-					{% if video.meta_description %}{{ video.meta_description | strip_html | escape }}{% elsif video.teaser %}{{ video.teaser | strip_html | escape }}{% endif %}
-
-					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" title="{{ site.data.language.read }} {{ video.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
-				</p>
-			</div><!-- /.small-12.columns -->
-		</div><!-- /.row -->
-		{% endfor %}
-	</div><!-- /.medium-8.columns -->
-
-
-	<div class="medium-4 columns t30">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
+	<div class="small-12 columns t30">
+		<div class="row small-up-1 medium-up-2 large-up-3">
+			{% for video in site.videos %}
+			<div class="column">
+				<div class="video-card">
+					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" class="video-thumbnail-link">
+						<div class="video-thumbnail-container">
+							{% if video.video.thumbnailUrl %}
+								<img src="{{ video.video.thumbnailUrl }}" alt="{{ video.title | escape_once }}" class="video-thumbnail">
+							{% elsif video.image.thumb %}
+								<img src="{{ site.urlimg }}{{ video.image.thumb }}" alt="{{ video.title | escape_once }}" class="video-thumbnail">
+							{% else %}
+								<div class="video-placeholder">
+									<i class="fa fa-play-circle"></i>
+								</div>
+							{% endif %}
+							<div class="video-play-overlay">
+								<i class="fa fa-play-circle"></i>
+							</div>
+						</div>
+					</a>
+					<div class="video-info">
+						<h3 class="video-title">
+							<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a>
+						</h3>
+						{% if video.subheadline %}
+							<p class="video-subtitle">{{ video.subheadline }}</p>
+						{% endif %}
+						{% if video.teaser %}
+							<p class="video-description">{{ video.teaser | truncate: 120 }}</p>
+						{% endif %}
+						<div class="video-meta">
+							{{ video.categories | join: ' • ' }}
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
+
+<style>
+.video-card {
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	margin-bottom: 30px;
+	overflow: hidden;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.video-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.video-thumbnail-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	overflow: hidden;
+	background: #f8f8f8;
+}
+
+.video-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.2s ease;
+}
+
+.video-thumbnail-link:hover .video-thumbnail {
+	transform: scale(1.05);
+}
+
+.video-play-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.7);
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 24px;
+	opacity: 0.8;
+	transition: opacity 0.2s ease;
+}
+
+.video-thumbnail-link:hover .video-play-overlay {
+	opacity: 1;
+}
+
+.video-placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #e8e8e8;
+	color: #999;
+	font-size: 48px;
+}
+
+.video-info {
+	padding: 20px;
+}
+
+.video-title {
+	margin: 0 0 8px 0;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.video-title a {
+	color: #333;
+	text-decoration: none;
+}
+
+.video-title a:hover {
+	color: #0078A0;
+}
+
+.video-subtitle {
+	margin: 0 0 8px 0;
+	font-size: 14px;
+	color: #666;
+	font-weight: 500;
+}
+
+.video-description {
+	margin: 0 0 12px 0;
+	font-size: 14px;
+	color: #777;
+	line-height: 1.4;
+}
+
+.video-meta {
+	font-size: 12px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 640px) {
+	.row.small-up-1.medium-up-2.large-up-3 {
+		margin: 0 -15px;
+	}
+
+	.column {
+		padding: 0 15px;
+	}
+}
+</style>
