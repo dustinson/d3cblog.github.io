@@ -25,7 +25,7 @@ widget2:
 widget3:
   title: "Videos"
   url: '/videos/'
-  image: PortoOcean1.jpg
+  image: PortoOcean1.png
   text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often.'
 ---
 
