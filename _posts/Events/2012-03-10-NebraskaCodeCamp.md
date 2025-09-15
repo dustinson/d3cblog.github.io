@@ -10,10 +10,8 @@ tags:
 categories:
     - community
 image:
-    thumb: nebraskaCodeCamp.jpg
+    thumb: nebraskaCodeCamp.png
     title: nebraskaCodeCamp.png
     caption_url:
 ---
 Presented at Nebraska Code Camp.
-
-
