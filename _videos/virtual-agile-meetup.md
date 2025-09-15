@@ -3,6 +3,7 @@ layout: video
 title: "Positively Consult: Virtual Agile Meetup"
 subheadline: "Agile Interview"
 teaser: "Discussion about positive consulting approaches and agile methodologies."
+order: 7
 categories:
   - interview
   - agile

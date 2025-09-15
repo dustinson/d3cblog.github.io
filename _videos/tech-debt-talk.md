@@ -3,6 +3,7 @@ layout: video
 title: "Tech Debt: Techniques to Tackle Tech Debt Today"
 subheadline: "Conference Talk"
 teaser: "Learn practical strategies for managing and reducing technical debt in your software projects."
+order: 1
 categories:
   - presentation
   - technical
