@@ -25,3 +25,4 @@ Thankfully, there are tried and true tactics to tackle the tech debt troubles, T
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
+<a target="new" href="https://www.meetup.com/central-iowa-java-users-group/events/309871115">https://www.meetup.com/central-iowa-java-users-group/events/309871115</a>
