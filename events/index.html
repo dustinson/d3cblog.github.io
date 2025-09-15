@@ -11,10 +11,10 @@ header:
     {% for event in site.events %}
     <div class="row">
       <div class="small-12 columns">
-        <h3><a href="{{ site.url }}{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></h3>
+        <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
         <p class="subheadline">{{ event.subheadline }}</p>
         <p>{{ event.teaser }}</p>
-        <p><a href="{{ site.url }}{{ site.baseurl }}{{ event.url }}">Read More ›</a></p>
+        <p><a href="{{ event.url | relative_url }}">Read More ›</a></p>
       </div>
     </div>
     {% endfor %}

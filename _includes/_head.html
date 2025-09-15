@@ -4,7 +4,18 @@
 #   Variables › {{ title }} › page.title
 {% endcomment %}{% capture ignore %}
 
+{% comment %} DEBUG: Check what site.url actually contains {% endcomment %}
+<!-- DEBUG: site.url = {{ site.url }} -->
+
+{% if site.url contains "localhost" %}
+{% assign url = "" %}
+{% assign is_local = true %}
+{% else %}
 {% assign url = site.baseurl | prepend: site.url %}
+{% assign is_local = false %}
+{% endif %}
+
+<!-- DEBUG: is_local = {{ is_local }}, url = {{ url }} -->
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
 {% assign description = description | strip_html | escape | strip %}
@@ -17,13 +28,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
 
+    {% if site.url contains "localhost" %}
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/styles_feeling_responsive.css' | relative_url }}">
+    {% else %}
     <link rel="stylesheet" type="text/css" href="{{ url }}/assets/css/styles_feeling_responsive.css">
+    {% endif %}
 
   {% if site.asciidoctor-enabled == true %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
   {% endif %}
 
+	{% if site.url contains "localhost" %}
+	<script src="{{ '/assets/js/modernizr.min.js' | relative_url }}"></script>
+	{% else %}
 	<script src="{{ url }}/assets/js/modernizr.min.js"></script>
+	{% endif %}
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -45,8 +64,11 @@
 	{% if site.yandex_site_verification %}<meta name="yandex-verification" content="{{ site.yandex_site_verification }}">{% endif %}
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
 	{% if page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex">{% endif %}
+	{% if site.url contains "localhost" %}
+	<link rel="canonical" href="{{ page.url | relative_url }}">
+	{% else %}
 	<link rel="canonical" href="{{ url }}{{ page.url }}">
-
+	{% endif %}
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="{{ title }}">

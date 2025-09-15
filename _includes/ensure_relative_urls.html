@@ -1,0 +1,28 @@
+{% comment %}
+# This helper makes sure all URLs used in the site are using relative URLs when in development mode
+# Include this in your layout files to enforce relative URLs
+{% endcomment %}
+
+{% if jekyll.environment == "development" %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Replace all absolute URLs with relative ones when in development
+    const productionUrl = "https://delta3consulting.com";
+    const links = document.querySelectorAll("a[href^='" + productionUrl + "']");
+
+    links.forEach(function(link) {
+      const href = link.getAttribute("href");
+      const relativeUrl = href.replace(productionUrl, "");
+      link.setAttribute("href", relativeUrl);
+    });
+
+    // Fix image sources
+    const images = document.querySelectorAll("img[src^='" + productionUrl + "']");
+    images.forEach(function(img) {
+      const src = img.getAttribute("src");
+      const relativeSrc = src.replace(productionUrl, "");
+      img.setAttribute("src", relativeSrc);
+    });
+  });
+</script>
+{% endif %}

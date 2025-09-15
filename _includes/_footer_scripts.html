@@ -15,6 +15,11 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
+{% if jekyll.environment != "production" %}
+<!-- Fix links to use localhost instead of production URLs in development mode -->
+<script src="/assets/js/fix-links.js"></script>
+{% endif %}
+
 
 
 

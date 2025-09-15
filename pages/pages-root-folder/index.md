@@ -5,8 +5,8 @@
 # this work, you have to use › layout: frontpage
 #
 
-
 layout: frontpage
+permalink: /
 header:
  image_fullwidth: header_unsplash_9.jpg
 # image_fullwidth: Delta3Logo.png 
