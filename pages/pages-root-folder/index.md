@@ -26,7 +26,7 @@ widget3:
   title: "Videos"
   url: '/videos/'
   image: PortoOcean1.png
-  text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often.'
+  text: 'Watch some videos featuring Delta3Consulting consultants and other values-aligned content.'
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
