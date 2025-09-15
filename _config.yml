@@ -100,6 +100,9 @@ collections:
   events:
     output: true
     permalink: /events/:path/
+  videos:
+    output: true
+    permalink: /videos/:path/
 
 # Default settings
 defaults:
@@ -130,6 +133,15 @@ defaults:
       comments: false
       author: Dustin Thostenson
       layout: post
+  -
+    scope:
+      path: ''
+      type: 'videos'
+    values:
+      show_meta: true
+      comments: false
+      author: Dustin Thostenson
+      layout: video
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \

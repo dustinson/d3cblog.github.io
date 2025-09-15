@@ -1,0 +1,31 @@
+---
+layout: default
+format: blog
+title: "Videos"
+header:
+   image_fullwidth: "d3PondSunset202110.jpg"
+---
+<div class="row">
+	<div class="medium-8 columns t30">
+		{% for video in site.videos %}
+		<div class="row">
+			<div class="small-12 columns b60">
+				<p class="subheadline">{{ video.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if video.categories != empty and video.subheadline != NULL %} – {% endif %}{{ video.subheadline }}</p>
+				<h2><a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a></h2>
+				<p>
+					{% if video.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" title="{{ video.title | escape_once }}"><img src="{{ site.urlimg }}{{ video.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ video.title | escape_once }}"></a>{% endif %}
+
+					{% if video.meta_description %}{{ video.meta_description | strip_html | escape }}{% elsif video.teaser %}{{ video.teaser | strip_html | escape }}{% endif %}
+
+					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" title="{{ site.data.language.read }} {{ video.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+				</p>
+			</div><!-- /.small-12.columns -->
+		</div><!-- /.row -->
+		{% endfor %}
+	</div><!-- /.medium-8.columns -->
+
+
+	<div class="medium-4 columns t30">
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+</div><!-- /.row -->

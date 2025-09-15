@@ -6,42 +6,27 @@
 #
 
 
-#{% assign my_variable = site.data.socialmedia | where: "name", "YouTube" | first %}
-#{{ my_variable.url }}
-
 layout: frontpage
 header:
- image_fullwidth: /header_unsplash_9.jpg
+ image_fullwidth: header_unsplash_9.jpg
 # image_fullwidth: Delta3Logo.png 
 widget1:
   title: "Events"
   url: '/events'
-  image: /header-bus.jpg
-  text: 'What's going on?'
+  image: header-bus.jpg
+  text: "What's going on?"
 
 widget2:
   title: "Blog"
   url: '/blog'
-  image: /header_typewriter.jpg
+  image: header_typewriter.jpg
   text: 'Enjoy reading some stories to understand what we understand.'
 
 widget3:
   title: "Videos"
-  url: 'https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn'
-  text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often. '
-  target: new
-  video: '<a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_new"><img src="images/DustinAgile2022NashvilleMBD-YT.png" width="302" height="182" alt=""/></a>'
-
-callforaction:
-  url: 
-  text: 
-  style: 
-permalink: /index.html
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
-homepage: true
+  url: '/videos/'
+  image: PortoOcean1.jpg
+  text: 'Watch some videos featuring Delta3Consulting consultants and videos we find ourselves watching and referring often.'
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
