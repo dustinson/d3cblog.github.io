@@ -27,6 +27,7 @@ widget3:
   url: '/videos/'
   image: PortoOcean1.png
   text: 'Watch some videos featuring Delta3Consulting consultants and other values-aligned content.'
+  video: '<a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_new"><img src="images/DustinAgile2022NashvilleMBD-YT.png" width="302" height="182" alt=""/></a>'
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
