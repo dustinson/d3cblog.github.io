@@ -7,168 +7,206 @@ header:
 ---
 <div class="row">
 	<div class="small-12 columns t30">
-		<div class="row small-up-1 medium-up-2 large-up-3">
-			{% for video in site.videos %}
-			<div class="column">
-				<div class="video-card">
-					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}" class="video-thumbnail-link">
-						<div class="video-thumbnail-container">
-							{% if video.video.thumbnailUrl %}
-								<img src="{{ video.video.thumbnailUrl }}" alt="{{ video.title | escape_once }}" class="video-thumbnail">
-							{% elsif video.image.thumb %}
-								<img src="{{ site.urlimg }}{{ video.image.thumb }}" alt="{{ video.title | escape_once }}" class="video-thumbnail">
-							{% else %}
-								<div class="video-placeholder">
-									<i class="fa fa-play-circle"></i>
-								</div>
-							{% endif %}
-							<div class="video-play-overlay">
-								<i class="fa fa-play-circle"></i>
-							</div>
-						</div>
-					</a>
-					<div class="video-info">
-						<h3 class="video-title">
-							<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a>
-						</h3>
-						{% if video.subheadline %}
-							<p class="video-subtitle">{{ video.subheadline }}</p>
-						{% endif %}
-						{% if video.teaser %}
-							<p class="video-description">{{ video.teaser | truncate: 120 }}</p>
-						{% endif %}
-						<div class="video-meta">
-							{{ video.categories | join: ' • ' }}
-						</div>
-					</div>
+		{% for video in site.videos %}
+		<div class="video-section">
+			<div class="video-header">
+				<h2 class="video-title">{{ video.title }}</h2>
+				{% if video.subheadline %}
+					<p class="video-subtitle">{{ video.subheadline }}</p>
+				{% endif %}
+				{% if video.teaser %}
+					<p class="video-description">{{ video.teaser }}</p>
+				{% endif %}
+				<div class="video-meta">
+					{{ video.categories | join: ' • ' }}
 				</div>
 			</div>
-			{% endfor %}
+
+			<div class="video-player-container" onclick="toggleVideoSize(this)">
+				<div class="video-wrapper">
+					{{ video.iframe }}
+				</div>
+			</div>
+
+			{% if video.content and video.content != "" %}
+				<div class="video-content">
+					{{ video.content }}
+				</div>
+			{% endif %}
 		</div>
+		{% endfor %}
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
 
 <style>
-.video-card {
-	background: white;
-	border-radius: 8px;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-	margin-bottom: 30px;
-	overflow: hidden;
-	transition: transform 0.2s ease, box-shadow 0.2s ease;
+.video-section {
+	margin-bottom: 60px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #eee;
 }
 
-.video-card:hover {
-	transform: translateY(-2px);
-	box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+.video-section:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
 }
 
-.video-thumbnail-container {
-	position: relative;
-	width: 100%;
-	padding-bottom: 56.25%; /* 16:9 aspect ratio */
-	overflow: hidden;
-	background: #f8f8f8;
-}
-
-.video-thumbnail {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: transform 0.2s ease;
-}
-
-.video-thumbnail-link:hover .video-thumbnail {
-	transform: scale(1.05);
-}
-
-.video-play-overlay {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: rgba(0,0,0,0.7);
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font-size: 24px;
-	opacity: 0.8;
-	transition: opacity 0.2s ease;
-}
-
-.video-thumbnail-link:hover .video-play-overlay {
-	opacity: 1;
-}
-
-.video-placeholder {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #e8e8e8;
-	color: #999;
-	font-size: 48px;
-}
-
-.video-info {
-	padding: 20px;
+.video-header {
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 .video-title {
 	margin: 0 0 8px 0;
-	font-size: 18px;
-	line-height: 1.3;
-}
-
-.video-title a {
+	font-size: 28px;
+	line-height: 1.2;
 	color: #333;
-	text-decoration: none;
-}
-
-.video-title a:hover {
-	color: #0078A0;
 }
 
 .video-subtitle {
 	margin: 0 0 8px 0;
-	font-size: 14px;
+	font-size: 16px;
 	color: #666;
 	font-weight: 500;
 }
 
 .video-description {
 	margin: 0 0 12px 0;
-	font-size: 14px;
+	font-size: 16px;
 	color: #777;
-	line-height: 1.4;
+	line-height: 1.5;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .video-meta {
-	font-size: 12px;
+	font-size: 14px;
 	color: #999;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
 
+.video-player-container {
+	width: 100%;
+	max-width: 800px; /* Increased from 400px to 800px for larger default view */
+	margin: 0 auto 20px auto;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	border: 2px solid transparent;
+}
+
+.video-player-container:hover {
+	transform: scale(1.05); /* Slightly more pronounced hover effect */
+	border-color: #007acc; /* Add blue border on hover to indicate clickability */
+}
+
+.video-player-container.expanded {
+	max-width: none;
+	width: calc(100vw - 40px);
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
+	cursor: default;
+	border-color: #007acc;
+	box-shadow: 0 8px 32px rgba(0,0,0,0.3); /* Enhanced shadow when expanded */
+}
+
+.video-wrapper {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	overflow: hidden;
+	background: #000;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 8px;
+}
+
+.video-content {
+	margin-top: 20px;
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 8px;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
 /* Responsive adjustments */
-@media screen and (max-width: 640px) {
-	.row.small-up-1.medium-up-2.large-up-3 {
-		margin: 0 -15px;
+@media screen and (max-width: 768px) {
+	.video-title {
+		font-size: 24px;
 	}
 
-	.column {
-		padding: 0 15px;
+	.video-subtitle {
+		font-size: 14px;
+	}
+
+	.video-description {
+		font-size: 14px;
+	}
+
+	.video-wrapper {
+		border-radius: 4px;
+	}
+
+	.video-wrapper iframe {
+		border-radius: 4px;
+	}
+
+	.video-player-container {
+		max-width: 100%; /* Full width on mobile for better visibility */
+	}
+
+	.video-player-container.expanded {
+		width: calc(100vw - 20px);
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
 	}
 }
 </style>
+
+<script>
+function toggleVideoSize(container) {
+	container.classList.toggle('expanded');
+
+	// Smooth scroll to video if expanding
+	if (container.classList.contains('expanded')) {
+		setTimeout(() => {
+			container.scrollIntoView({
+				behavior: 'smooth',
+				block: 'center'
+			});
+		}, 100);
+	}
+}
+
+// Close expanded video when clicking outside
+document.addEventListener('click', function(e) {
+	if (!e.target.closest('.video-player-container')) {
+		const expandedVideos = document.querySelectorAll('.video-player-container.expanded');
+		expandedVideos.forEach(video => {
+			video.classList.remove('expanded');
+		});
+	}
+});
+
+// Close expanded video with Escape key
+document.addEventListener('keydown', function(e) {
+	if (e.key === 'Escape') {
+		const expandedVideos = document.querySelectorAll('.video-player-container.expanded');
+		expandedVideos.forEach(video => {
+			video.classList.remove('expanded');
+		});
+	}
+});
+</script>
