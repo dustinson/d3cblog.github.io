@@ -1,31 +1,23 @@
 ---
-#layout: compress
+layout: compress
 ---
 <!doctype html>
-<html  lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<html lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
-<!--	default header _layouts/default.html-->
 	{% include _head.html %}
-    <!--	end _layouts/default.html-->
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
-<!--	default body-->
 	{% unless page.skip_boilerplate %}
-<!--	default nav include-->
 	{% include _navigation.html %}
 	{% endunless %}
 
-<!--	default masthead include-->
 	{% include _masthead.html %}
-<!--	default content-->
 	{{ content }}
 
 	{% unless page.skip_boilerplate %}
-<!--	default footer include-->
 	{% include _footer.html %}
 	{% endunless %}
 
-<!--	default scripts include-->
 	{% include _footer_scripts.html %}
 </body>
 </html>
