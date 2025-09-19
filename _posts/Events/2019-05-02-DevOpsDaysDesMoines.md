@@ -5,6 +5,7 @@ subheadline: Presentation
 title:  "DevOpsDays Dsm"
 teaser: "'Modeling Better Decisions' talk at DevOpsDays Des Moines, IA"
 breadcrumb: false
+video_link: /videos/modeling-better-decisions-devopsdays/
 tags:
     - 
 categories:
@@ -16,4 +17,3 @@ image:
     caption_url: https://devopsdays.org/events/2019-des-moines/program
 ---
 Presented <a href='https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn' target='new'>'Modeling Better Decisions'</a> presentation with Skylar Watson.
-

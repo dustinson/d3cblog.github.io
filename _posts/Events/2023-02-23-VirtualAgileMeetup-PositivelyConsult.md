@@ -5,6 +5,7 @@ subheadline: Presentation
 title:  "Virtual Agile Meetup"
 teaser: "Positively Consult: Change how you try to change others"
 breadcrumb: false
+video_link: /videos/virtual-agile-meetup/
 tags:
     - 
 categories:

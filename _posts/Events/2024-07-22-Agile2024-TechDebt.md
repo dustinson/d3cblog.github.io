@@ -5,6 +5,7 @@ subheadline: Presentation
 title:  "Agile2024 - Sphere Of Control: Techniques To Tackle Tech-debt Today"
 teaser: "Agile2024 - Techniques To Tackle Tech-debt Today"
 breadcrumb: false
+video_link: /videos/tech-debt-talk/
 tags:
     - 
 categories:

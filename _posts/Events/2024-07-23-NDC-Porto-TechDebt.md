@@ -5,6 +5,7 @@ subheadline: Presentation
 title:  "NDC { Porto } - Techniques To Tackle Tech-debt Today"
 teaser: "Techniques To Tackle Tech-debt Today"
 breadcrumb: false
+video_link: /videos/tech-debt-ndc-porto/
 tags:
     - 
 categories:
