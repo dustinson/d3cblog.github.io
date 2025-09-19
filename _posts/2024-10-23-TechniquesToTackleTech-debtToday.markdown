@@ -17,7 +17,7 @@ Every team is different, but most share one common challenge: Tech Debt.
 This blog is a summary of a presentation which has been well received by attendees and teams.  It will cover the high-level concepts, with possible blog entries of more specific recommendations in the future.
 
 If you would like to watch the full presentation, you can 
-<a href="https://youtu.be/5A_leEwOBW0" target="new">watch it here</a>.
+<a href="https://youtu.be/9RZaDFrgg7Y" target="new">watch it here</a>.
 
 # Overview
 Tech-debt is a prevalent problem for most teams.

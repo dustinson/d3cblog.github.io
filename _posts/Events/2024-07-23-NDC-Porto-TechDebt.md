@@ -22,11 +22,11 @@ Between aggressive deadlines and mounting Tech Debt, teams often feel helpless. 
 Sometimes leaders can't help them.
 Teams recognize the origins of the mess but often grapple to break free.
 
-Thankfully there are tried and true tactics to tackle the tech debt troubles, Today! You don't need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!
+Thankfully, there are tried and true tactics to tackle the tech debt troubles, Today! You don't need a dramatic dedicated deconstruction department. You and your team can solve this yourselves!
 
 Learn technical, political, and procedural techniques to create more joy in the new work with less pain from the old.
 
-<a href="https://www.youtube.com/watch?v=5A_leEwOBW0" target='new'>Watch now!</a>
+<a href="https://www.youtube.com/watch?v=9RZaDFrgg7Y" target='new'>Watch now!</a>
 
 
 <a href="https://ndcporto.com/agenda/sphere-of-control-techniques-to-tackle-tech-debt-today-0wy1/0rvhzgw7e0a" target='new'>NDC-Porto</a>
