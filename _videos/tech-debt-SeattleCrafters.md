@@ -1,7 +1,7 @@
 ---
 layout: video
-title: "Techniques to Tackle Tech Debt Today - Seattle Code Crafters"
 subheadline: "User Group Presentation"
+title: "Techniques to Tackle Tech Debt Today - Seattle Software Crafters"
 teaser: "Practical strategies for managing and reducing technical debt in software projects."
 order: 4
 enabled: true
