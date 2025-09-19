@@ -8,7 +8,7 @@
 <!--event pagination-->
 {% assign my_posts = site.categories.community %}
 {% for post in my_posts %}
-<div class="row">
+<div class="row" id="event-{{ post.url | split: '/' | last }}">
     <div class="small-12 columns b60">
         <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span
                 class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %}
@@ -53,4 +53,3 @@
        title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
     {% endif %}
 </nav>
-

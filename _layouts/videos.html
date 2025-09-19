@@ -10,7 +10,7 @@ header:
 		{% assign sorted_videos = site.videos | sort: 'order' %}
 		{% for video in sorted_videos %}
 		{% if video.enabled == true or video.enabled == nil %}
-		<div class="video-section">
+		<div class="video-section" id="video-{{ video.url | split: '/' | last }}">
 			<div class="video-header">
 				<h2 class="video-title">
 					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a>
@@ -44,6 +44,57 @@ header:
 		{% endfor %}
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
+
+<script>
+// Function to scroll to specific video when returning from detail page
+function scrollToVideoOnBack(event) {
+	event.preventDefault();
+	const currentUrl = window.location.pathname;
+	const videoSlug = currentUrl.replace('/videos/', '').replace('/', '');
+
+	console.log('Current URL:', currentUrl);
+	console.log('Extracted video slug:', videoSlug);
+	console.log('Looking for element with ID:', 'video-' + videoSlug);
+
+	window.location.href = '/videos/#video-' + videoSlug;
+}
+
+// Function to scroll to specific video based on URL hash
+document.addEventListener('DOMContentLoaded', function() {
+	if (window.location.hash && window.location.hash.startsWith('#video-')) {
+		const videoSlug = window.location.hash.replace('#video-', '');
+		const targetElement = document.getElementById('video-' + videoSlug);
+
+		console.log('Hash detected:', window.location.hash);
+		console.log('Video slug:', videoSlug);
+		console.log('Target element:', targetElement);
+
+		// Debug: List all elements with video- IDs
+		const allVideoElements = document.querySelectorAll('[id^="video-"]');
+		console.log('All video elements found:', Array.from(allVideoElements).map(el => el.id));
+
+		if (targetElement) {
+			setTimeout(function() {
+				targetElement.scrollIntoView({
+					behavior: 'smooth',
+					block: 'center'
+				});
+				// Add highlight effect
+				targetElement.style.border = '2px solid #007acc';
+				targetElement.style.borderRadius = '8px';
+				targetElement.style.padding = '10px';
+				setTimeout(function() {
+					targetElement.style.border = '';
+					targetElement.style.borderRadius = '';
+					targetElement.style.padding = '';
+				}, 3000);
+			}, 500);
+		} else {
+			console.log('Target element not found for slug:', videoSlug);
+		}
+	}
+});
+</script>
 
 <style>
 .video-section {

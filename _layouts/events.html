@@ -14,3 +14,40 @@ noindex: true
 		{% include _sidebar.html %}
 	</div><!-- /.medium-5.columns -->
 </div><!-- /.row -->
+
+<script>
+// Function to scroll to specific event when returning from detail page
+function scrollToEventOnBack(event) {
+	event.preventDefault();
+	const currentUrl = window.location.pathname;
+	const eventSlug = currentUrl.split('/').pop();
+
+	window.location.href = '/events/#event-' + eventSlug;
+}
+
+// Function to scroll to specific event based on URL hash
+document.addEventListener('DOMContentLoaded', function() {
+	if (window.location.hash && window.location.hash.startsWith('#event-')) {
+		const eventSlug = window.location.hash.replace('#event-', '');
+		const targetElement = document.getElementById('event-' + eventSlug);
+
+		if (targetElement) {
+			setTimeout(function() {
+				targetElement.scrollIntoView({
+					behavior: 'smooth',
+					block: 'center'
+				});
+				// Add highlight effect
+				targetElement.style.border = '2px solid #007acc';
+				targetElement.style.borderRadius = '8px';
+				targetElement.style.padding = '10px';
+				setTimeout(function() {
+					targetElement.style.border = '';
+					targetElement.style.borderRadius = '';
+					targetElement.style.padding = '';
+				}, 3000);
+			}, 500);
+		}
+	}
+});
+</script>
