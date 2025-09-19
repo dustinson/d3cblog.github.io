@@ -36,6 +36,12 @@ format: blog
         </p>
         {% endif %}
 
+        {% if page.video_link %}
+        <div class="video-link-section">
+            <p><strong>📹 Watch the video:</strong> <a href="{{ site.url }}{{ site.baseurl }}{{ page.video_link }}" class="button small radius">View Video</a></p>
+        </div>
+        {% endif %}
+
         <div itemprop="articleSection">
             {{ content }}
         </div>

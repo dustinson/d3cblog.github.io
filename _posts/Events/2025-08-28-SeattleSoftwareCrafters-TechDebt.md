@@ -5,6 +5,7 @@ subheadline: Presentation
 title:  "Seattle Software Crafters - Techniques To Tackle Tech-debt Today"
 teaser: "Techniques To Tackle Tech-debt Today"
 breadcrumb: false
+video_link: /videos/tech-debt-SeattleCrafters/
 tags:
     - 
 categories:
