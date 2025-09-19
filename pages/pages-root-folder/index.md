@@ -29,7 +29,7 @@ widget3:
   text: 'Watch some videos featuring Delta3Consulting consultants and other values-aligned content.'
   video: '<a href="/videos/" target="_new"><img src="images/DustinAgile2022NashvilleMBD-YT.png" width="302" height="182" alt=""/></a>'
 ---
-asdfasdfasdfasdf
+
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn&index=4" frameborder="0" allowfullscreen></iframe>
