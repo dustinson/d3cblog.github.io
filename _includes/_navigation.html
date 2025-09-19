@@ -29,7 +29,7 @@
 
                 {% comment %} If left side WITHOUT dropdown menu do {% endcomment %}
                 {% if link.dropdown == nil %}
-                <li {% if link.url == page.url %} class="active" {% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}>
+                <li {% if link.url == page.url %} class="active" {% elsif page.homepage == true and link.url == '/' %} class="active"{% elsif link.url == '/events/' and page.url contains '/community/' %} class="active"{% elsif link.url == '/videos/' and page.url contains '/videos/' %} class="active"{% elsif link.url == '/blog/' and page.url contains '/blog/' %} class="active"{% endif %}>
                     <a {% if link.class %}class="{{link.class}}" {% endif %}
                        href="{% if link.url contains 'http' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"
                        {% if link.url contains 'http' %} target="_blank"{% endif %}>

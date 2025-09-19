@@ -8,7 +8,11 @@ format: blog
     <article itemscope itemtype="http://schema.org/Article">
         <header>
             <div class="back-button-container">
+                {% if page.categories contains 'community' %}
                 <a href="/events/" class="button small secondary radius back-button" onclick="scrollToEventOnBack(event)">← Back to Events</a>
+                {% else %}
+                <a href="/blog/" class="button small secondary radius back-button">← Back to Blog</a>
+                {% endif %}
             </div>
 
             {% if page.image.title %}
