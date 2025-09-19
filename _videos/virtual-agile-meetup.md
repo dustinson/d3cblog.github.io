@@ -22,4 +22,5 @@ image:
   thumb: "images/virtual-agile.png"
 ---
 
+
 An engaging discussion about positive consulting approaches and building better relationships in agile environments.

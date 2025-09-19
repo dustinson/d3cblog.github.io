@@ -22,4 +22,7 @@ image:
   thumb: "images/DevOpsDaysDsm.png"
 ---
 
-A collaborative presentation on decision modeling techniques with Skylar Watson, focusing on practical applications in DevOps environments.
+Making quick and correct decisions is crucial in today's fast-paced business environment.
+Trusting your intuition is important, but combining it with structured decision modeling can lead to more consistent and effective outcomes.
+It can also help expand your leadership impact by helping others leverage your techniques.
+This is a great talk for emerging technical leaders and seasoned veterans alike.

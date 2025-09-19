@@ -22,4 +22,6 @@ image:
   thumb: "images/TechDebt/T5.png"
 ---
 
-A comprehensive presentation on technical debt management techniques presented to the Iowa .NET User Group.
+One of the most common challenges for teams delivering solutions quickly and confidently is managing technical debt. 
+While there is no single simple solution to eliminate technical debt, there are proven technical and interpersonal approaches to see results.
+Learn practical approaches for all members of the team to increase your flow and quality.

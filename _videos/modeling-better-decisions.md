@@ -22,4 +22,7 @@ image:
   thumb: "images/Agile2022MBDSpeakerDustin.png"
 ---
 
-A comprehensive presentation on decision modeling techniques and their practical applications in business strategy.
+Making quick and correct decisions is crucial in today's fast-paced business environment. 
+Trusting your intuition is important, but combining it with structured decision modeling can lead to more consistent and effective outcomes.
+It can also help expand your leadership impact by helping others leverage your techniques.
+This is a great talk for emerging technical leaders and seasoned veterans alike.

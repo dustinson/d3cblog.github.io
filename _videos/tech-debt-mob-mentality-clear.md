@@ -1,9 +1,9 @@
 ---
 layout: video
-title: "Techniques to Tackle Tech Debt Today - Seattle Software Crafters"
+title: "Clear & Simple - Mob Mentality"
 subheadline: "Podcast"
-teaser: "Practical strategies for managing and reducing technical debt in software projects."
-order: 4
+teaser: "Discussion on clarity and simplicity in software development through mob programming."
+order: 6
 enabled: true
 categories:
   - Podcast
@@ -11,11 +11,11 @@ tags:
   - mob programming
   - technical development
   - team development
-iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KASpbRowyeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/izcEefyTZVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 video:
-  embedURL: "https://www.youtube.com/embed/KASpbRowyeo"
-  contentURL: "https://www.youtube.com/watch?v=KASpbRowyeo"
-  thumbnailUrl: "https://img.youtube.com/vi/KASpbRowyeo/maxresdefault.jpg"
+  embedURL: "https://www.youtube.com/embed/izcEefyTZVw"
+  contentURL: "https://www.youtube.com/watch?v=izcEefyTZVw"
+  thumbnailUrl: "https://img.youtube.com/vi/izcEefyTZVw/maxresdefault.jpg"
 image:
   thumb: "images/TechDebt/T5.png"
 ---

@@ -21,4 +21,6 @@ image:
   thumb: "images/ndc-porto.png"
 ---
 
-An advanced presentation on technical debt management techniques delivered at NDC Porto conference.
+One of the most common challenges for teams delivering solutions quickly and confidently is managing technical debt.
+While there is no single simple solution to eliminate technical debt, there are proven technical and interpersonal approaches to see results.
+Learn practical approaches for all members of the team to increase your flow and quality.
