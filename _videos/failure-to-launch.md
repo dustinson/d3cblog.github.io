@@ -3,7 +3,8 @@ layout: video
 title: "Failure to Launch: Common Consulting Crashes"
 subheadline: "Conference Talk"
 teaser: "Learn from common consulting failures and how to avoid pitfalls in client engagements."
-order: 2
+order: 10
+enabled: true
 categories:
   - presentation
   - consulting

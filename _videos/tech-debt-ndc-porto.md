@@ -3,6 +3,7 @@ layout: video
 title: "Techniques to Tackle Tech Debt Today - NDC Porto"
 subheadline: "Conference Talk"
 teaser: "Advanced strategies for managing technical debt in large-scale software projects."
+order: 2
 categories:
   - presentation
   - technical

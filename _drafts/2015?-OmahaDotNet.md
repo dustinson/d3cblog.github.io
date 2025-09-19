@@ -14,5 +14,5 @@ image:
     title: iadnug.png
     caption_url: https://www.meetup.com/iadnug/events/281742630/
 ---
-Presented <a href='https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn&index=4' target='new'>'Failure to Launch: Common Consulting Crashes'</a> presentation.
+Presented <a href='https://www.youtube.com/watch?v=Ip6ArDkUm4U&list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn' target='new'>'Failure to Launch: Common Consulting Crashes'</a> presentation.
 

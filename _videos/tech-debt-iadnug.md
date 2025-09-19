@@ -4,6 +4,7 @@ title: "Techniques to Tackle Tech Debt Today - IADNUG"
 subheadline: "User Group Presentation"
 teaser: "Practical strategies for managing and reducing technical debt in software projects."
 order: 5
+enabled: true
 categories:
   - presentation
   - technical

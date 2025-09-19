@@ -3,7 +3,8 @@ layout: video
 title: "Modeling Better Decisions - DevOpsDays Des Moines"
 subheadline: "Conference Talk"
 teaser: "Decision modeling techniques presented with Skylar Watson at DevOpsDays Des Moines."
-order: 3
+order: 25
+enabled: true
 categories:
   - presentation
   - devops

@@ -9,6 +9,7 @@ header:
 	<div class="small-12 columns t30">
 		{% assign sorted_videos = site.videos | sort: 'order' %}
 		{% for video in sorted_videos %}
+		{% if video.enabled == true or video.enabled == nil %}
 		<div class="video-section">
 			<div class="video-header">
 				<h2 class="video-title">{{ video.title }}</h2>
@@ -23,11 +24,13 @@ header:
 				</div>
 			</div>
 
+			{% if video.iframe and video.iframe != "" %}
 			<div class="video-player-container" onclick="toggleVideoSize(this)">
 				<div class="video-wrapper">
 					{{ video.iframe }}
 				</div>
 			</div>
+			{% endif %}
 
 			{% if video.content and video.content != "" %}
 				<div class="video-content">
@@ -35,6 +38,7 @@ header:
 				</div>
 			{% endif %}
 		</div>
+		{% endif %}
 		{% endfor %}
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->

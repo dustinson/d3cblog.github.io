@@ -3,7 +3,8 @@ layout: video
 title: "Modeling Better Decisions - Agile 2022"
 subheadline: "Conference Talk"
 teaser: "Learn decision modeling techniques to improve business outcomes and team effectiveness."
-order: 4
+order: 20
+enabled: true
 categories:
   - presentation
   - agile
