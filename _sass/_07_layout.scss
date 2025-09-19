@@ -349,6 +349,9 @@ body.video cite { color: #fff; }
 .t80 { margin-top: 80px !important; }
 .t90 { margin-top: 90px !important; }
 
+/* Fix header overlap on post pages with banner images */
+.blog .t30 { margin-top: 60px !important; }
+
 .b15 { margin-bottom: 15px !important; }
 .b20 { margin-bottom: 20px !important; }
 .b30 { margin-bottom: 30px !important; }
