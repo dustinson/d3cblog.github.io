@@ -12,7 +12,9 @@ header:
 		{% if video.enabled == true or video.enabled == nil %}
 		<div class="video-section">
 			<div class="video-header">
-				<h2 class="video-title">{{ video.title }}</h2>
+				<h2 class="video-title">
+					<a href="{{ site.url }}{{ site.baseurl }}{{ video.url }}">{{ video.title }}</a>
+				</h2>
 				{% if video.subheadline %}
 					<p class="video-subtitle">{{ video.subheadline }}</p>
 				{% endif %}
@@ -65,6 +67,15 @@ header:
 	font-size: 28px;
 	line-height: 1.2;
 	color: #333;
+}
+
+.video-title a {
+	color: #333;
+	text-decoration: none;
+}
+
+.video-title a:hover {
+	text-decoration: underline;
 }
 
 .video-subtitle {
