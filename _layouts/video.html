@@ -5,10 +5,6 @@ format: video
 <div class="row">
 	<div class="small-12 columns">
 		<article itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
-			<div class="flex-video">
-				{{ page.iframe}}
-			</div>
-
 			<div class="row">
 				<div class="medium-offset-2 medium-8 end columns">
 					<header>
@@ -16,15 +12,25 @@ format: video
 						<h1 itemprop="name">{{ page.title }}</h1>
 					</header>
 
-					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
-					{% if page.video.contentURL %}<meta itemprop="contentURL" content="{{ page.video.contentURL }}" />{% endif %}
-					{% if page.video.embedURL %}<meta itemprop="embedURL" content="{{ page.video.embedURL }}" />{% endif %}
-
 					{% if page.teaser %}
 					<p class="teaser" itemprop="description">
 						{{ page.teaser }}
 					</p>
 					{% endif %}
+				</div><!-- /.medium-8.columns -->
+			</div><!-- /.row -->
+
+			{% if page.iframe and page.iframe != "" %}
+			<div class="flex-video">
+				{{ page.iframe}}
+			</div>
+			{% endif %}
+
+			<div class="row">
+				<div class="medium-offset-2 medium-8 end columns">
+					{% if page.video.thumbnailUrl %}<meta itemprop="thumbnailUrl" content="{{ page.video.thumbnailUrl }}" />{% endif %}
+					{% if page.video.contentURL %}<meta itemprop="contentURL" content="{{ page.video.contentURL }}" />{% endif %}
+					{% if page.video.embedURL %}<meta itemprop="embedURL" content="{{ page.video.embedURL }}" />{% endif %}
 
 					{{ content }}
 					{% if page.show_meta == true %}
