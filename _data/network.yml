@@ -2,16 +2,16 @@
 
 - name: "Principal Financial Group"
   img: "pgf.png"
-  
+
 - name: "Ford Motor Company"
   img: "ford.png"
-  
+
 - name: "TDAmeritrade"
   img: "tda.png"
-  
+
 - name: "Industrial Logic"
   img: "IL.png"
-  
+
 - name: "Lean TECHniques"
   img: "LT.png"
 
@@ -36,12 +36,10 @@
 - name: "VisionT"
   img: "visiont.png"
 
-- name: "Rockline Enterprises"
-  img: "deere.png"
 
 - name: "BirdDogJobs"
   img: "birdDot.png"
-  
+
 #
 #- name: "Built on Foundation"
 #  url: "http://foundation.zurb.com/"
