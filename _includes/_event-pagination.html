@@ -6,7 +6,7 @@
 *
 {% endcomment %}
 <!--event pagination-->
-{% assign my_posts = site.categories.community %}
+{% assign my_posts = site.events | concat: site.categories.community | sort: "date" | reverse %}
 {% for post in my_posts %}
 <div class="row" id="event-{{ post.url | split: '/' | last }}">
     <div class="small-12 columns b60">
