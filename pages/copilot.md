@@ -128,14 +128,101 @@ Simply say "grill me on [topic]" and I will:
 
 ## Todo List
 
-- [ ] Create first new blog post using Copilot.
-- [ ] Run full dependency audit and update Gemfile.
-- [ ] Use "grill me" prompt to identify one quick improvement.
-- [ ] Add a changelog section to the site or README.
-- [ ] Document any custom build or deploy steps in `README.md`.
-- [ ] Set up automated build checks (GitHub Actions) if not already done.
-- [ ] Add smoke-test checklist for homepage, blog, events, and contact pages.
-- [ ] Review footer styling and build stamp visibility across devices.
+### Phase 1: Stabilization (Block everything until done)
+
+**Dependencies & Security**
+- [ ] Run `bundle audit` and fix all security vulnerabilities
+- [ ] Update `Gemfile.lock` with latest compatible versions
+- [ ] Document current Ruby version (3.2) and GitHub Actions environment
+- [ ] Verify no broken dependencies with full build: `JEKYLL_ENV=production bundle exec jekyll build`
+
+**Build Validation**
+- [ ] Test full build locally and on GitHub Actions
+- [ ] Verify footer renders on homepage, blog, events, and contact pages
+- [ ] Check hidden build stamp is visible on all page types
+- [ ] Smoke test: Homepage → Blog → Events → Contact → back to Homepage
+
+**Testing & CI/CD**
+- [ ] Create `.github/workflows/lint.yml` for pre-commit checks (Jekyll builds, no broken links)
+- [ ] Document deployment process in README (who pushes, when, how to verify production)
+- [ ] Add pre-push checklist to copilot.md
+
+**Documentation**
+- [ ] Update README with exact production push command
+- [ ] Document Gemfile upgrade process for future maintainers
+- [ ] Create TROUBLESHOOTING.md for common issues
+
+---
+
+### Phase 2: Modernization (After stabilization)
+
+**Dependency Updates**
+- [ ] Evaluate asciidoctor 1.5.4 → 2.0.26 upgrade (check for breaking changes)
+- [ ] Update activesupport, addressable, commonmarker to latest safe versions
+- [ ] Test blog build after each major dependency update
+- [ ] Update Ruby version in `.github/workflows/gh-pages.yml` if needed
+
+**Performance & UX**
+- [ ] Review and optimize CSS/JS bundle sizes
+- [ ] Check page load times on production
+- [ ] Audit lighthouse performance on homepage and blog page
+
+**Code Quality**
+- [ ] Review for any `TODO` or `FIXME` comments in codebase
+- [ ] Consider linting setup (markdownlint, prettier for consistency)
+
+---
+
+### Phase 3: Events (After stabilization)
+
+**Upcoming Events to Add**
+
+- [ ] ✅ **PMI Agile 2026 Review Team** (4/15/26) — *Status: Past event — add for archive*
+  - Create event file: `_events/2026-04-15-PMI-Agile-Review-Team.md`
+  - Add teaser, image, and link
+  
+- [ ] 🔴 **"The Past Didn't Go Anywhere" (7/25/26)** — *Next upcoming*
+  - Create event file: `_events/2026-07-25-The-Past-Didnt-Go-Anywhere.md`
+  - Add teaser, image, and important link
+  - Set reminder to cross-post 2 weeks before
+
+- [ ] Plan remaining ~4 events (TBD — awaiting details)
+  - Gather event info: name, date, teaser, image, external link
+  - Create event files using consistent naming: `_events/YYYY-MM-DD-Event-Name.md`
+  - Update events index if needed
+
+**Event Creation Template**
+```markdown
+---
+layout: post
+sidebar: left
+subheadline: Presentation
+title: "[Event Name]"
+teaser: "[Short description]"
+breadcrumb: false
+tags:
+    - event
+    - [relevant-tag]
+categories:
+    - community
+    - presentation
+event_date: YYYY-MM-DD
+image:
+    thumb: [image-file].png
+    title: [image-file].png
+    caption: "[Caption]"
+    caption_url: [external-url]
+---
+
+[Event description and details]
+```
+
+---
+
+### Blocked Until Complete
+
+⛔ **Do NOT add any new features or content** until Phase 1 is complete.  
+✅ **Events can be added in batches** after stabilization passes.
 
 ---
 
