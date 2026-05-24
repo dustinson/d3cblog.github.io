@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Return Prompt: Event Data to Blog Automation</title><link rel="stylesheet" type="text/css" href="https://delta3consulting.com/assets/css/styles_feeling_responsive.css"> <script src="https://delta3consulting.com/assets/js/modernizr.min.js"></script> <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script> <script> WebFont.load({ google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] } }); </script> <noscript><link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'> </noscript> <!-- Search Engine Optimization --><meta name="description" content="Design. Develop. Deliver"><link rel="canonical" href="https://delta3consulting.com/COPILOT_IMPORT_PROMPT/"> <!-- Facebook Open Graph --><meta property="og:title" content="Return Prompt: Event Data to Blog Automation"><meta property="og:description" content="Design. Develop. Deliver"><meta property="og:url" content="https://delta3consulting.com/COPILOT_IMPORT_PROMPT/"><meta property="og:locale" content="en_EN"><meta property="og:type" content="website"><meta property="og:site_name" content="Delta3Consulting"> <!-- Twitter --><meta name="twitter:card" content="summary"><meta name="twitter:site" content="dustinson"><meta name="twitter:creator" content="dustinson"><meta name="twitter:title" content="Return Prompt: Event Data to Blog Automation"><meta name="twitter:description" content="Design. Develop. Deliver"><link type="text/plain" rel="author" href="https://delta3consulting.com/humans.txt"><link rel="icon" sizes="32x32" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="icon" sizes="192x192" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://delta3consulting.com/assets/img/favicon.ico"><link rel="apple-touch-icon-precomposed" href="https://delta3consulting.com/assets/img/favicon.ico"><meta name="msapplication-TileImage" content="https://delta3consulting.com/assets/img/favicon.ico"><meta name="msapplication-TileColor" content="#fabb00"> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4TVL0TF0M"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-R4TVL0TF0M'); </script> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4TVL0TF0M"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-R4TVL0TF0M'); </script><body id="top-of-page" class="post"><div id="navigation" class="sticky"><nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false"><ul class="title-area"><li class="name"><h1 class="hide-for-large-up"><a href="/">Delta3Consulting</a></h1><!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --><li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></ul><section class="top-bar-section"> <!-- Left Nav Section --><ul class="left"><li > <a href="/" > <img src="/images/Delta3Consulting.png" alt="d3" width="420PX"/> </a><li class="divider"><li > <a href="/events/" > Events </a><li class="divider"><li > <a href="/blog/" > Blog </a><li class="divider"><li > <a href="/videos/" > Videos </a><li class="divider"></ul><!-- Right Nav Section --><ul class="right"></ul></section></nav></div><!-- /#navigation --><div id="masthead-no-image-header"><div class="row"> <!--<div class="small-12 columns" style="position:absolute; width:10%; height:10%">--> <!-- <a id="logo" href="https://delta3consulting.com/" title="Delta3Consulting – Design, Develop, Deliver">--> <!-- <img src="https://delta3consulting.com/assets/img/D3Logo.png"--> <!-- alt="Delta3Consulting – Design, Develop, Deliver">--> <!-- </a>--> <!--</div>&lt;!&ndash; /.small-12.columns &ndash;&gt;--></div><!-- /.row --></div><!-- /#masthead --><div class="row t30"><div class="medium-8 columns medium-offset-2 end"><article itemscope itemtype="http://schema.org/Article"><header><div itemprop="name"><h1>Return Prompt: Event Data to Blog Automation</h1></div></header><div itemprop="articleSection"><h1 id="return-prompt-event-data-to-blog-automation">Return Prompt: Event Data to Blog Automation</h1><p>Once you have the JSON event data from GPT searches, use this prompt with GitHub Copilot to automatically create all blog event files.<hr /><h2 id="master-prompt-for-copilot">Master Prompt for Copilot</h2><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I have gathered event data for Dustin Thostenson and Delta3Consulting from LinkedIn, Meetup, and Sessionize.
+Create event markdown files for each in my blog's _events/ directory.
+
+Here is the consolidated event data as JSON:
+
+[PASTE YOUR JSON DATA HERE]
+
+Instructions:
+1. For each event object in the JSON:
+   - Create a new markdown file: _events/YYYY-MM-DD-[slugified-event-name].md
+   - Use this exact front matter structure:
+     ---
+     layout: post
+     sidebar: left
+     subheadline: [type: Presentation/Conference/Workshop/Webinar]
+     title: "[event name]"
+     teaser: "[2-sentence teaser about the event/talk]"
+     breadcrumb: false
+     tags:
+         - presentation
+         - [topic-based tags from the event]
+     categories:
+         - community
+         - presentation
+     event_date: YYYY-MM-DD
+     image:
+         thumb: [event-name-placeholder].png
+         title: [event-name-placeholder].png
+         caption: "[Event name or organization]"
+         caption_url: [url from JSON]
+     ---
+
+   - Write 2-3 sentences describing the event/talk in the body
+   - If role is "speaker" or "presenter", focus on what Dustin presented
+   - If role is "panelist" or "organizer", mention that context
+   - If it's a past event, use past tense; if upcoming, present/future tense
+   - Include the URL in the caption_url field
+
+2. File naming: _events/YYYY-MM-DD-[event-name].md
+   - Use hyphens for spaces
+   - Keep filename concise (max 60 chars)
+   - Format: YYYY-MM-DD-Iowa-Code-Camp.md
+
+3. For images:
+   - Use placeholder names: [event-name-placeholder].png
+   - I will add actual images later
+   - Do NOT create image files, just reference them in front matter
+
+4. Output format:
+   After creating files, provide:
+   - [ ] List each file created with its path
+   - [ ] Total event count
+   - [ ] Date range of events
+   - [ ] Any events that were skipped and why
+
+5. Validate:
+   - All dates are valid (YYYY-MM-DD)
+   - All URLs are included in caption_url
+   - No duplicate events
+   - File paths follow the pattern: _events/YYYY-MM-DD-[name].md
+</code></pre></div></div><hr /><h2 id="step-by-step-process">Step-by-Step Process</h2><h3 id="step-1-run-gpt-searches">Step 1: Run GPT Searches</h3><p>Use the prompts from <code class="language-plaintext highlighter-rouge">RESEARCH_PROMPTS.md</code> in ChatGPT or Claude.ai to gather event data. Ask the AI to return ONLY valid JSON.<h3 id="step-2-consolidate-the-json">Step 2: Consolidate the JSON</h3><p>Combine results from all searches into a single array. Example:<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"consolidated_events"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Iowa Code Camp"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2024-10-01"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"conference"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"dustin_role"</span><span class="p">:</span><span class="w"> </span><span class="s2">"speaker"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"topic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Techniques to Tackle Tech Debt"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://iowacodecamp.com"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PMI Agile 2026"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-04-15"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"conference"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"dustin_role"</span><span class="p">:</span><span class="w"> </span><span class="s2">"review_team"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"topic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PMI Agile Review and Strategy"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.pmi.org/agile"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div><h3 id="step-3-use-the-master-prompt">Step 3: Use the Master Prompt</h3><p>Copy the master prompt above and paste to GitHub Copilot with your JSON data.<h3 id="step-4-verify-files-created">Step 4: Verify Files Created</h3><p>After Copilot creates the files:<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-la</span> _events/
+<span class="c"># Should show new YYYY-MM-DD-*.md files</span>
+</code></pre></div></div><h3 id="step-5-build-and-test-locally">Step 5: Build and Test Locally</h3><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./run-blog
+<span class="c"># Visit http://localhost:4000/events</span>
+<span class="c"># Verify all new events appear in the list</span>
+</code></pre></div></div><h3 id="step-6-add-images-manual-step">Step 6: Add Images (Manual Step)</h3><ul><li>Gather promotional images for each event<li>Place in: <code class="language-plaintext highlighter-rouge">assets/images/</code><li>Note the filename<li>Update the <code class="language-plaintext highlighter-rouge">image:</code> section in each event file with correct filename</ul><h3 id="step-7-commit-and-deploy">Step 7: Commit and Deploy</h3><div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add _events/
+git add assets/images/  <span class="c"># if you added images</span>
+git commit <span class="nt">-m</span> <span class="s2">"Add events: [event names]"</span>
+git push origin main
+</code></pre></div></div><hr /><h2 id="troubleshooting">Troubleshooting</h2><p><strong>Q: Copilot says “file already exists”</strong><ul><li>A: The event file is already in your _events/ folder. Check if it’s a duplicate before recreating.</ul><p><strong>Q: Images aren’t showing</strong><ul><li>A: Make sure image filenames in front matter match the actual files in assets/images/</ul><p><strong>Q: Event doesn’t appear on /events page</strong><ul><li>A: Check that <code class="language-plaintext highlighter-rouge">event_date</code> is in YYYY-MM-DD format and the layout is <code class="language-plaintext highlighter-rouge">post</code></ul><p><strong>Q: URL is broken in event page</strong><ul><li>A: Make sure <code class="language-plaintext highlighter-rouge">caption_url</code> in front matter is a complete, valid URL</ul><hr /><h2 id="future-runs">Future Runs</h2><p>This process is <strong>repeatable</strong>:<ol><li>Run GPT searches monthly for new events<li>Consolidate JSON data<li>Paste to Copilot with master prompt<li>Copilot auto-creates files<li>Add images and deploy</ol><p><strong>No manual YAML formatting needed.</strong> Copilot handles the structure automatically.<hr /><h2 id="quick-reference">Quick Reference</h2><table><thead><tr><th>Step<th>Tool<th>Time<tbody><tr><td>1. Search for events<td>ChatGPT / Claude.ai<td>10-15 min<tr><td>2. Consolidate JSON<td>Copy-paste<td>2 min<tr><td>3. Create blog files<td>GitHub Copilot<td>2 min<tr><td>4. Test locally<td>./run-blog<td>2 min<tr><td>5. Deploy<td>git push<td>1 min<tr><td><strong>Total</strong><td><strong>Various</strong><td><strong>~20 min</strong></table><hr /><h2 id="example-complete-json-input">Example: Complete JSON Input</h2><p>Here’s a fully formatted example you can use as a template:<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"consolidated_events"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Iowa Code Camp - Techniques To Tackle Tech Debt"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2024-10-01"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"conference"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"dustin_role"</span><span class="p">:</span><span class="w"> </span><span class="s2">"speaker"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"topic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Technical, political, and procedural techniques to create more joy in new work with less pain from the old"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://iowacodecamp.com/schedule"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The Past Didn't Go Anywhere"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2026-07-25"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"presentation"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"dustin_role"</span><span class="p">:</span><span class="w"> </span><span class="s2">"speaker"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"topic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"[Get topic from LinkedIn/Meetup]"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"[Get URL from event registration]"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div><p>Copy this format when returning results to me. 🚀</div></article></div><!-- /.medium-8.columns --></div><!-- /.row --><div id="up-to-top" class="row" xmlns="http://www.w3.org/1999/html"><div class="small-12 columns" style="text-align: right;"> <a class="iconfont" href="#top-of-page">&#xf108;</a></div><!-- /.small-12.columns --></div><!-- /.row --><footer id="footer-content" class="bg-grau"> <!--<div id="footer">--> <!--<div class="row">--> <!--<div class="medium-6 large-5 columns">--> <!--<h5 class="shadow-black">About This Site</h5>--> <!--<p class="shadow-black">--> <!-- Design. Develop. Deliver--> <!-- <a href="https://delta3consulting.com/info/">More ›</a>--> <!-- --> <!--</div>&lt;!&ndash; /.large-6.columns &ndash;&gt;--> <!--<div class="small-6 medium-3 large-3 large-offset-1 columns">--> <!-- --> <!-- --> <!--<h5 class="shadow-black">Services</h5>--> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!--<ul class="no-bullet shadow-black">--> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title=""></a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com/contact/" title="Contact">Contact</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com/feed.xml" title="Subscribe to RSS Feed">RSS</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com/atom.xml" title="Subscribe to Atom Feed">Atom</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com/sitemap.xml" title="Sitemap for Google Webmaster Tools">sitemap.xml</a>--> <!-- --> <!-- --> <!--</ul>--> <!--</div>&lt;!&ndash; /.large-4.columns &ndash;&gt;--> <!--<div class="small-6 medium-3 large-3 columns">--> <!-- --> <!-- --> <!--<h5 class="shadow-black">Organizations we've worked with</h5>--> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!--<ul class="no-bullet shadow-black">--> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title=""></a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Principal Financial Group</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Ford Motor Company</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">TDAmeritrade</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Industrial Logic</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Lean TECHniques</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">JohnDeere</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Berkley Technology Services</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Pioneer HyBrid</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Summit Healthcare</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Iowa League Of Cities</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Agile Alliance</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">VisionT</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">Rockline Enterprises</a>--> <!-- --> <!-- --> <!-- --> <!--<li >--> <!-- <a href="https://delta3consulting.com" title="">BirdDogJobs</a>--> <!-- --> <!-- --> <!--</ul>--> <!--</div>&lt;!&ndash; /.large-3.columns &ndash;&gt;--> <!--</div>&lt;!&ndash; /.row &ndash;&gt;--> <!--</div>&lt;!&ndash; /#footer &ndash;&gt;--><div id="subfooter"><nav class="row"><section id="subfooter-left" class="small-12 medium-6 columns credits"> <span class="build-version">20260524.214925</span></section><section id="subfooter-right" class="small-12 medium-6 columns"><ul class="inline-list social-icons"><li><a href="http://twitter.com/dustinson" target="_blank" class="icon-twitter" title="@Dustinson on Twitter"></a><li><a href="https://www.youtube.com/playlist?list=PLu5A5CyoWE0aYG6Fosb113fD_VQv3-VRn" target="_blank" class="icon-youtube" title="Videos"></a><li><a href="https://www.linkedin.com/in/dustinthostenson/" target="_blank" class="icon-linkedin" title="Let's Connect"></a></ul></section></nav></div><!-- /#subfooter --></footer><script src="https://delta3consulting.com/assets/js/javascript.min.js"></script>
