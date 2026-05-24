@@ -61,6 +61,8 @@
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
             {{ site.credits }}
+            {% assign build_version = site.time | date: '%y%m%d.%H%M' %}
+            <span class="build-version">{{ build_version }}</span>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">

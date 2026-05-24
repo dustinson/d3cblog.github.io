@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# run-blog - Start the Jekyll development server and open in browser
+# Usage: ./run-blog
+
+echo "🚀 Launching d3cBlog..."
+
+# Kill any existing server on port 4000
+lsof -ti:4000 | xargs kill -9 2>/dev/null
+
+# Start the dev server in background
+./serve.sh &
+SERVER_PID=$!
+
+# Wait for server to start
+echo "⏳ Starting server (PID: $SERVER_PID)..."
+sleep 6
+
+# Open in browser
+echo "🌐 Opening http://localhost:4000 in your browser..."
+open http://localhost:4000
+
+echo ""
+echo "✅ Blog is running! Press Ctrl+C to stop."
+echo ""
+
+# Keep the script running so Ctrl+C stops the server
+wait $SERVER_PID
+
