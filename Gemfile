@@ -18,11 +18,8 @@ gem 'rexml', '>= 3.4.2'            # DoS vulnerability fixed
 group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
-  gem "jekyll-asciidoc"
 end
 
-gem 'asciidoctor', '~> 1.5.4'
-gem 'coderay', '~> 1.1'
 gem 'faraday-retry'
 
 # Remove explicit dependency on commonmarker, kramdown-parser-gfm, and rdiscount
