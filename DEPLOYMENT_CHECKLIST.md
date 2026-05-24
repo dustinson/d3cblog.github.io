@@ -33,9 +33,26 @@ JEKYLL_ENV=production bundle exec jekyll build --verbose
 - [ ] Opens to http://localhost:4000 automatically
 - [ ] No errors in terminal output
 
-### 5. Manual Browser Testing
+### 5. Automated Link & Resource Check
 
-Visit each page and verify:
+```bash
+# Start dev server in one terminal
+./dev-serve.sh
+
+# Run link checker in another terminal
+python3 scripts/pre-deployment-check.py
+```
+- [ ] Script completes with "ALL CHECKS PASSED"
+- [ ] Exit code is 0 (check: `echo $?` after script runs)
+- [ ] No broken internal links reported
+- [ ] No missing images or resources
+- [ ] All 75 event pages accessible
+
+**Note:** This automated check is faster and more reliable than manual testing. See [PRE_DEPLOYMENT_CHECK.md](PRE_DEPLOYMENT_CHECK.md) for details.
+
+### 6. Manual Browser Testing (Spot Check)
+
+After automated checks pass, do spot checks:
 
 #### Homepage (http://localhost:4000)
 - [ ] Page loads without errors
