@@ -29,20 +29,15 @@ Enjoy :)
 
 ## Project-Specific Configuration Notes
 
-### Events System (Hybrid Approach)
-**IMPORTANT**: This project uses a HYBRID event storage pattern that differs from pure Jekyll standards:
+### Events System
+All events live in the `_events/` folder as a Jekyll collection.
 
-- **NEW events** → Store in `_events/` folder as a Jekyll collection
+- **All events** → Store in `_events/` folder
   - Files follow naming convention: `YYYY-MM-DD-event-name.md`
-  - These render with the `events` layout at `/events/:path/`
-  
-- **OLD events** → Legacy posts live in `_posts/` with the `community` category
-  - These are blog posts that are displayed on the events page
-  - Must have `categories: - community` in frontmatter
+  - These render with the `post` layout at `/events/:path/`
+  - Keep `categories: - community` in frontmatter (used by the back-button in `post.html`)
 
 - **Display Logic** (`_includes/_event-pagination.html`):
-  - The events page combines BOTH sources via: `site.events | concat: site.categories.community`
-  - Results are sorted by date (newest first) and merged together
-  - This ensures old events don't disappear when new events collection is added
+  - Uses `site.events | sort: "date" | reverse`
 
-**⚠️ KEY LEARNING**: When updating event display templates, always merge both data sources. Do NOT replace one with the other.
+**Note:** Legacy static HTML exists under `community/` at the repo root. These are orphaned files left for continuity of old bookmarked URLs. They are not maintained and do not need to be updated.

@@ -13,11 +13,10 @@ permalink: "/events/archive/"
 		{% if page.teaser %}<p class="teaser">{{ page.teaser }}</p>{% endif %}
 
 		<dl class="accordion" data-accordion>
-			{% assign counter = 1 %}
-			{% assign my_posts = site.categories.community %}
-<!--			#{% assign my_events = site.posts | where: "layout", "page" %}-->
+		{% assign counter = 1 %}
+		{% assign my_posts = site.events | sort: "date" | reverse %}
 
-			{% for post in my_events limit:1000 %}
+		{% for post in my_posts limit:1000 %}
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {{ post.date | date: "%Y-%m-%d"}} - {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">

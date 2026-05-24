@@ -28,5 +28,7 @@ In an era where AI is rapidly evolving, this session explored why foundational k
 
 The discussion challenged the notion that AI replaces fundamentals, instead illuminating how strong foundational knowledge enables developers to leverage AI tools more effectively and make better architectural decisions.
 
+Watch the recording: [.NET@Noon - The Past Didn't Go Anywhere](https://www.youtube.com/watch?v=WDIjJiCeF8M){:target="_blank"}.
+
 Learn more about the [Iowa .NET User Group](https://www.meetup.com/iadnug/events/314148713/){:target="_blank"}.
 
