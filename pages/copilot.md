@@ -126,6 +126,85 @@ Simply say "grill me on [topic]" and I will:
 
 ---
 
+## Cleanup Item Workflow
+
+### How to Invoke
+Say: **"Address cleanup item [ID]"** (e.g., "Address cleanup item C-1" or "Address item H-1 through H-3")
+
+Copilot will:
+1. Read the item from `SITE_CLEANUP_AUDIT.md`
+2. Make **only the changes described in that item** — nothing else
+3. Run a full production build to verify
+4. Stage only the affected files and commit
+5. Report exactly what changed and what you should verify before pushing
+
+### The Protocol (Copilot Must Follow This Every Time)
+
+```
+STEP 1 — Read the audit item
+  → Open SITE_CLEANUP_AUDIT.md
+  → Re-read the specific item (C-x, H-x, M-x, or L-x)
+  → Confirm scope before touching anything
+
+STEP 2 — Make the change
+  → Edit/delete/move only the files described
+  → Do NOT refactor anything else while in the file
+  → If a change seems riskier than the audit described, STOP and ask
+
+STEP 3 — Build and verify
+  → Run: JEKYLL_ENV=production bundle exec jekyll build --verbose 2>&1 | tail -30
+  → Build MUST exit 0 with no "Error:" or "Liquid Exception:" lines
+  → If build fails: revert the change, report the failure, ask for guidance
+  → Do NOT commit a failed build under any circumstances
+
+STEP 4 — Show the diff
+  → Run: git diff --stat HEAD
+  → List every file that changed
+  → Flag anything unexpected — ask before proceeding if scope creep is detected
+
+STEP 5 — Commit (never push)
+  → git add [only the specific files changed]
+  → git commit -m "cleanup: [ITEM-ID] [short description]"
+  → Example: git commit -m "cleanup: C-1 Move year-3024 LossModeling post to drafts"
+  → Report: "Committed. Run 'git push origin main' when ready."
+
+STEP 6 — Post-commit report
+  Report:
+  - ✅ What changed (file list)
+  - ✅ Build passed (confirm)
+  - ✅ Commit hash
+  - ⚠️  Anything you should manually verify in the browser after deploying
+  - 🚫 Anything this change does NOT fix (related items still open)
+```
+
+### Commit Naming Convention
+
+| Prefix | Use for |
+|--------|---------|
+| `cleanup: C-x` | Critical audit items |
+| `cleanup: H-x` | High priority audit items |
+| `cleanup: M-x` | Medium priority audit items |
+| `cleanup: L-x` | Low priority (polish) items |
+| `cleanup: C-x H-x` | Batched items in one commit (must all pass same build) |
+
+### Build Pass Criteria
+
+A build **passes** when ALL of the following are true:
+- Exit code is `0`
+- Output contains `done in` (Jekyll success marker)
+- No lines containing `Error:` or `Liquid Exception:`
+- No `WARNING:` lines that weren't present before the change
+
+A build **fails** when ANY of the above are violated. Copilot must revert and report — never commit a broken build.
+
+### What Copilot Will NOT Do
+- ⛔ `git push` — you always push to production yourself
+- ⛔ Address multiple unrelated audit items in one commit (unless explicitly batched)
+- ⛔ "Clean up while I'm in there" — no scope creep
+- ⛔ Commit if the build fails or has new warnings
+
+---
+
 ## Todo List
 
 ### Phase 1: Stabilization (Block everything until done)

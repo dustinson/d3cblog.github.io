@@ -16,21 +16,48 @@ Copy these slash command definitions into your IDE. They'll make development muc
 
 ### `/test-build`
 **Description:** Run production build to verify no errors  
-**Command:** `JEKYLL_ENV=production bundle exec jekyll build`  
+**Command:** `JEKYLL_ENV=production bundle exec jekyll build --verbose 2>&1 | tail -30`  
 **Context:** Testing  
-**Output:** Build status and errors (if any)
+**Output:** Build status, exit code, last 30 lines (errors surface here)  
+**Pass criteria:** Exit 0, contains "done in", no "Error:" or "Liquid Exception:" lines
 
 ### `/deploy`
-**Description:** Push changes to production  
+**Description:** Push changes to production (USER ONLY — Copilot never runs this)  
 **Command:** `git push origin main`  
 **Context:** Deployment  
-**Output:** Deployment status and GitHub Pages URL
+**Output:** Deployment status and GitHub Pages URL  
+**⚠️ Note:** Always run `/check` first. Copilot stages and commits; you push.
 
 ### `/check`
 **Description:** Run pre-deployment checklist  
-**Command:** `bundle audit && JEKYLL_ENV=production bundle exec jekyll build --verbose`  
+**Command:** `bundle audit && JEKYLL_ENV=production bundle exec jekyll build --verbose 2>&1 | tail -30`  
 **Context:** Testing  
-**Output:** Security audit + build verification
+**Output:** Security audit + build verification  
+**Use before:** Every `git push origin main`
+
+---
+
+## Cleanup Commands
+
+### `/cleanup-item`
+**Description:** Address a specific item from SITE_CLEANUP_AUDIT.md  
+**Usage:** "Address cleanup item C-1" or "Address items H-1 through H-3"  
+**Context:** Cleanup  
+**Protocol:**
+1. Read the item from `SITE_CLEANUP_AUDIT.md`
+2. Make only the described changes
+3. Run `/test-build` — must pass before proceeding
+4. Show `git diff --stat` for review
+5. `git add [specific files]` + `git commit -m "cleanup: [ID] [description]"`
+6. Report: files changed, build status, commit hash, what to verify in browser
+7. **Never `git push`** — user always pushes to production
+
+**Commit format:** `cleanup: C-1 Short description of what changed`
+
+### `/audit-status`
+**Description:** Show open cleanup items from SITE_CLEANUP_AUDIT.md  
+**Context:** Cleanup  
+**Output:** Summary of remaining open items grouped by priority (🔴🟠🟡🟢)
 
 ---
 
@@ -145,9 +172,11 @@ Copy these slash command definitions into your IDE. They'll make development muc
 If you only want to add a few, prioritize these:
 
 1. ✅ `/run-blog` — Start dev server
-2. ✅ `/test-build` — Verify production build
-3. ✅ `/check` — Pre-deployment checklist
-4. ✅ `/discover-events` — Event discovery workflow
+2. ✅ `/test-build` — Verify production build (always before committing)
+3. ✅ `/check` — Full pre-deployment checklist (always before pushing)
+4. ✅ `/cleanup-item` — Address an item from `SITE_CLEANUP_AUDIT.md` safely
+5. ✅ `/audit-status` — See what cleanup is still open
+6. ✅ `/discover-events` — Event discovery workflow
 
 ---
 
@@ -181,21 +210,31 @@ If your IDE supports JSON import:
     },
     {
       "command": "/test-build",
-      "description": "Run production build verification",
-      "action": "JEKYLL_ENV=production bundle exec jekyll build",
+      "description": "Run production build verification — must pass before any commit",
+      "action": "JEKYLL_ENV=production bundle exec jekyll build --verbose 2>&1 | tail -30",
+      "context": "testing"
+    },
+    {
+      "command": "/check",
+      "description": "Full pre-deployment checks — run before every push",
+      "action": "bundle audit && JEKYLL_ENV=production bundle exec jekyll build --verbose 2>&1 | tail -30",
       "context": "testing"
     },
     {
       "command": "/deploy",
-      "description": "Push to production",
+      "description": "Push to production (user-only, never Copilot)",
       "action": "git push origin main",
       "context": "deployment"
     },
     {
-      "command": "/check",
-      "description": "Pre-deployment checks",
-      "action": "bundle audit && JEKYLL_ENV=production bundle exec jekyll build --verbose",
-      "context": "testing"
+      "command": "/cleanup-item",
+      "description": "Address a SITE_CLEANUP_AUDIT.md item: build-test-commit workflow",
+      "context": "cleanup"
+    },
+    {
+      "command": "/audit-status",
+      "description": "Show remaining open items from SITE_CLEANUP_AUDIT.md",
+      "context": "cleanup"
     },
     {
       "command": "/discover-events",
@@ -217,10 +256,19 @@ Once configured, in your IDE chat:
 → Starts dev server automatically
 
 /test-build
-→ Runs production build to verify
+→ Runs production build, exits 0 = clean
 
 /check
-→ Runs security audit + build check
+→ Runs security audit + build check (run before every push)
+
+"Address cleanup item C-1"
+→ Copilot reads audit, makes change, builds, commits — you review and push
+
+"Address items H-1 through H-3"
+→ Copilot batches related items into a single tested commit
+
+/audit-status
+→ Shows remaining open cleanup items by priority
 
 /discover-events  
 → Shows event discovery instructions
