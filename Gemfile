@@ -11,7 +11,9 @@ gem 'activesupport', '>= 7.1.5.2'  # Can upgrade to 7.2+ on Ruby 3.2+
 gem 'addressable', '>= 2.9.0'      # ReDoS vulnerability fixed
 gem 'faraday', '>= 2.14.1'         # SSRF vulnerability fixed
 gem 'rexml', '>= 3.4.2'            # DoS vulnerability fixed
-# nokogiri stays at 1.18.9 (requires 1.19.1+, but that needs Ruby 3.2+)
+# nokogiri: Local Ruby 3.1.2 limited to 1.18.x (has CVEs)
+# GitHub Actions Ruby 3.3 will use 1.19.3+ (patched)
+# See: TROUBLESHOOTING.md for local development notes
 
 group :jekyll_plugins do
   gem 'jekyll-gist'

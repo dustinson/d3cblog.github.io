@@ -40,3 +40,48 @@ For production builds:
 ```bash
 JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+### Deployment to GitHub Pages
+
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to `main`. The workflow:
+
+1. Runs on Ubuntu with Ruby 3.3
+2. Installs dependencies via bundler
+3. Builds the site in production mode
+4. Deploys to GitHub Pages
+
+**To deploy:** Simply push to the `main` branch:
+
+```bash
+git add .
+git commit -m "Your message"
+git push origin main
+```
+
+The deployment will appear at https://delta3consulting.com within a few minutes.
+
+### Before Deploying
+
+Run these checks locally:
+
+```bash
+# Run security audit
+bundle audit
+
+# Run production build
+JEKYLL_ENV=production bundle exec jekyll build --verbose
+
+# Smoke test in browser
+./run-blog
+
+# Visit http://localhost:4000 and verify:
+# - Homepage loads correctly
+# - Navigation links work
+# - Blog page lists recent posts
+# - Events page displays events  
+# - Contact page is accessible
+# - Footer appears on all pages
+```
+
+See **TROUBLESHOOTING.md** for common issues and solutions.
+
