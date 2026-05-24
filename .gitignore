@@ -6,7 +6,8 @@ _site
 vendor
 .idea
 /.idea/
-*.lock
 *.ini
 .sass-cache
-Gemfile.lock
+
+# NOTE: Gemfile.lock IS tracked in git (needed for reproducible production builds)
+# Do not add to .gitignore - GitHub Actions relies on it!
