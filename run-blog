@@ -5,6 +5,7 @@
 
 echo "🚀 Launching d3cBlog..."
 
+
 # Kill any existing server on port 4000
 lsof -ti:4000 | xargs kill -9 2>/dev/null
 
