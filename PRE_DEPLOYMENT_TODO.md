@@ -28,26 +28,26 @@ Get automation into regular use and integrated into basic CI/CD.
 **Description:** Test the script in real deployment scenarios before it becomes standard practice.
 
 **Action Items:**
-- [ ] **1.1** Run script before next planned deployment
-  - Date target: May 31, 2026
-  - Success criteria: Script completes with "ALL CHECKS PASSED"
-  - Document any edge cases found
-  
-- [ ] **1.2** Run script after any major site changes
-  - Test when: Next blog post added, next events added
-  - Verify: Catches any new issues introduced
-  - Document any false positives/negatives
+    - [x] **1.1** Run script before next planned deployment
+      - Date target: May 31, 2026 → ✅ COMPLETED May 24, 2026
+      - Success criteria: Script completes with "ALL CHECKS PASSED" ✓
+      - Document any edge cases found ✓
+      
+    - [ ] **1.2** Run script after any major site changes
+      - Test when: Next blog post added, next events added
+      - Verify: Catches any new issues introduced
+      - Document any false positives/negatives
 
-- [ ] **1.3** Test on different machine (if team member available)
-  - Goal: Verify script works across environments
-  - Platform: macOS, Linux, or Windows (WSL)
-  - Success: Same results as original machine
+    - [ ] **1.3** Test on different machine (if team member available)
+      - Goal: Verify script works across environments
+      - Platform: macOS, Linux, or Windows (WSL)
+      - Success: Same results as original machine
 
-- [ ] **1.4** Test with dev server in different states
-  - Running normally
-  - With stale build cache
-  - After `git clean -fd`
-  - Goal: Ensure robustness
+    - [ ] **1.4** Test with dev server in different states
+      - Running normally ✓ (tested May 24)
+      - With stale build cache
+      - After `git clean -fd`
+      - Goal: Ensure robustness
 
 **Success Criteria:**
 - Script runs successfully in ≥ 3 real deployments
@@ -665,12 +665,24 @@ Item 12 (Maintenance)
 - [x] Scripts/pre-deployment-check.py created
 - [x] Core documentation created
 - [x] Initial testing done (75 events verified)
+- [x] **Site Cleanup Phase 1 Complete** (May 24, 2026)
+  - Cleanup branch merged to main
+  - See `CLEANUP_COMPLETE.md` for details
+- [x] **SHORT-TERM Item 1.1: Integration Testing** ✅ 
+  - May 24, 2026: First test run PASSED with "ALL CHECKS PASSED"
+  - All 75 events verified
+  - All main pages accessible
+  - See `INTEGRATION_TEST_LOG.md` for details
 
 ### In Progress 🔄
-- [ ] (None currently)
+- Branch: `automation/short-term-phase` (started May 24, 2026)
+- [ ] Item 2: GitHub Actions Workflow Integration (CURRENT - started May 24)
+- [ ] Item 1: Complete remaining subtasks (1.2, 1.3, 1.4)
 
 ### Not Started ⏳
-- [ ] (See SHORT-TERM, MEDIUM-TERM, LONG-TERM items)
+- [ ] SHORT-TERM Item 3: Documentation Updates
+- [ ] MEDIUM-TERM items (4-7)
+- [ ] LONG-TERM items (8-12)
 
 ---
 
@@ -683,7 +695,7 @@ Item 12 (Maintenance)
 
 ---
 
-**Next Action:** Schedule Item 1 (Integration Testing) for first deployment cycle  
-**Last Reviewed:** May 24, 2026  
-**Next Review:** June 24, 2026
+**Next Action:** Proceed with SHORT-TERM Item 2: Create GitHub Actions workflow  
+**Last Reviewed:** May 24, 2026 (Updated post-cleanup merge and integration test)  
+**Next Review:** May 26, 2026 (after Item 2 completion)
 

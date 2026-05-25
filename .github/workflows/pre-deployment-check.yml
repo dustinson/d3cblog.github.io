@@ -1,0 +1,45 @@
+name: Pre-Deployment Link & Page Check
+
+# Trigger on pull requests to main branch
+on:
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+
+jobs:
+  pre-deployment-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1.2'
+        bundler-cache: true
+
+    - name: Install dependencies
+      run: bundle install --jobs 4 --retry 3
+
+    - name: Build site
+      env:
+        JEKYLL_ENV: production
+      run: bundle exec jekyll build --verbose
+
+    - name: Start dev server
+      run: |
+        bundle exec jekyll serve --port 4000 --no-watch &
+        sleep 10
+
+    - name: Run pre-deployment check
+      run: python3 scripts/pre-deployment-check.py
+      continue-on-error: false
+
+    - name: Report results
+      if: always()
+      run: echo "Pre-deployment check completed"
+
