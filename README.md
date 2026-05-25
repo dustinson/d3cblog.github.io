@@ -96,6 +96,12 @@ bundle audit
 # Run production build
 JEKYLL_ENV=production bundle exec jekyll build --verbose
 
+# Run automated pre-deployment check
+./dev-serve.sh &
+sleep 5
+python3 scripts/pre-deployment-check.py
+# Should output: ✅ ALL CHECKS PASSED - READY FOR PRODUCTION
+
 # Smoke test in browser
 ./run-blog
 
@@ -108,6 +114,15 @@ JEKYLL_ENV=production bundle exec jekyll build --verbose
 # - Footer appears on all pages
 ```
 
+**Automated Pre-Deployment Checks:**
+When you create a pull request to `main`, automated checks run automatically via GitHub Actions:
+- Builds the site in production mode
+- Runs automated link and resource verification
+- Reports results in the PR
+- Helps prevent broken content from reaching production
+
+For details, see **[PRE-DEPLOYMENT_CHECK.md](PRE_DEPLOYMENT_CHECK.md)** and the "Pre-Deployment Automation" section in **[DEVELOPMENT.md](DEVELOPMENT.md)**.
+
 See **TROUBLESHOOTING.md** for common issues and solutions.
 
 ## Documentation
@@ -115,10 +130,11 @@ See **TROUBLESHOOTING.md** for common issues and solutions.
 Complete documentation for development, deployment, and troubleshooting:
 
 - **[DEVELOPMENT.md](DEVELOPMENT.md)** - Full development guide including setup, workflow, and commands
+- **[PRE_DEPLOYMENT_CHECK.md](PRE_DEPLOYMENT_CHECK.md)** - Automated checking system for pre-deployment verification
+- **[QUICK_START_DEPLOYMENT.md](QUICK_START_DEPLOYMENT.md)** - Quick reference for deployment process
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions for common issues
-- **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** - Pre-deployment verification steps
+- **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** - Manual pre-deployment verification steps
 - **[Makefile](Makefile)** - Quick reference for all available commands
-- **[PHASE_1_SUMMARY.md](PHASE_1_SUMMARY.md)** - Stabilization status and next steps
 
 ## Setup for Contributors
 
