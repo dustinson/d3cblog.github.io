@@ -1,10 +1,14 @@
 /* TEAM */
 
+Name: Dustin Thostenson
+Contact: https://delta3consulting.com
+Twitter: @dustinson
+Role: Founder, Developer, Designer
 
 /* THANKS */
 
 Name: Moritz »mo.« Sauer
-Role: Creator of the Theme
+Role: Creator of the Feeling Responsive Theme
 Site: http://mo.phlow.de/
 Twitter: @phlow
 Theme: http://phlow.github.io/feeling-responsive/
