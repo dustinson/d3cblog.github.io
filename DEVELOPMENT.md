@@ -259,12 +259,18 @@ bundle audit
 # 2. Production build test
 JEKYLL_ENV=production bundle exec jekyll build --verbose
 
-# 3. Manual browser test
+# 3. Automated link & page check
+./dev-serve.sh &
+sleep 5
+python3 scripts/pre-deployment-check.py
+# Press Ctrl+C to stop the server
+
+# 4. Manual browser test
 make dev
 # Visit http://localhost:4000
 # Click around, verify nothing is broken
 
-# 4. Commit and push
+# 5. Commit and push
 git add .
 git commit -m "Your change description"
 make deploy
@@ -274,6 +280,98 @@ Or use the shortcut:
 ```bash
 make check
 ```
+
+## Pre-Deployment Automation
+
+### Overview
+
+The site includes automated checks to catch broken links, missing resources, and inaccessible pages before deployment.
+
+**Why this matters:**
+- Catches issues early before they reach production
+- Prevents broken links to content
+- Ensures all events and pages are accessible
+- Saves debugging time post-deploy
+
+### Running Locally
+
+Before deploying, run the automated pre-deployment check:
+
+```bash
+# Terminal 1: Start dev server
+./dev-serve.sh
+
+# Terminal 2: Run checks
+python3 scripts/pre-deployment-check.py
+```
+
+**Expected output on success:**
+```
+======================================================================
+✅ ALL CHECKS PASSED - READY FOR PRODUCTION
+======================================================================
+```
+
+**Exit codes:**
+- `0` = Success (all checks passed)
+- `1` = Failure (broken links or missing resources found)
+
+### GitHub Actions Workflow
+
+When you create a pull request to `main`, the automated workflow runs automatically:
+
+1. **Checkout code** - Gets the PR changes
+2. **Setup Ruby** - Prepares Ruby 3.1.2 environment
+3. **Install dependencies** - Runs `bundle install`
+4. **Build site** - Production build with `-verbose` flag
+5. **Start dev server** - Launches Jekyll server on port 4000
+6. **Run checks** - Executes pre-deployment check script
+7. **Report results** - Shows pass/fail status in PR
+
+**Viewing workflow results:**
+- Check appears in the pull request under "Checks" tab
+- Click through to see detailed logs
+- Review any failures before merging
+
+**Workflow file:** `.github/workflows/pre-deployment-check.yml`
+
+### What Gets Checked
+
+✅ **Main Pages**
+- Homepage
+- Events index page
+- Blog page
+- Videos page
+- Search page
+
+✅ **Assets**
+- CSS stylesheets
+- JavaScript files
+
+✅ **Events**
+- All 75+ event pages load
+- Links within event pages work
+- Event resources accessible
+
+✅ **Resources**
+- All images load correctly
+- All dependent resources available
+
+### Troubleshooting Checks
+
+**If checks fail locally:**
+1. Check the error message (usually indicates which page failed)
+2. Try: `make clean && make dev`
+3. Try: `bundle update --conservative`
+4. Check: See `TROUBLESHOOTING.md` for specific issues
+
+**If GitHub workflow fails:**
+1. Click the workflow run in GitHub Actions
+2. View detailed logs
+3. Fix the issue locally
+4. Re-run workflow by pushing a new commit
+
+For more info, see: `PRE_DEPLOYMENT_CHECK.md`
 
 ## Deploying
 
