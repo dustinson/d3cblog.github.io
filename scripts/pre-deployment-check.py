@@ -6,10 +6,16 @@ Crawls through all event pages and the main site to check for:
 - Broken internal links (404s, timeouts)
 - Missing images and resources
 - Unreachable pages
+- External links (optional, with intelligent retry logic)
 - General site health before production deployment
 
 Usage:
-    python3 scripts/pre-deployment-check.py
+    python3 scripts/pre-deployment-check.py              # Internal links only
+    python3 scripts/pre-deployment-check.py --check-external  # Include external links
+
+Options:
+    --check-external    Enable checking of external links (slower, optional)
+    --verbose          Show detailed output
 
 Requirements:
     - Local Jekyll dev server running on http://localhost:4000
@@ -24,16 +30,33 @@ Exit Codes:
 import subprocess
 import re
 import sys
+import argparse
+import time
 from collections import defaultdict
 
 
+# Whitelist of domains that block automated checks or are unreliable
+EXTERNAL_LINK_WHITELIST = {
+    'linkedin.com': 'Blocks bot requests',
+    'twitter.com': 'Requires authentication',
+    'x.com': 'Requires authentication',
+    'facebook.com': 'Requires authentication',
+    'instagram.com': 'Requires authentication',
+    'youtube.com': 'May block bot requests',
+    'github.com': 'High request rate limits',
+    'amazon.com': 'May block bot requests',
+}
+
+
 class LinkChecker:
-    def __init__(self, base_url="http://localhost:4000", verbose=False):
+    def __init__(self, base_url="http://localhost:4000", verbose=False, check_external=False):
         self.base_url = base_url
         self.verbose = verbose
+        self.check_external = check_external
         self.errors = defaultdict(list)
         self.warnings = defaultdict(list)
         self.passed_checks = []
+        self.external_link_stats = {'total': 0, 'passed': 0, 'skipped': 0, 'warning': 0, 'failed': 0}
 
     def curl_fetch(self, url, timeout=5, head_only=False):
         """Fetch a URL using curl and return (status_code, content)"""
@@ -53,6 +76,47 @@ class LinkChecker:
             return "TIMEOUT"
         except Exception as e:
             return f"ERROR: {e}"
+
+    def check_external_link_with_retry(self, url, max_retries=2):
+        """
+        Check external URL with retry logic.
+        Returns (status_code, is_final_attempt)
+        Implements exponential backoff: 1s, 3s, 5s
+        """
+        backoff_times = [1, 3, 5]
+
+        for attempt in range(max_retries + 1):
+            status = self.curl_fetch(url, timeout=10, head_only=True)
+
+            # Success - return status
+            if status in ["200", "301", "302", "303"]:
+                return status, True
+
+            # Server errors that warrant retry
+            if status in ["TIMEOUT", "500", "502", "503", "504"]:
+                if attempt < max_retries:
+                    wait_time = backoff_times[attempt]
+                    if self.verbose:
+                        print(f"       ↻ Retry in {wait_time}s (attempt {attempt+1}/{max_retries}) - {url}")
+                    time.sleep(wait_time)
+                    continue
+
+            # Final attempt - return status
+            return status, True
+
+        return status, True
+
+    def is_external_link(self, url):
+        """Check if URL is external (http/https)"""
+        return url.startswith('http://') or url.startswith('https://')
+
+    def is_whitelisted_domain(self, url):
+        """Check if URL domain is in the whitelist"""
+        try:
+            domain = url.split('//')[1].split('/')[0].replace('www.', '')
+            return domain in EXTERNAL_LINK_WHITELIST
+        except:
+            return False
 
     def get_page_content(self, url):
         """Get full HTML content of a page"""
@@ -176,6 +240,7 @@ class LinkChecker:
         print("-" * 70)
 
         broken_links = []
+        external_links = []
 
         for event_path in events:
             url = f"{self.base_url}{event_path}/"
@@ -185,8 +250,12 @@ class LinkChecker:
             for link in links:
                 if not self.should_check_link(link):
                     continue
-                if link.startswith("http"):
-                    continue  # Skip external links
+
+                # External links - collect for optional checking
+                if self.is_external_link(link):
+                    if self.check_external:
+                        external_links.append(link)
+                    continue
 
                 full_url = f"{self.base_url}{link if link.startswith('/') else '/' + link}"
                 status = self.check_url(full_url)
@@ -195,13 +264,17 @@ class LinkChecker:
                     broken_links.append((event_path, link, status))
 
         if broken_links:
-            print(f"❌ {len(broken_links)} broken links found")
+            print(f"❌ {len(broken_links)} broken internal links found")
             for event, link, status in broken_links[:5]:
                 print(f"   {event}: {link} (HTTP {status})")
             self.errors["broken_links"] = broken_links
         else:
-            print("✓ No broken links in event pages")
+            print("✓ No broken internal links in event pages")
             self.passed_checks.append("Event links: All accessible")
+
+        # Check external links if enabled
+        if self.check_external and external_links:
+            self.check_external_links(external_links)
 
         return len(broken_links) == 0
 
@@ -237,6 +310,58 @@ class LinkChecker:
             self.passed_checks.append("Event resources: All accessible")
 
         return len(broken_resources) == 0
+
+    def check_external_links(self, links):
+        """Check external links with retry logic and whitelisting"""
+        print("\n7. CHECKING EXTERNAL LINKS (with retry logic)...")
+        print("-" * 70)
+
+        unique_links = set(links)
+        failed_links = []
+
+        for link in sorted(unique_links):
+            self.external_link_stats['total'] += 1
+
+            # Check whitelist
+            if self.is_whitelisted_domain(link):
+                self.external_link_stats['skipped'] += 1
+                if self.verbose:
+                    print(f"  ⊘ {link[:60]} (whitelisted)")
+                continue
+
+            # Check with retry
+            status, _ = self.check_external_link_with_retry(link)
+
+            if status == "200" or status in ["301", "302", "303"]:
+                self.external_link_stats['passed'] += 1
+                if self.verbose:
+                    print(f"  ✓ {link[:60]} ({status})")
+            elif status in ["TIMEOUT", "500", "502", "503", "504"]:
+                self.external_link_stats['warning'] += 1
+                self.warnings["external_links"].append((link, status))
+                if self.verbose:
+                    print(f"  ⚠ {link[:60]} ({status}) - May be transient")
+            else:
+                self.external_link_stats['failed'] += 1
+                failed_links.append((link, status))
+                if self.verbose:
+                    print(f"  ✗ {link[:60]} ({status})")
+
+        # Report external link summary
+        print(f"\nExternal Links Summary:")
+        print(f"  Total: {self.external_link_stats['total']}")
+        print(f"  ✓ Passed: {self.external_link_stats['passed']}")
+        print(f"  ⊘ Skipped (whitelisted): {self.external_link_stats['skipped']}")
+        print(f"  ⚠ Warnings (transient): {self.external_link_stats['warning']}")
+        print(f"  ✗ Failed: {self.external_link_stats['failed']}")
+
+        if failed_links:
+            self.errors["external_links"] = failed_links
+            print(f"\n⚠️  {len(failed_links)} external links failed checks")
+        else:
+            print("✓ All external links accessible (or safely whitelisted)")
+            if self.external_link_stats['total'] > 0:
+                self.passed_checks.append(f"External links: All {self.external_link_stats['passed']} passed")
 
     def print_summary(self):
         """Print final summary and recommendations"""
@@ -305,7 +430,24 @@ class LinkChecker:
 
 def main():
     """Entry point"""
-    checker = LinkChecker(verbose=True)
+    parser = argparse.ArgumentParser(
+        description='Pre-deployment link checker for d3cblog.github.io',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Examples:
+  %(prog)s                    # Check internal links only (fast)
+  %(prog)s --check-external   # Check both internal and external links (slower)
+  %(prog)s --verbose          # Show detailed output
+        '''
+    )
+    parser.add_argument('--check-external', action='store_true',
+                       help='Enable checking of external links (slower, optional)')
+    parser.add_argument('--verbose', action='store_true',
+                       help='Show detailed output for each check')
+
+    args = parser.parse_args()
+
+    checker = LinkChecker(verbose=args.verbose, check_external=args.check_external)
     exit_code = checker.run()
     sys.exit(exit_code)
 
