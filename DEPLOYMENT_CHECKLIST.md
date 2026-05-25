@@ -33,22 +33,51 @@ JEKYLL_ENV=production bundle exec jekyll build --verbose
 - [ ] Opens to http://localhost:4000 automatically
 - [ ] No errors in terminal output
 
-### 5. Automated Link & Resource Check
+### 5. Automated Link & Resource Check ⭐ PRIMARY VERIFICATION STEP
+
+This automated check is the most reliable way to catch issues before deployment:
 
 ```bash
-# Start dev server in one terminal
+# Terminal 1: Start dev server
 ./dev-serve.sh
 
-# Run link checker in another terminal
+# Terminal 2 (in a new terminal window): Run checks
 python3 scripts/pre-deployment-check.py
 ```
-- [ ] Script completes with "ALL CHECKS PASSED"
-- [ ] Exit code is 0 (check: `echo $?` after script runs)
-- [ ] No broken internal links reported
-- [ ] No missing images or resources
-- [ ] All 75 event pages accessible
 
-**Note:** This automated check is faster and more reliable than manual testing. See [PRE_DEPLOYMENT_CHECK.md](PRE_DEPLOYMENT_CHECK.md) for details.
+**Expected output on success:**
+```
+======================================================================
+✅ ALL CHECKS PASSED - READY FOR PRODUCTION
+======================================================================
+```
+
+**Exit code meanings:**
+- Exit code 0 = ✅ Success (all checks passed)
+- Exit code 1 = ❌ Failure (issues found - do not deploy)
+
+**What gets checked:**
+- ✅ All main pages (homepage, blog, events, videos, search)
+- ✅ All CSS and JavaScript assets
+- ✅ All 75+ event pages accessibility
+- ✅ All internal links within event pages
+- ✅ All images and resources
+
+**If checks pass:**
+- [x] Script completes with "ALL CHECKS PASSED"
+- [x] Exit code is 0
+- [x] No broken internal links reported
+- [x] No missing images or resources
+- [x] All event pages accessible
+
+**If checks fail:**
+- Stop here - do NOT proceed with deployment
+- Review the error message to identify the issue
+- Fix the issue locally
+- Run checks again to verify
+- Once checks pass, proceed to step 6
+
+See **[PRE_DEPLOYMENT_CHECK.md](PRE_DEPLOYMENT_CHECK.md)** for detailed troubleshooting.
 
 ### 6. Manual Browser Testing (Spot Check)
 
