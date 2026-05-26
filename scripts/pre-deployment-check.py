@@ -155,6 +155,7 @@ class LinkChecker:
 
     def check_main_pages(self):
         """Check that main navigation pages load"""
+        check_start = time.time()
         print("\n1. CHECKING MAIN PAGES...")
         print("-" * 70)
 
@@ -176,8 +177,12 @@ class LinkChecker:
                 print(f"❌ {name:25} ({path}) - HTTP {status}")
                 self.errors["main_pages"].append((name, path, status))
 
+        check_duration = time.time() - check_start
+        self._track_timing("Main Pages Check", check_duration)
+
     def check_assets(self):
         """Check that CSS and JS assets are accessible"""
+        check_start = time.time()
         print("\n2. CHECKING ASSETS...")
         print("-" * 70)
 
@@ -196,8 +201,12 @@ class LinkChecker:
                 print(f"❌ {name} - HTTP {status}")
                 self.errors["assets"].append((name, path, status))
 
+        check_duration = time.time() - check_start
+        self._track_timing("Assets Check", check_duration)
+
     def get_all_events(self):
         """Extract all event URLs from the events index page"""
+        check_start = time.time()
         print("\n3. DISCOVERING EVENTS...")
         print("-" * 70)
 
@@ -210,10 +219,14 @@ class LinkChecker:
         print(f"Found {len(events)} events")
         self.passed_checks.append(f"Event discovery: {len(events)} events found")
 
+        check_duration = time.time() - check_start
+        self._track_timing("Event Discovery", check_duration)
+
         return events
 
     def check_event_pages(self, events):
         """Check that all event pages load"""
+        check_start = time.time()
         print("\n4. CHECKING EVENT PAGE ACCESSIBILITY...")
         print("-" * 70)
 
@@ -237,10 +250,14 @@ class LinkChecker:
         else:
             self.passed_checks.append(f"Event pages: All {len(events)} accessible")
 
+        check_duration = time.time() - check_start
+        self._track_timing("Event Pages Check", check_duration)
+
         return broken == 0
 
     def check_event_links(self, events):
         """Check for broken links within event pages"""
+        check_start = time.time()
         print("\n5. CHECKING LINKS WITHIN EVENT PAGES...")
         print("-" * 70)
 
@@ -281,10 +298,14 @@ class LinkChecker:
         if self.check_external and external_links:
             self.check_external_links(external_links)
 
+        check_duration = time.time() - check_start
+        self._track_timing("Event Links Check", check_duration)
+
         return len(broken_links) == 0
 
     def check_event_resources(self, events):
         """Check for broken images and resources within event pages"""
+        check_start = time.time()
         print("\n6. CHECKING IMAGES AND RESOURCES...")
         print("-" * 70)
 
@@ -313,6 +334,9 @@ class LinkChecker:
         else:
             print("✓ All resources accessible")
             self.passed_checks.append("Event resources: All accessible")
+
+        check_duration = time.time() - check_start
+        self._track_timing("Event Resources Check", check_duration)
 
         return len(broken_resources) == 0
 
@@ -367,6 +391,13 @@ class LinkChecker:
             print("✓ All external links accessible (or safely whitelisted)")
             if self.external_link_stats['total'] > 0:
                 self.passed_checks.append(f"External links: All {self.external_link_stats['passed']} passed")
+
+    def _track_timing(self, check_name, duration):
+        """Track timing for a check"""
+        self.check_timings.append({
+            "name": check_name,
+            "duration": duration
+        })
 
     def print_summary(self):
         """Print final summary and recommendations"""

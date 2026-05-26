@@ -71,7 +71,7 @@ python3 scripts/pre-deployment-check.py --verbose --html report.html
 **Report Features:**
 - 📊 Summary cards showing pass/fail counts
 - 🟢 Color-coded results (green for pass, red for fail)
-- ⏱️ Execution timing details
+- ⏱️ Execution timing details for each check
 - 📈 Detailed breakdown of each check category
 - 📱 Responsive design (works on mobile/desktop)
 - 🔍 Easy to share with team members
@@ -83,6 +83,9 @@ python3 scripts/pre-deployment-check.py --verbose --html report.html
   - ✓ Passed checks list
   - ❌ Issues list with details
   - ⚠️ Warnings if present
+- **⏱️ Performance Metrics** - Timing for each check:
+  - Total execution time
+  - Individual check timings (Main Pages, Assets, Event Pages, Links, Resources)
 - Timestamp and metadata
 
 ### Expected Output
@@ -459,7 +462,84 @@ EXTERNAL_LINK_WHITELIST = {
 - See `DEVELOPMENT.md` for local development setup
 - See `TROUBLESHOOTING.md` for common issues
 
-## Questions?
+## Performance Metrics & Timing
+
+The script automatically tracks and reports timing information for each check. This helps identify slow areas and verify performance.
+
+### Timing Information
+
+When you run with `--html report.html`, the generated report includes a "Timing Details" section showing:
+
+```
+⏱️ Timing Details
+
+Total Execution Time: 22.52 seconds
+Main Pages Check: 0.18s
+Assets Check: 0.04s
+Event Discovery: 0.03s
+Event Pages Check: 5.07s
+Event Links Check: 10.68s
+Event Resources Check: 6.50s
+```
+
+**Understanding the Timing:**
+
+- **Total Execution Time**: Sum of all checks
+- **Main Pages Check**: Loading main navigation pages (usually < 1s)
+- **Assets Check**: Checking CSS and JavaScript files (usually < 0.5s)
+- **Event Discovery**: Crawling events index page (usually < 0.5s)
+- **Event Pages Check**: Testing all 75 event pages (5-10s depending on server)
+- **Event Links Check**: Checking internal links in all events (5-15s)
+- **Event Resources Check**: Checking images and resources (5-10s)
+
+### Performance Targets
+
+| Check | Expected Time | Slow | Very Slow |
+|-------|---------------|------|-----------|
+| Main Pages | < 0.5s | > 1s | > 5s |
+| Assets | < 0.1s | > 0.5s | > 2s |
+| Event Discovery | < 0.1s | > 0.5s | > 2s |
+| Event Pages (75) | 5-10s | > 15s | > 30s |
+| Event Links | 5-15s | > 30s | > 60s |
+| Event Resources | 5-10s | > 20s | > 40s |
+| **Total** | < 25s | > 60s | > 120s |
+
+**What This Means:**
+
+- **On Target**: Your site is responsive and healthy
+- **Slow**: Possible performance issues, investigate
+- **Very Slow**: Significant problems, check network/server
+- **Trending Worse**: If it was faster before, something changed (new content, server issue)
+
+### Tracking Performance Over Time
+
+Keep HTML reports from each deployment to track trends:
+
+```bash
+# Run before each deployment with a dated filename
+python3 scripts/pre-deployment-check.py --html reports/pre-deploy-$(date +%Y-%m-%d).html
+```
+
+Then compare reports over time to see if the site is getting faster or slower.
+
+### Common Performance Issues
+
+**Event Pages Check is slow (> 15s)**
+- May indicate server is under load
+- Check if you recently added large new events
+- Verify Jekyll dev server isn't running out of memory
+
+**Event Links Check is very slow (> 30s)**
+- Could mean broken links are timing out (trying to fetch non-existent pages)
+- Could be checking many external links
+- Use `--check-external` flag separately to isolate
+
+**Resources Check is slow (> 20s)**
+- Check if you have large images or many resources
+- Consider optimizing image sizes
+- Look for missing resources causing timeouts
+
+### Questions?
 
 If the script fails or behaves unexpectedly:
 
