@@ -343,12 +343,12 @@ GitHub Actions will automatically run checks. If checks fail:
 
 ### For Production Monitoring
 
-After deployment, the live site is checked daily. Issues:
+After deployment, there is currently no scheduled daily GitHub Actions monitor in this repository. To verify production:
 
-1. Detected automatically
-2. Team notified
-3. You can run local check to debug
-4. Fix and redeploy
+1. Run the local check manually when needed
+2. Review the live site directly to confirm expected behavior
+3. Use PR checks to catch issues before deployment
+4. Fix and redeploy if problems are found
 
 ---
 
