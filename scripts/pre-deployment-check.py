@@ -10,12 +10,14 @@ Crawls through all event pages and the main site to check for:
 - General site health before production deployment
 
 Usage:
-    python3 scripts/pre-deployment-check.py              # Internal links only
-    python3 scripts/pre-deployment-check.py --check-external  # Include external links
+    python3 scripts/pre-deployment-check.py                     # Internal links only
+    python3 scripts/pre-deployment-check.py --check-external    # Include external links
+    python3 scripts/pre-deployment-check.py --html report.html  # Write HTML report
 
 Options:
     --check-external    Enable checking of external links (slower, optional)
-    --verbose          Show detailed output
+    --verbose           Show detailed output
+    --html              Write results to an HTML report file
 
 Requirements:
     - Local Jekyll dev server running on http://localhost:4000
