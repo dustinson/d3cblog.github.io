@@ -52,7 +52,6 @@
 - Summary cards with key metrics
 - Color-coded status indicators (green/red)
 - Responsive design (mobile + desktop)
-- Responsive design (mobile + desktop)
 - CLI flag: `--html report.html`
 - No external dependencies
 - Timestamp and metadata
