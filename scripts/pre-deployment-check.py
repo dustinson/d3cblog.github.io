@@ -88,7 +88,7 @@ class LinkChecker:
     def check_external_link_with_retry(self, url, max_retries=2):
         """
         Check external URL with retry logic.
-        Returns (status_code, is_final_attempt)
+        Returns status_code
         Implements exponential backoff: 1s, 3s, 5s
         """
         backoff_times = [1, 3, 5]
@@ -98,7 +98,7 @@ class LinkChecker:
 
             # Success - return status
             if status in ["200", "301", "302", "303"]:
-                return status, True
+                return status
 
             # Server errors that warrant retry
             if status in ["TIMEOUT", "500", "502", "503", "504"]:
@@ -110,9 +110,9 @@ class LinkChecker:
                     continue
 
             # Final attempt - return status
-            return status, True
+            return status
 
-        return status, True
+        return status
 
     def is_external_link(self, url):
         """Check if URL is external (http/https)"""
@@ -370,7 +370,7 @@ class LinkChecker:
                 continue
 
             # Check with retry
-            status, _ = self.check_external_link_with_retry(link)
+            status = self.check_external_link_with_retry(link)
 
             if status == "200" or status in ["301", "302", "303"]:
                 self.external_link_stats['passed'] += 1
