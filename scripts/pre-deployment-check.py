@@ -36,6 +36,7 @@ import argparse
 import time
 from collections import defaultdict
 from datetime import datetime
+from urllib.parse import urlparse
 
 
 # Whitelist of domains that block automated checks or are unreliable
@@ -120,9 +121,17 @@ class LinkChecker:
     def is_whitelisted_domain(self, url):
         """Check if URL domain is in the whitelist"""
         try:
-            domain = url.split('//')[1].split('/')[0].replace('www.', '')
-            return domain in EXTERNAL_LINK_WHITELIST
-        except:
+            domain = urlparse(url).hostname
+            if not domain:
+                return False
+            domain = domain.lower()
+            if domain.startswith('www.'):
+                domain = domain[4:]
+            return any(
+                domain == whitelisted_domain or domain.endswith(f".{whitelisted_domain}")
+                for whitelisted_domain in EXTERNAL_LINK_WHITELIST
+            )
+        except Exception:
             return False
 
     def get_page_content(self, url):
