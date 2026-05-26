@@ -700,7 +700,7 @@ class LinkChecker:
                         issue_text = " → ".join(str(i) for i in issue)
                     else:
                         issue_text = str(issue)
-                    html += f'                        <div class="error-item">{issue_text}</div>\n'
+                    html += f'                        <div class="error-item">{escape(issue_text)}</div>\n'
 
                 if len(issues) > 10:
                     html += f'                        <div class="error-item" style="color: #9ca3af;">... and {len(issues) - 10} more</div>\n'
