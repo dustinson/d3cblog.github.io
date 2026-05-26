@@ -399,9 +399,17 @@ class LinkChecker:
             self.errors["external_links"] = failed_links
             print(f"\n⚠️  {len(failed_links)} external links failed checks")
         else:
-            print("✓ All external links accessible (or safely whitelisted)")
-            if self.external_link_stats['total'] > 0:
-                self.passed_checks.append(f"External links: All {self.external_link_stats['passed']} passed")
+            if self.external_link_stats['warning'] > 0:
+                print(
+                    f"⚠ External links checked with {self.external_link_stats['warning']} transient "
+                    f"warning(s); no hard failures detected"
+                )
+            else:
+                print("✓ All external links accessible (or safely whitelisted)")
+                if self.external_link_stats['total'] > 0:
+                    self.passed_checks.append(
+                        f"External links: All {self.external_link_stats['passed']} passed"
+                    )
 
     def _track_timing(self, check_name, duration):
         """Track timing for a check"""
