@@ -31,7 +31,7 @@
 **Features Delivered:**
 - External link extraction from event pages
 - Retry logic with exponential backoff (1s → 3s → 5s)
-- Whitelisting of 6 problematic domains
+- Whitelisting of 8 problematic domains
 - CLI flag: `--check-external`
 - Classification: Passed, Warnings (transient), Failed
 - Documentation with examples
