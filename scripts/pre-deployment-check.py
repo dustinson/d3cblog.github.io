@@ -112,8 +112,6 @@ class LinkChecker:
             # Final attempt - return status
             return status
 
-        return status
-
     def is_external_link(self, url):
         """Check if URL is external (http/https)"""
         return url.startswith('http://') or url.startswith('https://')
