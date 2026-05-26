@@ -33,6 +33,7 @@ import subprocess
 import re
 import sys
 import argparse
+from html import escape
 import time
 from collections import defaultdict
 from datetime import datetime
@@ -754,7 +755,7 @@ class LinkChecker:
         """Render passed checks as HTML"""
         html = ""
         for check in self.passed_checks:
-            html += f'<div class="check-item"><span class="check-passed">✓</span> {check}</div>\n'
+            html += f'<div class="check-item"><span class="check-passed">✓</span> {escape(str(check))}</div>\n'
         return html
 
     def _render_warnings(self):
@@ -769,7 +770,7 @@ class LinkChecker:
                         warn_text = " → ".join(str(w) for w in warn)
                     else:
                         warn_text = str(warn)
-                    html += f'    <div class="check-item"><span class="check-warning">⚠</span> {warn_text}</div>\n'
+                    html += f'    <div class="check-item"><span class="check-warning">⚠</span> {escape(warn_text)}</div>\n'
                 if len(warns) > 5:
                     html += f'    <div class="check-item" style="color: #9ca3af;">... and {len(warns) - 5} more</div>\n'
                 html += '</div>\n'
@@ -849,4 +850,3 @@ Examples:
 
 if __name__ == "__main__":
     main()
-
