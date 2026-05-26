@@ -50,7 +50,40 @@ python3 scripts/pre-deployment-check.py --verbose
 |------|-------------|-------|
 | `--check-external` | Enable external link validation with retry logic | `python3 scripts/pre-deployment-check.py --check-external` |
 | `--verbose` | Show detailed output for each check | `python3 scripts/pre-deployment-check.py --verbose` |
+| `--html FILE` | Generate HTML report and save to FILE | `python3 scripts/pre-deployment-check.py --html report.html` |
 | `-h, --help` | Show help message | `python3 scripts/pre-deployment-check.py --help` |
+
+### HTML Report Generation
+
+Generate beautiful, shareable HTML reports for deployment checks:
+
+```bash
+# Basic HTML report
+python3 scripts/pre-deployment-check.py --html report.html
+
+# HTML report with external link checks
+python3 scripts/pre-deployment-check.py --check-external --html report.html
+
+# HTML report with verbose output (to console only)
+python3 scripts/pre-deployment-check.py --verbose --html report.html
+```
+
+**Report Features:**
+- 📊 Summary cards showing pass/fail counts
+- 🟢 Color-coded results (green for pass, red for fail)
+- ⏱️ Execution timing details
+- 📈 Detailed breakdown of each check category
+- 📱 Responsive design (works on mobile/desktop)
+- 🔍 Easy to share with team members
+
+**Example Report Contents:**
+- Overall status badge
+- Quick statistics (checks passed, issues found, time)
+- Detailed section for each category:
+  - ✓ Passed checks list
+  - ❌ Issues list with details
+  - ⚠️ Warnings if present
+- Timestamp and metadata
 
 ### Expected Output
 
