@@ -72,6 +72,7 @@ class LinkChecker:
         try:
             cmd = ["/usr/bin/curl", "-s"]
             if head_only:
+                cmd.append("-I")
                 cmd.append("-o")
                 cmd.append("/dev/null")
             else:
@@ -745,7 +746,7 @@ class LinkChecker:
 
         # Write to file
         try:
-            with open(self.html_report, 'w') as f:
+            with open(self.html_report, 'w', encoding='utf-8') as f:
                 f.write(html)
             print(f"\n📊 HTML report saved to: {self.html_report}")
         except Exception as e:

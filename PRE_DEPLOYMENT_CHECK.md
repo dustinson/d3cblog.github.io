@@ -304,10 +304,10 @@ class LinkChecker:
    - See "External Link Validation" section below
    
 2. **Future Enhancements**:
-2. **SEO Checker**: Verify meta tags, title tags, descriptions
-3. **Performance Checker**: Measure page load times
-4. **Mobile Checker**: Test responsive design via headless browser
-5. **Accessibility Checker**: Validate ARIA labels, alt text
+   1. **SEO Checker**: Verify meta tags, title tags, descriptions
+   2. **Performance Checker**: Measure page load times
+   3. **Mobile Checker**: Test responsive design via headless browser
+   4. **Accessibility Checker**: Validate ARIA labels, alt text
 
 ## Recommendations for Future Sessions
 
