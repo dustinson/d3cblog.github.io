@@ -18,6 +18,22 @@ git push origin main
 # ❌ If issues found: Fix them first, then re-run script
 ```
 
+## 📊 Bonus: Generate HTML Report
+
+Want to share results with your team or keep a record?
+
+```bash
+python3 scripts/pre-deployment-check.py --html deployment-report.html
+
+# Opens in browser (macOS)
+open deployment-report.html
+
+# Or upload to share:
+# - Email the file to team
+# - Upload to Slack
+# - Commit to repo for history
+```
+
 ## Step-by-Step
 
 ### 1. Prepare Your Changes
